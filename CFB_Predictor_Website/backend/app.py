@@ -9,13 +9,16 @@ CORS(app)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-model_path = os.path.join(BASE_DIR, 'trained_model.pkl')
-with open(model_path, 'rb') as f:
-    model = joblib.load(f)
+model = joblib.load('PredictorFile/trained_model.pkl')
+scaler = joblib.load('PredictorFile/scaler.pkl')
 
-scaler_path = os.path.join(BASE_DIR, 'scaler.pkl')
-with open(scaler_path, 'rb') as f:
-    scaler = joblib.load(f)
+# model_path = os.path.join(BASE_DIR, 'trained_model.pkl')
+# with open(model_path, 'rb') as f:
+#     model = joblib.load(f)
+
+# scaler_path = os.path.join(BASE_DIR, 'scaler.pkl')
+# with open(scaler_path, 'rb') as f:
+#     scaler = joblib.load(f)
 
 csv_path = os.path.join(BASE_DIR, 'stats.csv')
 matchup_df = pd.read_csv(csv_path)
