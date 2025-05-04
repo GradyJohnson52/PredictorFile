@@ -1,4 +1,4 @@
-import { teamMapping, teamNames } from 'teammapping.js';
+import { teamMapping, teamNames } from './teammapping.js';
 
 
 const datalist = document.getElementById('team-options');
