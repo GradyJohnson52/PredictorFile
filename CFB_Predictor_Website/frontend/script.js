@@ -5,7 +5,7 @@ document.getElementById("predict-form").addEventListener("submit", async (e) => 
   const team2 = document.getElementById("team2").value;
   const week = document.getElementById("week").value;
 
-  const response = await fetch("https://predictorfile.onrender.com", {
+  const response = await fetch("https://predictorfile.onrender.com/predict", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ team1, team2, week }),
