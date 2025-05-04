@@ -19,9 +19,9 @@ SCALER_PATH = os.path.join(ROOT_DIR, "scaler.pkl")
 CSV_PATH = os.path.join(ROOT_DIR, "advanced_matchup_data.csv")
 
 with open(MODEL_PATH, "rb") as f:
-    model = pickle.load(f)
+    model = joblib.load(f)
 
-with open(scaler_path, 'rb') as f:
+with open(SCALER_PATH, 'rb') as f:
     scaler = joblib.load(f)
 
 matchup_df = pd.read_csv(CSV_PATH)
