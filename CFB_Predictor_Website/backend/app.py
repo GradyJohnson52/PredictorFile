@@ -4,15 +4,12 @@ import pandas as pd
 import joblib
 import os
 
-app = Flask(__name__)
-CORS(app)
-
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
 ROOT_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", ".."))
+FRONTEND_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "frontend"))
 
-# model = joblib.load('../../trained_model.pkl')
-# scaler = joblib.load('../../scaler.pkl')
+app = Flask(__name__, static_folder=os.path.join(FRONTEND_DIR, "static"), template_folder=FRONTEND_DIR)
+CORS(app)
 
 MODEL_PATH = os.path.join(ROOT_DIR, "trained_model.pkl")
 SCALER_PATH = os.path.join(ROOT_DIR, "scaler.pkl")
