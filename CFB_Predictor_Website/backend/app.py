@@ -163,6 +163,9 @@ team_mapping = {
 def standardize_team_name(team_name):
     return team_mapping.get(team_name, team_name)
 
+matchup_df['team1_std'] = matchup_df['team1'].map(standardize_team_name)
+matchup_df['team2_std'] = matchup_df['team2'].map(standardize_team_name)
+
 @app.route('/')
 def home():
     try:
@@ -182,8 +185,8 @@ def predict():
     week = int(data['week'])
 
     matchup = matchup_df[
-        ((standardize_team_name(matchup_df['team1']) == team1) & (standardize_team_name(matchup_df['team2']) == team2) & (matchup_df['week'] == week)) |
-        ((standardize_team_name(matchup_df['team1']) == team2) & (standardize_team_name(matchup_df['team2']) == team1) & (matchup_df['week'] == week))
+        ((matchup_df['team1'] == team1) & (matchup_df['team2'] == team2) & (matchup_df['week'] == week)) |
+        ((matchup_df['team1'] == team2) & (matchup_df['team2'] == team1) & (matchup_df['week'] == week))
     ]
 
     if matchup.empty:
