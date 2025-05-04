@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import pandas as pd
 import joblib
-
+import os
 app = Flask(__name__)
 
 model = joblib.load('trained_model.pkl')
@@ -38,4 +38,5 @@ def predict():
     return jsonify({'winner': winner, 'confidence': confidence})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
+
