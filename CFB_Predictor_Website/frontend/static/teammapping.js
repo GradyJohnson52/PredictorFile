@@ -344,5 +344,5 @@ export const teamMapping = {
     'Tulsa': 'Tulsa'
   };
   
-  export const teamNames = [...new Set(Object.values(team_mapping))].sort();
+  export const teamNames = [...new Set(Object.values(teamMapping))].sort();
   
