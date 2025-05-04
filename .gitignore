@@ -1,0 +1,9 @@
+# Ignore virtual environments
+codproj/
+.venv/
+venv/
+
+# Byte-compiled files
+__pycache__/
+*.pyc
+
