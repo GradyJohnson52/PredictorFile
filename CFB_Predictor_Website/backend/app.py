@@ -24,11 +24,8 @@ with open(MODEL_PATH, "rb") as f:
 with open(scaler_path, 'rb') as f:
     scaler = joblib.load(f)
 
-df = pd.read_csv(CSV_PATH)
+matchup_df = pd.read_csv(CSV_PATH)
 
-
-csv_path = os.path.join(BASE_DIR, 'stats.csv')
-matchup_df = pd.read_csv(csv_path)
 
 @app.route('/')
 def home():
