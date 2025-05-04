@@ -9,18 +9,23 @@ CORS(app)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-#ROOT_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", ".."))
+ROOT_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", ".."))
 
-model = joblib.load('../../trained_model.pkl')
-scaler = joblib.load('../../scaler.pkl')
+# model = joblib.load('../../trained_model.pkl')
+# scaler = joblib.load('../../scaler.pkl')
 
-# model_path = os.path.join(BASE_DIR, 'trained_model.pkl')
-# with open(model_path, 'rb') as f:
-#     model = joblib.load(f)
+MODEL_PATH = os.path.join(ROOT_DIR, "trained_model.pkl")
+SCALER_PATH = os.path.join(ROOT_DIR, "scaler.pkl")
+CSV_PATH = os.path.join(ROOT_DIR, "advanced_matchup_data.csv")
 
-# scaler_path = os.path.join(BASE_DIR, 'scaler.pkl')
-# with open(scaler_path, 'rb') as f:
-#     scaler = joblib.load(f)
+with open(MODEL_PATH, "rb") as f:
+    model = pickle.load(f)
+
+with open(scaler_path, 'rb') as f:
+    scaler = joblib.load(f)
+
+df = pd.read_csv(CSV_PATH)
+
 
 csv_path = os.path.join(BASE_DIR, 'stats.csv')
 matchup_df = pd.read_csv(csv_path)
