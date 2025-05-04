@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CFB Predictor</title>
+</head>
+<body>
+  <h1>College Football Game Predictor</h1>
+  <form id="predict-form">
+    <label for="team1">Team 1:</label>
+    <input type="text" id="team1" required>
+    <label for="team2">Team 2:</label>
+    <input type="text" id="team2" required>
+    <label for="week">Week:</label>
+    <input type="number" id="week" min="1" max="22" required>
+    <button type="submit">Predict</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
