@@ -9,8 +9,8 @@ CORS(app)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-model = joblib.load('PredictorFile/trained_model.pkl')
-scaler = joblib.load('PredictorFile/scaler.pkl')
+model = joblib.load('../trained_model.pkl')
+scaler = joblib.load('../scaler.pkl')
 
 # model_path = os.path.join(BASE_DIR, 'trained_model.pkl')
 # with open(model_path, 'rb') as f:
