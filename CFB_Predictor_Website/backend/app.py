@@ -1,12 +1,19 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
+from flask_cors import CORS
 import pandas as pd
 import joblib
 import os
+
 app = Flask(__name__)
+CORS(app)
 
 model = joblib.load('trained_model.pkl')
 scaler = joblib.load('scaler.pkl')
 matchup_df = pd.read_csv('advanced_matchup_data.csv')
+
+@app.route('/')
+def home():
+    return render_template('index.html')
 
 @app.route('/predict', methods=['POST'])
 def predict():
