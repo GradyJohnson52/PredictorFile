@@ -7,13 +7,29 @@ import os
 app = Flask(__name__)
 CORS(app)
 
-model = joblib.load('trained_model.pkl')
-scaler = joblib.load('scaler.pkl')
-matchup_df = pd.read_csv('advanced_matchup_data.csv')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+model_path = os.path.join(BASE_DIR, 'trained_model.pkl')
+with open(model_path, 'rb') as f:
+    model = joblib.load(f)
+
+scaler_path = os.path.join(BASE_DIR, 'scaler.pkl')
+with open(scaler_path, 'rb') as f:
+    scaler = joblib.load(f)
+
+csv_path = os.path.join(BASE_DIR, 'stats.csv')
+matchup_df = pd.read_csv(csv_path)
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    try:
+        # Your existing logic here, like rendering a template or loading data
+        return render_template("index.html")  # or however your route works
+    except Exception as e:
+        import traceback
+        print("ERROR:", e)
+        traceback.print_exc()
+        return f"Internal Server Error: {e}", 500
 
 @app.route('/predict', methods=['POST'])
 def predict():
