@@ -185,8 +185,8 @@ def predict():
     week = int(data['week'])
 
     matchup = matchup_df[
-        ((matchup_df['team1'] == team1) & (matchup_df['team2'] == team2) & (matchup_df['week'] == week)) |
-        ((matchup_df['team1'] == team2) & (matchup_df['team2'] == team1) & (matchup_df['week'] == week))
+        ((matchup_df['team1_std'] == team1) & (matchup_df['team2_std'] == team2) & (matchup_df['week'] == week)) |
+        ((matchup_df['team1_std'] == team2) & (matchup_df['team2_std'] == team1) & (matchup_df['week'] == week))
     ]
 
     if matchup.empty:
