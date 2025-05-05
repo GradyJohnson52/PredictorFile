@@ -7,13 +7,13 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", ".."))
 FRONTEND_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "frontend"))
-
+CSV_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "CSVs"))
 app = Flask(__name__, static_folder=os.path.join(FRONTEND_DIR, "static"), template_folder=FRONTEND_DIR)
 CORS(app)
 
 MODEL_PATH = os.path.join(ROOT_DIR, "trained_model.pkl")
 SCALER_PATH = os.path.join(ROOT_DIR, "scaler.pkl")
-CSV_PATH = os.path.join(ROOT_DIR, "advanced_matchup_data.csv")
+CSV_PATH = os.path.join(CSV_DIR, "advanced_matchup_data.csv")
 
 with open(MODEL_PATH, "rb") as f:
     model = joblib.load(f)
@@ -21,7 +21,7 @@ with open(MODEL_PATH, "rb") as f:
 with open(SCALER_PATH, 'rb') as f:
     scaler = joblib.load(f)
 
-matchup_df = pd.read_csv("/../../CSVs/advanced_matchup_data.csv")
+matchup_df = pd.read_csv(CSV_PATH)
 
 team_mapping = {
     'Florida Intl': 'FIU',
