@@ -208,7 +208,7 @@ def predict():
     X = scaler.transform([row[feature_cols].values])
     prediction = model.predict(X)[0]
     proba = model.predict_proba(X)[0]
-    winner = team1 if prediction == 1 else team2
+    winner = team1 if prediction == 4 or 3 else team2
     confidence = float(proba[prediction])
 
     return jsonify({'winner': winner, 'confidence': confidence})
