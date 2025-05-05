@@ -186,39 +186,46 @@ def home():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    data = request.json
-    team1 = standardize_team_name(data['team1'])
-    team2 = standardize_team_name(data['team2'])
-    week = int(data['week'])
+    try:
 
-    matchup = matchup_df[
-        ((matchup_df['team1_std'] == team1) & (matchup_df['team2_std'] == team2) & (matchup_df['week'] == week)) |
-        ((matchup_df['team1_std'] == team2) & (matchup_df['team2_std'] == team1) & (matchup_df['week'] == week))
-    ]
+        data = request.json
+        team1 = standardize_team_name(data['team1'])
+        team2 = standardize_team_name(data['team2'])
+        week = int(data['week'])
 
-    if matchup.empty:
-        return jsonify({'error': 'Matchup not found'}), 404
+        matchup = matchup_df[
+            ((matchup_df['team1_std'] == team1) & (matchup_df['team2_std'] == team2) & (matchup_df['week'] == week)) |
+            ((matchup_df['team1_std'] == team2) & (matchup_df['team2_std'] == team1) & (matchup_df['week'] == week))
+        ]
 
-    row = matchup.iloc[0]
-    feature_cols = [
-        'rush_adv_team1', 'rush_adv_team2', 'pass_adv_team1', 'pass_adv_team2',
-        'score_adv_team1', 'score_adv_team2', 'turnover_adv_team1', 'turnover_adv_team2',
-        'pred_rank_team1', 'pred_rank_team2', 'sos_team1', 'sos_team2', 'WinPCt_team1', 'WinPCt_team2', 'week'
-    ]
-    X = scaler.transform([row[feature_cols].values])
+        if matchup.empty:
+            return jsonify({'error': 'Matchup not found'}), 404
 
-    classes = model.classes_
-    proba = model.predict_proba(X)[0]
-    proba_dict = dict(zip(classes, proba))
+        row = matchup.iloc[0]
+        feature_cols = [
+            'rush_adv_team1', 'rush_adv_team2', 'pass_adv_team1', 'pass_adv_team2',
+            'score_adv_team1', 'score_adv_team2', 'turnover_adv_team1', 'turnover_adv_team2',
+            'pred_rank_team1', 'pred_rank_team2', 'sos_team1', 'sos_team2', 'WinPCt_team1', 'WinPCt_team2', 'week'
+        ]
+        X = scaler.transform([row[feature_cols].values])
 
-    winner_confidence = proba_dict.get(2, 0) + proba_dict.get(3, 0)
+        classes = model.classes_
+        proba = model.predict_proba(X)[0]
+        proba_dict = dict(zip(classes, proba))
 
-    prediction = model.predict(X)[0]
-    
-    winner = team1 if prediction in [2, 3] else team2
-    confidence = float(winner_confidence)
+        winner_confidence = proba_dict.get(2, 0) + proba_dict.get(3, 0)
 
-    return jsonify({'winner': winner, 'confidence': confidence})
+        prediction = model.predict(X)[0]
+        
+        winner = team1 if prediction in [2, 3] else team2
+        confidence = float(winner_confidence)
+
+        return jsonify({'winner': winner, 'confidence': confidence})
+    except Exception as e:
+        import traceback
+        print("ERROR in /predict:", e)
+        traceback.print_exc()
+        return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
