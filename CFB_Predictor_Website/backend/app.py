@@ -21,7 +21,7 @@ with open(MODEL_PATH, "rb") as f:
 with open(SCALER_PATH, 'rb') as f:
     scaler = joblib.load(f)
 
-matchup_df = pd.read_csv(CSV_PATH)
+matchup_df = pd.read_csv("/../../CSVs/advanced_matchup_data.csv")
 
 team_mapping = {
     'Florida Intl': 'FIU',
