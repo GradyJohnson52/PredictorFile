@@ -4,6 +4,7 @@ import pandas as pd
 from xgboost import XGBClassifier
 from sklearn.ensemble import RandomForestClassifier  
 from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import GridSearchCV
 import numpy as np
 from datetime import datetime
 import time
@@ -437,10 +438,18 @@ def update_model(games_df, stats_dict, model, scaler):
     print("model is running")
     return model
 
+
+
 # Main function to scrape games, update model, and iterate
 def main():
     # Initialize model and scaler
-    model = RandomForestClassifier()
+    model = XGBClassifier(
+    objective='multi:softprob',  # For multinomial classification with class probabilities
+    num_class=4,                 # Update if your outcome space has a different number of classes
+    eval_metric='mlogloss',
+    use_label_encoder=False,
+    random_state=42
+    )
     scaler = StandardScaler()
 
     # Scrape game results
