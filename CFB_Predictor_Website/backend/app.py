@@ -209,16 +209,25 @@ def predict():
         ]
         X = scaler.transform([row[feature_cols].values])
 
-        classes = model.classes_
+        prediction = model.predict(X)[0]
         proba = model.predict_proba(X)[0]
+        classes = model.classes_
+
+
         proba_dict = dict(zip(classes, proba))
 
-        winner_confidence = proba_dict.get(2, 0) + proba_dict.get(3, 0)
+        team1_win_prob = proba_dict.get(2, 0) + proba_dict.get(3, 0)
+        team2_win_prob = proba_dict.get(0, 0) + proba_dict.get(1, 0)
 
-        prediction = model.predict(X)[0]
-        
-        winner = team1 if prediction in [2, 3] else team2
-        confidence = float(winner_confidence)
+        if team1_win_prob >= team2_win_prob:
+            winner = team1
+            confidence = team1_win_prob
+        else:
+            winner = team2
+            confidence = team2_win_prob
+
+        # winner = team1 if prediction in [2, 3] else team2
+        # confidence = float(winner_confidence)
 
         return jsonify({'winner': winner, 'confidence': confidence})
     except Exception as e:
