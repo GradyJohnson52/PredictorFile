@@ -229,7 +229,7 @@ def predict():
         # winner = team1 if prediction in [2, 3] else team2
         # confidence = float(winner_confidence)
 
-        return jsonify({'winner': winner, 'confidence': confidence})
+        return jsonify({'winner': winner, 'confidence': round(confidence, 3)})
     except Exception as e:
         import traceback
         print("ERROR in /predict:", e)
