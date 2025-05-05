@@ -14,7 +14,7 @@ CORS(app)
 MODEL_PATH = os.path.join(ROOT_DIR, "trained_model.pkl")
 MODEL2_PATH  = os.path.join(ROOT_DIR, "trained_model2.pkl")
 SCALER_PATH = os.path.join(ROOT_DIR, "scaler.pkl")
-SCALER_PATH = os.path.join(ROOT_DIR, "scaler2.pkl")
+SCALER2_PATH = os.path.join(ROOT_DIR, "scaler2.pkl")
 CSV_PATH = os.path.join(CSV_DIR, "advanced_matchup_data.csv")
 
 # with open(MODEL_PATH, "rb") as f:
