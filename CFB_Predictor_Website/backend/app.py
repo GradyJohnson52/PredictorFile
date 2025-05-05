@@ -206,10 +206,17 @@ def predict():
         'pred_rank_team1', 'pred_rank_team2', 'sos_team1', 'sos_team2', 'week'
     ]
     X = scaler.transform([row[feature_cols].values])
-    prediction = model.predict(X)[0]
+
+    classes = model.classes_
     proba = model.predict_proba(X)[0]
-    winner = team1 if prediction == 4 or 3 else team2
-    confidence = float(proba[prediction])
+    proba_dict = dict(zip(classes, proba))
+
+    winner_confidence = proba_dict.get(2, 0) + proba_dict.get(3, 0)
+
+    prediction = model.predict(X)[0]
+    
+    winner = team1 if prediction in [2, 3] else team2
+    confidence = float(winner_confidence)
 
     return jsonify({'winner': winner, 'confidence': confidence})
 
