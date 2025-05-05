@@ -203,7 +203,7 @@ def predict():
     feature_cols = [
         'rush_adv_team1', 'rush_adv_team2', 'pass_adv_team1', 'pass_adv_team2',
         'score_adv_team1', 'score_adv_team2', 'turnover_adv_team1', 'turnover_adv_team2',
-        'pred_rank_team1', 'pred_rank_team2', 'sos_team1', 'sos_team2', 'week'
+        'pred_rank_team1', 'pred_rank_team2', 'sos_team1', 'sos_team2', 'WinPCt_team1', 'WinPCt_team2', 'week'
     ]
     X = scaler.transform([row[feature_cols].values])
 
