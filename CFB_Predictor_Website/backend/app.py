@@ -12,14 +12,21 @@ app = Flask(__name__, static_folder=os.path.join(FRONTEND_DIR, "static"), templa
 CORS(app)
 
 MODEL_PATH = os.path.join(ROOT_DIR, "trained_model.pkl")
+MODEL2_PATH  = os.path.join(ROOT_DIR, "trained_model2.pkl")
 SCALER_PATH = os.path.join(ROOT_DIR, "scaler.pkl")
+SCALER_PATH = os.path.join(ROOT_DIR, "scaler2.pkl")
 CSV_PATH = os.path.join(CSV_DIR, "advanced_matchup_data.csv")
 
-with open(MODEL_PATH, "rb") as f:
+# with open(MODEL_PATH, "rb") as f:
+#     model = joblib.load(f)
+with open(MODEL2_PATH, "rb") as f:
     model = joblib.load(f)
 
-with open(SCALER_PATH, 'rb') as f:
+# with open(SCALER_PATH, 'rb') as f:
+#     scaler = joblib.load(f)
+with open(SCALER2_PATH, 'rb') as f:
     scaler = joblib.load(f)
+
 
 matchup_df = pd.read_csv(CSV_PATH)
 

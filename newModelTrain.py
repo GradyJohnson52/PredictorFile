@@ -237,8 +237,6 @@ def scrape_stats(date):
         'sos': (1, 2)
     }
 
-    # stats = {}
-    # for date in games_data[0]:
     stats_for_date = {}
 
     for stat_name, url in urls.items():
@@ -269,7 +267,7 @@ def scrape_stats(date):
             except IndexError:
                 continue
             try:
-                value = float(cells[value_index].text.strip().replace(",", ""))
+                value = float(cells[value_index].text.strip().replace(",", "").replace("%", ""))
             except ValueError:
                 value = None  
             stat_data[team] = value
@@ -374,63 +372,19 @@ def update_model(games_df, stats_dict, model, scaler):
         except KeyError:
             print(f"Missing data for {date}")
             continue
-        #     feature_vector = [
-        #         game_stats['rush_off'].get(winner),
-        #         game_stats['rush_off'].get(loser),
-        #         game_stats['rush_def'].get(winner),
-        #         game_stats['rush_def'].get(loser),
-        #         game_stats['pass_off'].get(winner),
-        #         game_stats['pass_off'].get(loser),
-        #         game_stats['pass_def'].get(winner),
-        #         game_stats['pass_def'].get(loser),
-        #         game_stats['score_off'].get(winner),
-        #         game_stats['score_off'].get(loser),
-        #         game_stats['score_def'].get(winner),
-        #         game_stats['score_def'].get(loser),
-        #         game_stats['turn_off'].get(winner),
-        #         game_stats['turn_off'].get(loser),
-        #         game_stats['turn_def'].get(winner),
-        #         game_stats['turn_def'].get(loser),
-        #         game_stats['pred_rank'].get(winner),
-        #         game_stats['pred_rank'].get(loser),
-        #         game_stats['sos'].get(winner),
-        #         game_stats['sos'].get(loser)
-        #     ]
-            
-        #     if any(stat is None for stat in feature_vector):
-        #         print(f"Skipping {winner} vs {loser} on {date} due to missing stat(s).")
-        #         continue
-
-        #     differential_features = [
-        #         feature_vector[0] - feature_vector[3],  # rush_adv_win
-        #         feature_vector[1] - feature_vector[2],  # rush_adv_lose
-        #         feature_vector[4] - feature_vector[7],  # pass_adv_win
-        #         feature_vector[5] - feature_vector[6],  # pass_adv_lose
-        #         feature_vector[8] - feature_vector[11], # score_adv_win
-        #         feature_vector[9] - feature_vector[10], # score_adv_lose
-        #         feature_vector[12] - feature_vector[15],# turn_adv_win
-        #         feature_vector[13] - feature_vector[14],# turn_adv_lose
-        #         feature_vector[16],                     # pred_rank_win
-        #         feature_vector[17],                     # pred_rank_lose
-        #         feature_vector[18],                     # sos_win
-        #         feature_vector[19]                      # sos_lose
-        #     ]
-
-        # except KeyError:
-        #     continue
-
-        # X.append(differential_features)
-        # Y.append(1 if point_diff > 0 else 0)  # 1 for win, 0 for loss
+        
 
     # team 1 is winner, 2 is loser
     df_features = pd.DataFrame(X, columns=[
         'rush_adv_team1', 'rush_adv_team2', 'pass_adv_team1', 'pass_adv_team2',
         'score_adv_team1', 'score_adv_team2', 'turnover_adv_team1', 'turnover_adv_team2',
-        'pred_rank_team1', 'pred_rank_team2', 'sos_team2', 'sos_team2', 'WinPct_team1', 'WinPct_team2' 'week'
+        'pred_rank_team1', 'pred_rank_team2', 'sos_team2', 'sos_team2', 'WinPct_team1', 'WinPct_team2', 'week'
     ])
     df_features['label'] = Y
     df_features.to_csv('training_features.csv', index=False)
 
+    if not X:
+        raise ValueError("No games had complete stat data. Cannot fit scaler on empty data.")
     X_scaled = scaler.fit_transform(X)
 
     # Fit the model with the new data
@@ -465,8 +419,8 @@ def main():
         # Update the model dynamically
     model = update_model(games_df, stats_dict, model, scaler)
 
-    joblib.dump(model, 'trained_model.pkl')
-    joblib.dump(scaler, 'scaler.pkl')
+    joblib.dump(model, 'trained_model2.pkl')
+    joblib.dump(scaler, 'scaler2.pkl')
 
     print("Model training complete!")
 
