@@ -199,7 +199,7 @@ def scrape_game_results():
                     'point_diff': point_diff
                 })
     df = pd.DataFrame(games_data)
-    df.to_csv('GamesData.csv', index=False)
+    df.to_csv('CSVs/GamesData.csv', index=False)
     return df
     
 
@@ -381,7 +381,7 @@ def update_model(games_df, stats_dict, model, scaler):
         'pred_rank_team1', 'pred_rank_team2', 'sos_team2', 'sos_team2', 'WinPct_team1', 'WinPct_team2', 'week'
     ])
     df_features['label'] = Y
-    df_features.to_csv('training_features.csv', index=False)
+    df_features.to_csv('CSVs/training_features.csv', index=False)
 
     if not X:
         raise ValueError("No games had complete stat data. Cannot fit scaler on empty data.")

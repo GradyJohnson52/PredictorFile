@@ -3,19 +3,20 @@ from sklearn.preprocessing import StandardScaler
 import numpy as np
 
 # Load the CSV files
-RD_Table = pd.read_csv('RD_Table.csv', header=None)
-PD_Table = pd.read_csv('PD_Table.csv', header=None)
-RO_Table = pd.read_csv('RO_Table.csv', header=None)
-PO_Table = pd.read_csv('PO_Table.csv', header=None)
-SD_Table = pd.read_csv('SD_Table.csv', header=None)
-SO_Table = pd.read_csv('SO_Table.csv', header=None)
-TD_Table = pd.read_csv('TD_Table.csv', header=None)
-TO_Table = pd.read_csv('TO_Table.csv', header=None)
-TR_Table = pd.read_csv('TR_Table.csv', header=None)
-PR_Table = pd.read_csv('PR_Table.csv', header=None)
-Home_Table = pd.read_csv('Home_Table.csv', header=None)
-Away_Table = pd.read_csv('Away_Table.csv', header=None)
-SOS_Table = pd.read_csv('SOS_Table.csv', header=None)
+RD_Table = pd.read_csv('CSVs/RD_Table.csv', header=None)
+PD_Table = pd.read_csv('CSVs/PD_Table.csv', header=None)
+RO_Table = pd.read_csv('CSVs/RO_Table.csv', header=None)
+PO_Table = pd.read_csv('CSVs/PO_Table.csv', header=None)
+SD_Table = pd.read_csv('CSVs/SD_Table.csv', header=None)
+SO_Table = pd.read_csv('CSVs/SO_Table.csv', header=None)
+TD_Table = pd.read_csv('CSVs/TD_Table.csv', header=None)
+TO_Table = pd.read_csv('CSVs/TO_Table.csv', header=None)
+TR_Table = pd.read_csv('CSVs/TR_Table.csv', header=None)
+PR_Table = pd.read_csv('CSVs/PR_Table.csv', header=None)
+Home_Table = pd.read_csv('CSVs/Home_Table.csv', header=None)
+Away_Table = pd.read_csv('CSVs/Away_Table.csv', header=None)
+SOS_Table = pd.read_csv('CSVs/SOS_Table.csv', header=None)
+WP_Table = pd.read_csv('CSVs/WP_Table.csv', header=None)
 
 
 # Rename columns to make them meaningful
@@ -32,13 +33,14 @@ PR_Table.columns = ['team', 'P-rating']
 # Home_Table.columns = ['team', 'H-rating']
 # Away_Table.columns = ['team', 'A-rating']
 SOS_Table.columns = ['team', 'SOS-rating']
+WP_Table.columns = ['team', 'WinPct']
 
 
 
 # Check for duplicate team entries in each dataset
 for df_name, df in zip(
-    ['RD_Table', 'PD_Table', 'RO_Table', 'PO_Table', 'SD_Table', 'SO_Table', 'TD_Table', 'TO_Table', 'TR_Table', 'PR_Table', 'SOS_Table'],
-    [RD_Table, PD_Table, RO_Table, PO_Table, SD_Table, SO_Table, TD_Table, TO_Table, TR_Table, PR_Table, SOS_Table]):
+    ['RD_Table', 'PD_Table', 'RO_Table', 'PO_Table', 'SD_Table', 'SO_Table', 'TD_Table', 'TO_Table', 'TR_Table', 'PR_Table', 'SOS_Table', 'WP_Table'],
+    [RD_Table, PD_Table, RO_Table, PO_Table, SD_Table, SO_Table, TD_Table, TO_Table, TR_Table, PR_Table, SOS_Table, WP_Table]):
     duplicates = df[df.duplicated(subset='team', keep=False)]
     if not duplicates.empty:
         print(f"Duplicate entries found in {df_name}:")
@@ -53,13 +55,14 @@ team_df = RD_Table.merge(PD_Table, on='team', how='left') \
     .merge(TD_Table, on='team', how='left') \
     .merge(TO_Table, on='team', how='left') \
     .merge(PR_Table, on='team', how='left') \
+    .merge(WP_Table, on='team', how='left') \
     .merge(SOS_Table, on='team', how='left')
     # .merge(Home_Table, on='team', how='left') \
     # .merge(Away_Table, on='team', how='left') \
 
 # Rename columns to match the features
 team_df.columns = ['team', 'rush_def', 'pass_def', 'rush_off', 'pass_off', 'score_def', 'score_off', 
-                    'takeaways', 'giveaways', 'P-rating', 'SOS-rating']
+                    'takeaways', 'giveaways', 'P-rating', 'SOS-rating', 'WinPct']
 
 
 # Function to process and scale the data
@@ -111,6 +114,9 @@ def create_advanced_matchup_data(df):
                     'sos_team1': team1['SOS-rating'],
                     'sos_team2': team2['SOS-rating'],
 
+                    'WinPct_team1': team1['WinPct'],
+                    'WinPct_team2': team2['WinPct'],
+
                     'week': week
                 }
 
@@ -136,5 +142,5 @@ matchup = matchup_df[
 print(matchup)
 
 # Save the processed matchup data to a CSV
-matchup_df.to_csv('advanced_matchup_data.csv', index=False)
+matchup_df.to_csv('CSVs/advanced_matchup_data.csv', index=False)
 print("Matchup data processed and saved.")
