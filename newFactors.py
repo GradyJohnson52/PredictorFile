@@ -19,7 +19,7 @@ SOS_Table = pd.read_csv('CSVs/SOS_Table.csv', header=None)
 WP_Table = pd.read_csv('CSVs/WP_Table.csv', header=None)
 
 
-# Rename columns to make them meaningful
+# Rename columns
 RD_Table.columns = ['team', 'rush_def']
 PD_Table.columns = ['team', 'pass_def']
 RO_Table.columns = ['team', 'rush_off']
@@ -37,7 +37,7 @@ WP_Table.columns = ['team', 'WinPct']
 
 
 
-# Check for duplicate team entries in each dataset
+# Check for duplicate teams
 for df_name, df in zip(
     ['RD_Table', 'PD_Table', 'RO_Table', 'PO_Table', 'SD_Table', 'SO_Table', 'TD_Table', 'TO_Table', 'TR_Table', 'PR_Table', 'SOS_Table', 'WP_Table'],
     [RD_Table, PD_Table, RO_Table, PO_Table, SD_Table, SO_Table, TD_Table, TO_Table, TR_Table, PR_Table, SOS_Table, WP_Table]):
@@ -128,18 +128,9 @@ def create_advanced_matchup_data(df):
 processed_team_df = process_team_data(team_df)
 # Check if all expected teams are present
 teams_in_data = set(processed_team_df['team'])
-print(f"Teams in processed data: {len(teams_in_data)}")
-print(teams_in_data)
 
 # Generate matchups between teams
 matchup_df = create_advanced_matchup_data(processed_team_df)
-
-# Check for specific team matchups (e.g., Oregon vs Washington)
-matchup = matchup_df[
-    ((matchup_df['team1'] == 'Oregon') & (matchup_df['team2'] == 'Washington')) |
-    ((matchup_df['team1'] == 'Washington') & (matchup_df['team2'] == 'Oregon'))
-]
-print(matchup)
 
 # Save the processed matchup data to a CSV
 matchup_df.to_csv('CSVs/advanced_matchup_data.csv', index=False)

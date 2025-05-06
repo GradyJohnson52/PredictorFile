@@ -14,6 +14,7 @@ parser.add_argument("-q", help="for search term")
 
 args = parser.parse_args()
 
+# All URLs
 urlRD = f"https://www.teamrankings.com/college-football/stat/opponent-rushing-yards-per-game"
 urlPD = f"https://www.teamrankings.com/college-football/stat/opponent-passing-yards-per-game"
 urlRO = f"https://www.teamrankings.com/college-football/stat/rushing-yards-per-game"
@@ -30,7 +31,7 @@ urlSOS = f"https://www.teamrankings.com/college-football/ranking/schedule-streng
 urlWP = f"https://www.teamrankings.com/ncf/trends/win_trends/?date=%7B%7D"
 
 
-
+# Getting requests of each URl
 RD = requests.get(urlRD)
 
 PD = requests.get(urlPD)
@@ -60,7 +61,7 @@ SOS = requests.get(urlSOS)
 WP = requests.get(urlWP)
 
 
-
+# Setting up text parser
 soupRD = bs(RD.text, "html.parser")
 
 soupPD = bs(PD.text, "html.parser")
@@ -89,7 +90,7 @@ soupSOS = bs(SOS.text, "html.parser")
 
 soupWP = bs(WP.text, "html.parser")
 
-
+# Scraping Files into CSVs
 RD_scrape = soupRD.find("table", {'class': 'tr-table'})
 RDR =RD_scrape.find_all('tr')
 RDdata =[]

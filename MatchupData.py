@@ -152,11 +152,11 @@ team_mapping = {
 def clean_team_name(raw_name):
     return re.sub(r'\([^)]*\)', '', raw_name).strip()
 
-# Function to standardize team names
-def standardize_team_name(team_name):
-    return team_mapping.get(team_name, team_name)  # Return mapped name if available, otherwise original
 
-# Scrape game results from the table
+def standardize_team_name(team_name):
+    return team_mapping.get(team_name, team_name)
+
+
 def scrape_game_results():
     urls = {
         "https://www.sports-reference.com/cfb/years/2020-schedule.html",
@@ -202,7 +202,7 @@ def scrape_game_results():
     return df
     
 
-# Function to scrape stats for a given date (the day before the game)
+# Function to scrape stats for the day of each game
 def scrape_stats(date):
     urls = {
         "rush_def": "https://www.teamrankings.com/college-football/stat/opponent-rushing-yards-per-game?date={}",
@@ -236,8 +236,6 @@ def scrape_stats(date):
         'sos': (1, 2)
     }
 
-    # stats = {}
-    # for date in games_data[0]:
     stats_for_date = {}
 
     for stat_name, url in urls.items():
@@ -262,7 +260,7 @@ def scrape_stats(date):
         stat_data = {}
         for row in rows[1:]:
             cells = row.find_all('td')
-            team_index, value_index = column_schema_map.get(stat_name, (1, 2))  # fallback default
+            team_index, value_index = column_schema_map.get(stat_name, (1, 2)) 
             try:
                 team = standardize_team_name(clean_team_name(cells[team_index].text.strip()))
             except IndexError:
@@ -275,11 +273,9 @@ def scrape_stats(date):
         print("scraped!")
         stats_for_date[stat_name] = stat_data
         
-        # stats[date] = stats_for_date
-        
     return stats_for_date
 
-# Function to update the machine learning model
+# Function to update the ml model
 def update_model(games_df, stats_dict, model, scaler):
     X = []
     Y = []
@@ -328,7 +324,7 @@ def update_model(games_df, stats_dict, model, scaler):
                 print(f"Skipping {winner} vs {loser} on {date} due to missing stat(s).")
                 continue
 
-            # Winner = team1 perspective (label 1)
+            # Winner 3 or 2
             features_win = [
                 stats_winner['rush_off'] - stats_loser['rush_def'],
                 stats_loser['rush_off'] - stats_winner['rush_def'],
@@ -347,9 +343,10 @@ def update_model(games_df, stats_dict, model, scaler):
                 week
             ]
             X.append(features_win)
+            # 3 is Blowout win, 2 is close win
             Y.append(3 if point_diff > 10 else 2)
 
-            # Loser = team1 perspective (label 0)
+            # Loser 1 or 0
             features_lose = [
                 stats_loser['rush_off'] - stats_winner['rush_def'],
                 stats_winner['rush_off'] - stats_loser['rush_def'],
@@ -368,58 +365,12 @@ def update_model(games_df, stats_dict, model, scaler):
                 week
             ]
             X.append(features_lose)
+            # 1 is blowout loss, 0 is blowout win
             Y.append(1 if point_diff > 10 else 0)
 
         except KeyError:
             print(f"Missing data for {date}")
             continue
-        #     feature_vector = [
-        #         game_stats['rush_off'].get(winner),
-        #         game_stats['rush_off'].get(loser),
-        #         game_stats['rush_def'].get(winner),
-        #         game_stats['rush_def'].get(loser),
-        #         game_stats['pass_off'].get(winner),
-        #         game_stats['pass_off'].get(loser),
-        #         game_stats['pass_def'].get(winner),
-        #         game_stats['pass_def'].get(loser),
-        #         game_stats['score_off'].get(winner),
-        #         game_stats['score_off'].get(loser),
-        #         game_stats['score_def'].get(winner),
-        #         game_stats['score_def'].get(loser),
-        #         game_stats['turn_off'].get(winner),
-        #         game_stats['turn_off'].get(loser),
-        #         game_stats['turn_def'].get(winner),
-        #         game_stats['turn_def'].get(loser),
-        #         game_stats['pred_rank'].get(winner),
-        #         game_stats['pred_rank'].get(loser),
-        #         game_stats['sos'].get(winner),
-        #         game_stats['sos'].get(loser)
-        #     ]
-            
-        #     if any(stat is None for stat in feature_vector):
-        #         print(f"Skipping {winner} vs {loser} on {date} due to missing stat(s).")
-        #         continue
-
-        #     differential_features = [
-        #         feature_vector[0] - feature_vector[3],  # rush_adv_win
-        #         feature_vector[1] - feature_vector[2],  # rush_adv_lose
-        #         feature_vector[4] - feature_vector[7],  # pass_adv_win
-        #         feature_vector[5] - feature_vector[6],  # pass_adv_lose
-        #         feature_vector[8] - feature_vector[11], # score_adv_win
-        #         feature_vector[9] - feature_vector[10], # score_adv_lose
-        #         feature_vector[12] - feature_vector[15],# turn_adv_win
-        #         feature_vector[13] - feature_vector[14],# turn_adv_lose
-        #         feature_vector[16],                     # pred_rank_win
-        #         feature_vector[17],                     # pred_rank_lose
-        #         feature_vector[18],                     # sos_win
-        #         feature_vector[19]                      # sos_lose
-        #     ]
-
-        # except KeyError:
-        #     continue
-
-        # X.append(differential_features)
-        # Y.append(1 if point_diff > 0 else 0)  # 1 for win, 0 for loss
 
     # team 1 is winner, 2 is loser
     df_features = pd.DataFrame(X, columns=[
@@ -437,23 +388,22 @@ def update_model(games_df, stats_dict, model, scaler):
     print("model is running")
     return model
 
-# Main function to scrape games, update model, and iterate
+# Main function to scrape games and train the model
 def main():
-    # Initialize model and scaler
+    # Initialize Random Forest and scaler
     model = RandomForestClassifier()
     scaler = StandardScaler()
 
     # Scrape game results
     games_df = scrape_game_results()
     
-    # Loop through each game and update the model
+    # Loop through each date and update the model
     stats_dict = {}
     unique_dates = sorted(games_df['date'].unique())
     for date in unique_dates:
         print(date)
         stats_dict[date] = scrape_stats(date)
 
-        # Update the model dynamically
     model = update_model(games_df, stats_dict, model, scaler)
 
     joblib.dump(model, 'trained_model.pkl')
@@ -461,5 +411,4 @@ def main():
 
     print("Model training complete!")
 
-# Run the main function
 main()

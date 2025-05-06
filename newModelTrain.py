@@ -153,9 +153,8 @@ team_mapping = {
 def clean_team_name(raw_name):
     return re.sub(r'\([^)]*\)', '', raw_name).strip()
 
-# Function to standardize team names
 def standardize_team_name(team_name):
-    return team_mapping.get(team_name, team_name)  # Return mapped name if available, otherwise original
+    return team_mapping.get(team_name, team_name)  
 
 # Scrape game results from the table
 def scrape_game_results():
@@ -203,7 +202,7 @@ def scrape_game_results():
     return df
     
 
-# Function to scrape stats for a given date (the day before the game)
+# Function to scrape stats for the day of a game
 def scrape_stats(date):
     urls = {
         "rush_def": "https://www.teamrankings.com/college-football/stat/opponent-rushing-yards-per-game?date={}",
@@ -250,9 +249,8 @@ def scrape_stats(date):
             print(f"Failed to fetch {url} (status {response.status_code})")
             continue
         soup = BeautifulSoup(response.content, 'html.parser')
-        
-        # Extract the necessary stats for the given date
         table = soup.find("table", {'class':'tr-table'})
+
         if not table:
             print(f"No table found for stat '{stat_name}' at {url} (likely no data for {date})")
             continue
@@ -274,11 +272,10 @@ def scrape_stats(date):
         print("scraped!")
         stats_for_date[stat_name] = stat_data
         
-        # stats[date] = stats_for_date
         
     return stats_for_date
 
-# Function to update the machine learning model
+# Function to update the ml model
 def update_model(games_df, stats_dict, model, scaler):
     X = []
     Y = []
@@ -327,7 +324,7 @@ def update_model(games_df, stats_dict, model, scaler):
                 print(f"Skipping {winner} vs {loser} on {date} due to missing stat(s).")
                 continue
 
-            # Winner = team1 perspective (label 1)
+            # Winner 3 or 2
             features_win = [
                 stats_winner['rush_off'] - stats_loser['rush_def'],
                 stats_loser['rush_off'] - stats_winner['rush_def'],
@@ -348,7 +345,7 @@ def update_model(games_df, stats_dict, model, scaler):
             X.append(features_win)
             Y.append(3 if point_diff > 10 else 2)
 
-            # Loser = team1 perspective (label 0)
+            # Loser 1 or 0
             features_lose = [
                 stats_loser['rush_off'] - stats_winner['rush_def'],
                 stats_winner['rush_off'] - stats_loser['rush_def'],
@@ -396,10 +393,10 @@ def update_model(games_df, stats_dict, model, scaler):
 
 # Main function to scrape games, update model, and iterate
 def main():
-    # Initialize model and scaler
+    # Boosted ml model for multinomial classification
     model = XGBClassifier(
-    objective='multi:softprob',  # For multinomial classification with class probabilities
-    num_class=4,                 # Update if your outcome space has a different number of classes
+    objective='multi:softprob',  
+    num_class=4,
     eval_metric='mlogloss',
     use_label_encoder=False,
     random_state=42
@@ -416,7 +413,6 @@ def main():
         print(date)
         stats_dict[date] = scrape_stats(date)
 
-        # Update the model dynamically
     model = update_model(games_df, stats_dict, model, scaler)
 
     joblib.dump(model, 'trained_model2.pkl')

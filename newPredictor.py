@@ -40,9 +40,11 @@ def predict_winner(team1_name, team2_name, week):
     prediction = best_model.predict(scaled_vector)[0]
     proba = best_model.predict_proba(scaled_vector)[0]
 
-    predicted_winner = team1_name if prediction == 1 else team2_name
-    confidence = proba[prediction]
-
+    predicted_winner = team1_name if prediction in [2, 3] else team2_name
+    if team1_name == predicted_winner:
+        confidence = float(proba[3] + float[2])
+    else:
+        confidence = float(proba[1] + float[0])
     print(f"Predicted winner: {predicted_winner} (Confidence: {confidence:.2%})")
 
 # Take user input
