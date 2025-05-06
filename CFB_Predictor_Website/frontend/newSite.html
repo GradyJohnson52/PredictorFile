@@ -26,12 +26,12 @@
   <h1>College Football Game Predictor</h1>
 
   <div class="tab-buttons">
-    <button data-tab="model1">Model 1</button>
-    <button data-tab="model2">Model 2</button>
-    <button data-tab="model3">Model 3</button>
+    <button data-tab="1.0 RF">Model 1</button>
+    <button data-tab="2.0 XG">Model 2</button>
+    <button data-tab="3.0 XG GS">Model 3</button>
   </div>
 
-  <div class="tab-content active" id="model1">
+  <div class="tab-content active" id="1.0 RF">
     <form class="predict-form" data-model="1">
       <label for="team1">Team 1:</label>
       <input type="text" name="team1" list="team-options" required>
@@ -47,7 +47,7 @@
     <div class="result"></div>
   </div>
 
-  <div class="tab-content" id="model2">
+  <div class="tab-content" id="2.0 XG">
     <form class="predict-form" data-model="2">
       <label for="team1">Team 1:</label>
       <input type="text" name="team1" list="team-options" required>
@@ -63,7 +63,7 @@
     <div class="result"></div>
   </div>
 
-  <div class="tab-content" id="model3">
+  <div class="tab-content" id="3.0 XG GS">
     <form class="predict-form" data-model="3">
       <label for="team1">Team 1:</label>
       <input type="text" name="team1" list="team-options" required>
@@ -83,7 +83,6 @@
 
   <script type="module" src="/static/script.js"></script>
   <script>
-    // Tab switch logic
     document.querySelectorAll('.tab-buttons button').forEach(button => {
       button.addEventListener('click', () => {
         const tab = button.getAttribute('data-tab');

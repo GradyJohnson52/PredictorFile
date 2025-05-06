@@ -23,5 +23,18 @@
   <div id="result"></div>
 
   <script type="module" src="/static/newSite.js"></script>
+  <script>
+    // Tab switch logic
+    document.querySelectorAll('.tab-buttons button').forEach(button => {
+      button.addEventListener('click', () => {
+        const tab = button.getAttribute('data-tab');
+  
+        document.querySelectorAll('.tab-content').forEach(div => {
+          div.classList.remove('active');
+        });
+        document.getElementById(tab).classList.add('active');
+      });
+    });
+  </script>
 </body>
 </html>

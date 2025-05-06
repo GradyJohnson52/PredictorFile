@@ -203,8 +203,8 @@ def predict():
             model = model_xg
             scaler = scaler_xg
         elif model_id == 'base':
-            model = model_base
-            scaler = scaler_base
+            model = model_rf
+            scaler = scaler_rf
         else:
             model = model_gs
             scaler = scaler_gs
