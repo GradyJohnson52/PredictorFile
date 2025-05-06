@@ -196,8 +196,8 @@ def predict():
         team_a, team_b = sorted([team1_std, team2_std])
 
         matchup = matchup_df[
-            ((matchup_df['team1_std'] == team1) & (matchup_df['team2_std'] == team2) & (matchup_df['week'] == week)) |
-            ((matchup_df['team1_std'] == team2) & (matchup_df['team2_std'] == team1) & (matchup_df['week'] == week))
+            ((matchup_df['team1_std'] == team1_std) & (matchup_df['team2_std'] == team2_std) & (matchup_df['week'] == week)) |
+            ((matchup_df['team1_std'] == team2_std) & (matchup_df['team2_std'] == team1_std) & (matchup_df['week'] == week))
         ]
 
         if matchup.empty:
