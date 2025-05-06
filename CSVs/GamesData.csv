@@ -1,4 +1,900 @@
 week,date,winner,loser,point_diff
+1,2022-08-27,Florida Atlantic,Charlotte,30
+1,2022-08-27,Florida State,Duquesne,40
+1,2022-08-27,Illinois,Wyoming,32
+1,2022-08-27,Nevada,New Mexico State,11
+1,2022-08-27,Nevada-Las Vegas,Idaho State,31
+1,2022-08-27,North Carolina,Florida A&M,32
+1,2022-08-27,North Texas,Texas-El Paso,18
+1,2022-08-27,Northwestern,Nebraska,3
+1,2022-08-27,Utah State,Connecticut,11
+1,2022-08-27,Vanderbilt,Hawaii,53
+1,2022-08-27,Western Kentucky,Austin Peay,11
+2,2022-09-01,Akron,St. Francis,7
+2,2022-09-01,Alabama-Birmingham,Alabama A&M,59
+2,2022-09-01,Arizona State,Northern Arizona,37
+2,2022-09-01,Central Florida,South Carolina State,46
+2,2022-09-01,Florida International,Bryant,1
+2,2022-09-01,Fresno State,Cal Poly,28
+2,2022-09-01,Minnesota,New Mexico State,38
+2,2022-09-01,Missouri,Louisiana Tech,28
+2,2022-09-01,Northern Illinois,Eastern Illinois,7
+2,2022-09-01,Oklahoma State,Central Michigan,14
+2,2022-09-01,Penn State,Purdue,4
+2,2022-09-01,Pittsburgh,West Virginia,7
+2,2022-09-01,San Jose State,Portland State,4
+2,2022-09-01,Tennessee,Ball State,49
+2,2022-09-01,Toledo,Long Island,37
+2,2022-09-01,Wake Forest,Virginia Military Institute,34
+2,2022-09-02,Duke,Temple,30
+2,2022-09-02,Eastern Michigan,Eastern Kentucky,8
+2,2022-09-02,Indiana,Illinois,3
+2,2022-09-02,Kansas,Tennessee Tech,46
+2,2022-09-02,Michigan State,Western Michigan,22
+2,2022-09-02,Old Dominion,Virginia Tech,3
+2,2022-09-02,Texas Christian,Colorado,25
+2,2022-09-02,William & Mary,Charlotte,17
+2,2022-09-03,Air Force,Northern Iowa,31
+2,2022-09-03,Alabama,Utah State,55
+2,2022-09-03,Arizona,San Diego State,18
+2,2022-09-03,Arkansas,Cincinnati,7
+2,2022-09-03,Arkansas State,Grambling State,55
+2,2022-09-03,Auburn,Mercer,26
+2,2022-09-03,Baylor,Albany,59
+2,2022-09-03,Brigham Young,South Florida,29
+2,2022-09-03,California,California-Davis,21
+2,2022-09-03,Coastal Carolina,Army,10
+2,2022-09-03,Connecticut,Central Connecticut State,25
+2,2022-09-03,Delaware,Navy,7
+2,2022-09-03,Florida,Utah,3
+2,2022-09-03,Georgia,Oregon,46
+2,2022-09-03,Georgia Southern,Morgan State,52
+2,2022-09-03,Houston,Texas-San Antonio,2
+2,2022-09-03,Iowa,South Dakota State,4
+2,2022-09-03,Iowa State,Southeast Missouri State,32
+2,2022-09-03,James Madison,Middle Tennessee State,37
+2,2022-09-03,Kansas State,South Dakota,34
+2,2022-09-03,Kentucky,Miami,24
+2,2022-09-03,Liberty,Southern Mississippi,2
+2,2022-09-03,Louisiana,Southeastern Louisiana,17
+2,2022-09-03,Marshall,Norfolk State,52
+2,2022-09-03,Maryland,Buffalo,21
+2,2022-09-03,Miami,Bethune-Cookman,57
+2,2022-09-03,Michigan,Colorado State,44
+2,2022-09-03,Mississippi,Troy,18
+2,2022-09-03,Mississippi State,Memphis,26
+2,2022-09-03,Nebraska,North Dakota,21
+2,2022-09-03,Nevada,Texas State,24
+2,2022-09-03,New Mexico,Maine,41
+2,2022-09-03,North Carolina,Appalachian State,2
+2,2022-09-03,North Carolina State,East Carolina,1
+2,2022-09-03,Ohio,Florida Atlantic,3
+2,2022-09-03,Ohio State,Notre Dame,11
+2,2022-09-03,Oklahoma,Texas-El Paso,32
+2,2022-09-03,Oregon State,Boise State,17
+2,2022-09-03,Rutgers,Boston College,1
+2,2022-09-03,South Alabama,Nicholls State,41
+2,2022-09-03,South Carolina,Georgia State,21
+2,2022-09-03,Southern California,Rice,52
+2,2022-09-03,Southern Methodist,North Texas,38
+2,2022-09-03,Stanford,Colgate,31
+2,2022-09-03,Syracuse,Louisville,24
+2,2022-09-03,Texas,Louisiana-Monroe,42
+2,2022-09-03,Texas A&M,Sam Houston,31
+2,2022-09-03,Texas Tech,Murray State,53
+2,2022-09-03,Tulane,Massachusetts,32
+2,2022-09-03,UCLA,Bowling Green,28
+2,2022-09-03,Vanderbilt,Elon,11
+2,2022-09-03,Virginia,Richmond,17
+2,2022-09-03,Washington,Kent State,25
+2,2022-09-03,Washington State,Idaho,7
+2,2022-09-03,Wisconsin,Illinois State,38
+2,2022-09-03,Wyoming,Tulsa,3
+2,2022-09-04,Florida State,Louisiana State,1
+2,2022-09-04,Western Kentucky,Hawaii,32
+2,2022-09-05,Clemson,Georgia Tech,31
+3,2022-09-09,Boise State,New Mexico,17
+3,2022-09-09,Louisville,Central Florida,6
+3,2022-09-10,Air Force,Colorado,31
+3,2022-09-10,Alabama,Texas,1
+3,2022-09-10,Appalachian State,Texas A&M,3
+3,2022-09-10,Arkansas,South Carolina,14
+3,2022-09-10,Auburn,San Jose State,8
+3,2022-09-10,Brigham Young,Baylor,6
+3,2022-09-10,California,Nevada-Las Vegas,6
+3,2022-09-10,Cincinnati,Kennesaw State,53
+3,2022-09-10,Clemson,Furman,23
+3,2022-09-10,Coastal Carolina,Gardner-Webb,4
+3,2022-09-10,Duke,Northwestern,8
+3,2022-09-10,East Carolina,Old Dominion,18
+3,2022-09-10,Eastern Kentucky,Bowling Green,2
+3,2022-09-10,Florida Atlantic,Southeastern Louisiana,33
+3,2022-09-10,Georgia,Samford,33
+3,2022-09-10,Georgia Southern,Nebraska,3
+3,2022-09-10,Georgia Tech,Western Carolina,18
+3,2022-09-10,Holy Cross,Buffalo,6
+3,2022-09-10,Illinois,Virginia,21
+3,2022-09-10,Incarnate Word,Nevada,14
+3,2022-09-10,Indiana,Idaho,13
+3,2022-09-10,Iowa State,Iowa,3
+3,2022-09-10,James Madison,Norfolk State,56
+3,2022-09-10,Kansas,West Virginia,13
+3,2022-09-10,Kansas State,Missouri,28
+3,2022-09-10,Kentucky,Florida,10
+3,2022-09-10,Liberty,Alabama-Birmingham,7
+3,2022-09-10,Louisiana,Eastern Michigan,28
+3,2022-09-10,Louisiana State,Southern,48
+3,2022-09-10,Louisiana Tech,Stephen F. Austin,35
+3,2022-09-10,Louisiana-Monroe,Nicholls State,28
+3,2022-09-10,Marshall,Notre Dame,5
+3,2022-09-10,Maryland,Charlotte,35
+3,2022-09-10,Memphis,Navy,24
+3,2022-09-10,Miami,Southern Mississippi,23
+3,2022-09-10,Miami,Robert Morris,17
+3,2022-09-10,Michigan,Hawaii,46
+3,2022-09-10,Michigan State,Akron,52
+3,2022-09-10,Middle Tennessee State,Colorado State,15
+3,2022-09-10,Minnesota,Western Illinois,52
+3,2022-09-10,Mississippi,Central Arkansas,56
+3,2022-09-10,Mississippi State,Arizona,22
+3,2022-09-10,North Carolina,Georgia State,7
+3,2022-09-10,North Carolina State,Charleston Southern,52
+3,2022-09-10,North Texas,Texas Southern,32
+3,2022-09-10,Ohio State,Arkansas State,33
+3,2022-09-10,Oklahoma,Kent State,30
+3,2022-09-10,Oklahoma State,Arizona State,17
+3,2022-09-10,Oregon,Eastern Washington,56
+3,2022-09-10,Oregon State,Fresno State,3
+3,2022-09-10,Penn State,Ohio,36
+3,2022-09-10,Purdue,Indiana State,56
+3,2022-09-10,Rice,McNeese State,42
+3,2022-09-10,Rutgers,Wagner,59
+3,2022-09-10,San Diego State,Idaho State,31
+3,2022-09-10,South Alabama,Central Michigan,14
+3,2022-09-10,South Florida,Howard,22
+3,2022-09-10,Southern California,Stanford,13
+3,2022-09-10,Southern Methodist,Lamar,29
+3,2022-09-10,Syracuse,Connecticut,34
+3,2022-09-10,Temple,Lafayette,16
+3,2022-09-10,Tennessee,Pittsburgh,7
+3,2022-09-10,Texas Christian,Tarleton State,42
+3,2022-09-10,Texas State,Florida International,29
+3,2022-09-10,Texas Tech,Houston,3
+3,2022-09-10,Texas-El Paso,New Mexico State,7
+3,2022-09-10,Texas-San Antonio,Army,3
+3,2022-09-10,Toledo,Massachusetts,45
+3,2022-09-10,Troy,Alabama A&M,21
+3,2022-09-10,Tulane,Alcorn State,52
+3,2022-09-10,Tulsa,Northern Illinois,3
+3,2022-09-10,UCLA,Alabama State,38
+3,2022-09-10,Utah,Southern Utah,66
+3,2022-09-10,Virginia Tech,Boston College,17
+3,2022-09-10,Wake Forest,Vanderbilt,20
+3,2022-09-10,Washington,Portland State,46
+3,2022-09-10,Washington State,Wisconsin,3
+3,2022-09-10,Weber State,Utah State,28
+3,2022-09-10,Western Michigan,Ball State,7
+3,2022-09-10,Wyoming,Northern Colorado,23
+4,2022-09-16,Florida State,Louisville,4
+4,2022-09-16,Wyoming,Air Force,3
+4,2022-09-17,Alabama,Louisiana-Monroe,56
+4,2022-09-17,Alabama-Birmingham,Georgia Southern,14
+4,2022-09-17,Appalachian State,Troy,4
+4,2022-09-17,Arizona,North Dakota State,3
+4,2022-09-17,Arkansas,Missouri State,11
+4,2022-09-17,Army,Villanova,39
+4,2022-09-17,Ball State,Murray State,31
+4,2022-09-17,Baylor,Texas State,35
+4,2022-09-17,Boise State,Tennessee-Martin,23
+4,2022-09-17,Boston College,Maine,21
+4,2022-09-17,Bowling Green,Marshall,3
+4,2022-09-17,Central Florida,Florida Atlantic,26
+4,2022-09-17,Central Michigan,Bucknell,41
+4,2022-09-17,Charlotte,Georgia State,1
+4,2022-09-17,Cincinnati,Miami,21
+4,2022-09-17,Clemson,Louisiana Tech,28
+4,2022-09-17,Coastal Carolina,Buffalo,12
+4,2022-09-17,Duke,North Carolina A&T,29
+4,2022-09-17,East Carolina,Campbell,39
+4,2022-09-17,Eastern Michigan,Arizona State,9
+4,2022-09-17,Florida,South Florida,3
+4,2022-09-17,Georgia,South Carolina,41
+4,2022-09-17,Indiana,Western Kentucky,3
+4,2022-09-17,Iowa,Nevada,27
+4,2022-09-17,Iowa State,Ohio,33
+4,2022-09-17,Kansas,Houston,18
+4,2022-09-17,Kent State,Long Island,53
+4,2022-09-17,Kentucky,Youngstown State,31
+4,2022-09-17,Louisiana State,Mississippi State,15
+4,2022-09-17,Maryland,Southern Methodist,7
+4,2022-09-17,Massachusetts,Stony Brook,17
+4,2022-09-17,Memphis,Arkansas State,12
+4,2022-09-17,Michigan,Connecticut,59
+4,2022-09-17,Middle Tennessee State,Tennessee State,43
+4,2022-09-17,Minnesota,Colorado,42
+4,2022-09-17,Mississippi,Georgia Tech,42
+4,2022-09-17,Missouri,Abilene Christian,17
+4,2022-09-17,Nevada-Las Vegas,North Texas,31
+4,2022-09-17,New Mexico,Texas-El Paso,17
+4,2022-09-17,North Carolina State,Texas Tech,13
+4,2022-09-17,Notre Dame,California,7
+4,2022-09-17,Ohio State,Toledo,56
+4,2022-09-17,Oklahoma,Nebraska,35
+4,2022-09-17,Oklahoma State,Arkansas-Pine Bluff,56
+4,2022-09-17,Oregon,Brigham Young,21
+4,2022-09-17,Oregon State,Montana State,40
+4,2022-09-17,Penn State,Auburn,29
+4,2022-09-17,Pittsburgh,Western Michigan,21
+4,2022-09-17,Rice,Louisiana,12
+4,2022-09-17,Rutgers,Temple,2
+4,2022-09-17,Southern California,Fresno State,28
+4,2022-09-17,Southern Illinois,Northwestern,7
+4,2022-09-17,Southern Mississippi,Northwestern State,54
+4,2022-09-17,Syracuse,Purdue,3
+4,2022-09-17,Tennessee,Akron,57
+4,2022-09-17,Texas,Texas-San Antonio,21
+4,2022-09-17,Texas A&M,Miami,8
+4,2022-09-17,Tulane,Kansas State,7
+4,2022-09-17,Tulsa,Jacksonville State,37
+4,2022-09-17,UCLA,South Alabama,1
+4,2022-09-17,Utah,San Diego State,28
+4,2022-09-17,Vanderbilt,Northern Illinois,10
+4,2022-09-17,Virginia,Old Dominion,2
+4,2022-09-17,Virginia Tech,Wofford,20
+4,2022-09-17,Wake Forest,Liberty,1
+4,2022-09-17,Washington,Michigan State,11
+4,2022-09-17,Washington State,Colorado State,31
+4,2022-09-17,West Virginia,Towson,58
+4,2022-09-17,Wisconsin,New Mexico State,59
+4,2022-09-18,Hawaii,Duquesne,10
+5,2022-09-22,Coastal Carolina,Georgia State,17
+5,2022-09-22,Illinois,Chattanooga,31
+5,2022-09-22,West Virginia,Virginia Tech,23
+5,2022-09-23,Air Force,Nevada,28
+5,2022-09-23,Syracuse,Virginia,2
+5,2022-09-23,Texas-El Paso,Boise State,17
+5,2022-09-24,Alabama,Vanderbilt,52
+5,2022-09-24,Auburn,Missouri,3
+5,2022-09-24,Baylor,Iowa State,7
+5,2022-09-24,Brigham Young,Wyoming,14
+5,2022-09-24,Buffalo,Eastern Michigan,19
+5,2022-09-24,California,Arizona,18
+5,2022-09-24,Central Florida,Georgia Tech,17
+5,2022-09-24,Cincinnati,Indiana,21
+5,2022-09-24,Clemson,Wake Forest,6
+5,2022-09-24,Florida State,Boston College,30
+5,2022-09-24,Georgia,Kent State,17
+5,2022-09-24,Georgia Southern,Ball State,11
+5,2022-09-24,Houston,Rice,7
+5,2022-09-24,Iowa,Rutgers,17
+5,2022-09-24,James Madison,Appalachian State,4
+5,2022-09-24,Kansas,Duke,8
+5,2022-09-24,Kansas State,Oklahoma,7
+5,2022-09-24,Kentucky,Northern Illinois,8
+5,2022-09-24,Liberty,Akron,9
+5,2022-09-24,Louisiana State,New Mexico,38
+5,2022-09-24,Louisiana-Monroe,Louisiana,4
+5,2022-09-24,Louisville,South Florida,38
+5,2022-09-24,Memphis,North Texas,10
+5,2022-09-24,Miami,Northwestern,3
+5,2022-09-24,Michigan,Maryland,7
+5,2022-09-24,Middle Tennessee State,Miami,14
+5,2022-09-24,Minnesota,Michigan State,27
+5,2022-09-24,Mississippi,Tulsa,8
+5,2022-09-24,Mississippi State,Bowling Green,31
+5,2022-09-24,Navy,East Carolina,3
+5,2022-09-24,Nevada-Las Vegas,Utah State,10
+5,2022-09-24,New Mexico State,Hawaii,19
+5,2022-09-24,North Carolina State,Connecticut,31
+5,2022-09-24,Notre Dame,North Carolina,13
+5,2022-09-24,Ohio,Fordham,7
+5,2022-09-24,Ohio State,Wisconsin,31
+5,2022-09-24,Old Dominion,Arkansas State,3
+5,2022-09-24,Oregon,Washington State,3
+5,2022-09-24,Penn State,Central Michigan,19
+5,2022-09-24,Pittsburgh,Rhode Island,21
+5,2022-09-24,Purdue,Florida Atlantic,2
+5,2022-09-24,Sacramento State,Colorado State,31
+5,2022-09-24,San Diego State,Toledo,3
+5,2022-09-24,San Jose State,Western Michigan,28
+5,2022-09-24,South Alabama,Louisiana Tech,24
+5,2022-09-24,South Carolina,Charlotte,36
+5,2022-09-24,Southern California,Oregon State,3
+5,2022-09-24,Southern Mississippi,Tulane,3
+5,2022-09-24,Temple,Massachusetts,28
+5,2022-09-24,Tennessee,Florida,5
+5,2022-09-24,Texas A&M,Arkansas,2
+5,2022-09-24,Texas Christian,Southern Methodist,8
+5,2022-09-24,Texas State,Houston Baptist,34
+5,2022-09-24,Texas Tech,Texas,3
+5,2022-09-24,Texas-San Antonio,Texas Southern,28
+5,2022-09-24,Troy,Marshall,9
+5,2022-09-24,UCLA,Colorado,28
+5,2022-09-24,Utah,Arizona State,21
+5,2022-09-24,Washington,Stanford,18
+5,2022-09-24,Western Kentucky,Florida International,73
+6,2022-09-29,Brigham Young,Utah State,12
+6,2022-09-29,South Carolina,South Carolina State,40
+6,2022-09-30,Boise State,San Diego State,22
+6,2022-09-30,Nevada-Las Vegas,New Mexico,11
+6,2022-09-30,Texas-San Antonio,Middle Tennessee State,15
+6,2022-09-30,Tulane,Houston,3
+6,2022-09-30,UCLA,Washington,8
+6,2022-10-01,Air Force,Navy,3
+6,2022-10-01,Alabama,Arkansas,23
+6,2022-10-01,Appalachian State,Citadel,49
+6,2022-10-01,Arizona,Colorado,23
+6,2022-10-01,Arkansas State,Louisiana-Monroe,17
+6,2022-10-01,Ball State,Northern Illinois,6
+6,2022-10-01,Boston College,Louisville,1
+6,2022-10-01,Bowling Green,Akron,3
+6,2022-10-01,Buffalo,Miami,4
+6,2022-10-01,Cincinnati,Tulsa,10
+6,2022-10-01,Clemson,North Carolina State,10
+6,2022-10-01,Coastal Carolina,Georgia Southern,4
+6,2022-10-01,Connecticut,Fresno State,5
+6,2022-10-01,Duke,Virginia,21
+6,2022-10-01,East Carolina,South Florida,20
+6,2022-10-01,Eastern Michigan,Massachusetts,7
+6,2022-10-01,Florida International,New Mexico State,14
+6,2022-10-01,Georgia,Missouri,4
+6,2022-10-01,Georgia State,Army,17
+6,2022-10-01,Georgia Tech,Pittsburgh,5
+6,2022-10-01,Illinois,Wisconsin,24
+6,2022-10-01,James Madison,Texas State,27
+6,2022-10-01,Kansas,Iowa State,3
+6,2022-10-01,Kansas State,Texas Tech,9
+6,2022-10-01,Kent State,Ohio,7
+6,2022-10-01,Liberty,Old Dominion,14
+6,2022-10-01,Louisiana State,Auburn,4
+6,2022-10-01,Marshall,Gardner-Webb,21
+6,2022-10-01,Maryland,Michigan State,14
+6,2022-10-01,Memphis,Temple,21
+6,2022-10-01,Michigan,Iowa,13
+6,2022-10-01,Mississippi,Kentucky,3
+6,2022-10-01,Mississippi State,Texas A&M,18
+6,2022-10-01,Nebraska,Indiana,14
+6,2022-10-01,North Carolina,Virginia Tech,31
+6,2022-10-01,North Texas,Florida Atlantic,17
+6,2022-10-01,Ohio State,Rutgers,39
+6,2022-10-01,Oklahoma State,Baylor,11
+6,2022-10-01,Oregon,Stanford,18
+6,2022-10-01,Penn State,Northwestern,10
+6,2022-10-01,Purdue,Minnesota,10
+6,2022-10-01,Rice,Alabama-Birmingham,4
+6,2022-10-01,San Jose State,Wyoming,17
+6,2022-10-01,South Alabama,Louisiana,3
+6,2022-10-01,Southern California,Arizona State,17
+6,2022-10-01,Syracuse,Wagner,59
+6,2022-10-01,Texas,West Virginia,18
+6,2022-10-01,Texas Christian,Oklahoma,31
+6,2022-10-01,Texas-El Paso,Charlotte,6
+6,2022-10-01,Toledo,Central Michigan,21
+6,2022-10-01,Troy,Western Kentucky,7
+6,2022-10-01,Utah,Oregon State,26
+6,2022-10-01,Wake Forest,Florida State,10
+6,2022-10-01,Washington State,California,19
+6,2022-10-01,Western Michigan,New Hampshire,37
+6,2022-10-02,Florida,Eastern Washington,35
+7,2022-10-05,Central Florida,Southern Methodist,22
+7,2022-10-07,Colorado State,Nevada,3
+7,2022-10-07,Houston,Memphis,1
+7,2022-10-07,Nebraska,Rutgers,1
+7,2022-10-07,San Jose State,Nevada-Las Vegas,33
+7,2022-10-08,Alabama,Texas A&M,4
+7,2022-10-08,Alabama-Birmingham,Middle Tennessee State,27
+7,2022-10-08,Arizona State,Washington,7
+7,2022-10-08,Ball State,Central Michigan,1
+7,2022-10-08,Boise State,Fresno State,20
+7,2022-10-08,Buffalo,Bowling Green,31
+7,2022-10-08,Cincinnati,South Florida,4
+7,2022-10-08,Clemson,Boston College,28
+7,2022-10-08,Coastal Carolina,Louisiana-Monroe,7
+7,2022-10-08,Connecticut,Florida International,21
+7,2022-10-08,Eastern Michigan,Western Michigan,22
+7,2022-10-08,Florida,Missouri,7
+7,2022-10-08,Georgia,Auburn,32
+7,2022-10-08,Georgia State,Georgia Southern,8
+7,2022-10-08,Georgia Tech,Duke,3
+7,2022-10-08,Illinois,Iowa,3
+7,2022-10-08,James Madison,Arkansas State,22
+7,2022-10-08,Kansas State,Iowa State,1
+7,2022-10-08,Liberty,Massachusetts,18
+7,2022-10-08,Louisiana Tech,Texas-El Paso,10
+7,2022-10-08,Louisville,Virginia,17
+7,2022-10-08,Miami,Kent State,3
+7,2022-10-08,Michigan,Indiana,21
+7,2022-10-08,Mississippi,Vanderbilt,24
+7,2022-10-08,Mississippi State,Arkansas,23
+7,2022-10-08,Navy,Tulsa,32
+7,2022-10-08,North Carolina,Miami,3
+7,2022-10-08,North Carolina State,Florida State,2
+7,2022-10-08,Notre Dame,Brigham Young,8
+7,2022-10-08,Ohio,Akron,21
+7,2022-10-08,Ohio State,Michigan State,29
+7,2022-10-08,Oklahoma State,Texas Tech,10
+7,2022-10-08,Oregon,Arizona,27
+7,2022-10-08,Oregon State,Stanford,1
+7,2022-10-08,Pittsburgh,Virginia Tech,16
+7,2022-10-08,Purdue,Maryland,2
+7,2022-10-08,San Diego State,Hawaii,2
+7,2022-10-08,South Carolina,Kentucky,10
+7,2022-10-08,Southern California,Washington State,16
+7,2022-10-08,Tennessee,Louisiana State,27
+7,2022-10-08,Texas,Oklahoma,49
+7,2022-10-08,Texas Christian,Kansas,7
+7,2022-10-08,Texas State,Appalachian State,12
+7,2022-10-08,Texas-San Antonio,Western Kentucky,3
+7,2022-10-08,Toledo,Northern Illinois,20
+7,2022-10-08,Troy,Southern Mississippi,17
+7,2022-10-08,Tulane,East Carolina,15
+7,2022-10-08,UCLA,Utah,10
+7,2022-10-08,Utah State,Air Force,7
+7,2022-10-08,Wake Forest,Army,35
+7,2022-10-08,Wisconsin,Northwestern,35
+7,2022-10-08,Wyoming,New Mexico,13
+8,2022-10-12,Louisiana,Marshall,10
+8,2022-10-13,Central Florida,Temple,57
+8,2022-10-13,West Virginia,Baylor,3
+8,2022-10-14,Southern Methodist,Navy,6
+8,2022-10-14,Texas-San Antonio,Florida International,20
+8,2022-10-15,Air Force,Nevada-Las Vegas,35
+8,2022-10-15,Alabama-Birmingham,Charlotte,14
+8,2022-10-15,Arkansas,Brigham Young,17
+8,2022-10-15,Army,Colgate,25
+8,2022-10-15,Ball State,Connecticut,4
+8,2022-10-15,Bowling Green,Miami,4
+8,2022-10-15,Buffalo,Massachusetts,27
+8,2022-10-15,Central Michigan,Akron,7
+8,2022-10-15,Clemson,Florida State,6
+8,2022-10-15,Colorado,California,7
+8,2022-10-15,East Carolina,Memphis,2
+8,2022-10-15,Florida Atlantic,Rice,3
+8,2022-10-15,Fresno State,San Jose State,7
+8,2022-10-15,Georgia,Vanderbilt,55
+8,2022-10-15,Georgia Southern,James Madison,7
+8,2022-10-15,Hawaii,Nevada,15
+8,2022-10-15,Illinois,Minnesota,12
+8,2022-10-15,Kentucky,Mississippi State,10
+8,2022-10-15,Liberty,Gardner-Webb,1
+8,2022-10-15,Louisiana State,Florida,10
+8,2022-10-15,Maryland,Indiana,5
+8,2022-10-15,Miami,Virginia Tech,6
+8,2022-10-15,Michigan,Penn State,24
+8,2022-10-15,Michigan State,Wisconsin,6
+8,2022-10-15,Mississippi,Auburn,14
+8,2022-10-15,New Mexico State,New Mexico,12
+8,2022-10-15,North Carolina,Duke,3
+8,2022-10-15,North Texas,Louisiana Tech,20
+8,2022-10-15,Northern Illinois,Eastern Michigan,29
+8,2022-10-15,Ohio,Western Michigan,19
+8,2022-10-15,Oklahoma,Kansas,10
+8,2022-10-15,Old Dominion,Coastal Carolina,28
+8,2022-10-15,Oregon State,Washington State,14
+8,2022-10-15,Purdue,Nebraska,6
+8,2022-10-15,South Alabama,Louisiana-Monroe,7
+8,2022-10-15,Southern Mississippi,Arkansas State,1
+8,2022-10-15,Stanford,Notre Dame,2
+8,2022-10-15,Syracuse,North Carolina State,15
+8,2022-10-15,Tennessee,Alabama,3
+8,2022-10-15,Texas,Iowa State,3
+8,2022-10-15,Texas Christian,Oklahoma State,3
+8,2022-10-15,Toledo,Kent State,21
+8,2022-10-15,Troy,Texas State,3
+8,2022-10-15,Tulane,South Florida,14
+8,2022-10-15,Utah,Southern California,1
+8,2022-10-15,Utah State,Colorado State,4
+8,2022-10-15,Washington,Arizona,10
+8,2022-10-15,Western Kentucky,Middle Tennessee State,18
+9,2022-10-19,Appalachian State,Georgia State,25
+9,2022-10-20,Troy,South Alabama,4
+9,2022-10-20,Virginia,Georgia Tech,7
+9,2022-10-21,Tulsa,Temple,11
+9,2022-10-21,Western Kentucky,Alabama-Birmingham,3
+9,2022-10-22,Alabama,Mississippi State,24
+9,2022-10-22,Army,Louisiana-Monroe,24
+9,2022-10-22,Baylor,Kansas,12
+9,2022-10-22,Boise State,Air Force,5
+9,2022-10-22,Bowling Green,Central Michigan,16
+9,2022-10-22,Buffalo,Toledo,7
+9,2022-10-22,Cincinnati,Southern Methodist,2
+9,2022-10-22,Clemson,Syracuse,6
+9,2022-10-22,Colorado State,Hawaii,4
+9,2022-10-22,Duke,Miami,24
+9,2022-10-22,East Carolina,Central Florida,21
+9,2022-10-22,Eastern Michigan,Ball State,4
+9,2022-10-22,Florida International,Charlotte,19
+9,2022-10-22,Fresno State,New Mexico,32
+9,2022-10-22,Georgia Southern,Old Dominion,5
+9,2022-10-22,Houston,Navy,18
+9,2022-10-22,Kent State,Akron,6
+9,2022-10-22,Liberty,Brigham Young,27
+9,2022-10-22,Louisiana,Arkansas State,20
+9,2022-10-22,Louisiana State,Mississippi,25
+9,2022-10-22,Louisville,Pittsburgh,14
+9,2022-10-22,Marshall,James Madison,14
+9,2022-10-22,Maryland,Northwestern,7
+9,2022-10-22,Missouri,Vanderbilt,3
+9,2022-10-22,Notre Dame,Nevada-Las Vegas,23
+9,2022-10-22,Ohio,Northern Illinois,7
+9,2022-10-22,Ohio State,Iowa,44
+9,2022-10-22,Oklahoma State,Texas,7
+9,2022-10-22,Oregon,UCLA,15
+9,2022-10-22,Oregon State,Colorado,33
+9,2022-10-22,Penn State,Minnesota,28
+9,2022-10-22,Rice,Louisiana Tech,1
+9,2022-10-22,Rutgers,Indiana,7
+9,2022-10-22,San Diego State,Nevada,16
+9,2022-10-22,South Carolina,Texas A&M,6
+9,2022-10-22,Southern Mississippi,Texas State,6
+9,2022-10-22,Stanford,Arizona State,1
+9,2022-10-22,Tennessee,Tennessee-Martin,41
+9,2022-10-22,Texas Christian,Kansas State,10
+9,2022-10-22,Texas Tech,West Virginia,38
+9,2022-10-22,Texas-El Paso,Florida Atlantic,3
+9,2022-10-22,Texas-San Antonio,North Texas,4
+9,2022-10-22,Tulane,Memphis,10
+9,2022-10-22,Wake Forest,Boston College,28
+9,2022-10-22,Washington,California,7
+9,2022-10-22,Western Michigan,Miami,6
+9,2022-10-22,Wisconsin,Purdue,11
+9,2022-10-22,Wyoming,Utah State,14
+10,2022-10-27,North Carolina State,Virginia Tech,1
+10,2022-10-27,Southern Mississippi,Louisiana,15
+10,2022-10-27,Utah,Washington State,4
+10,2022-10-28,East Carolina,Brigham Young,3
+10,2022-10-28,Florida International,Louisiana Tech,8
+10,2022-10-29,Appalachian State,Robert Morris,39
+10,2022-10-29,Arizona State,Colorado,8
+10,2022-10-29,Arkansas,Auburn,14
+10,2022-10-29,Baylor,Texas Tech,28
+10,2022-10-29,Boise State,Colorado State,39
+10,2022-10-29,Central Florida,Cincinnati,4
+10,2022-10-29,Charlotte,Rice,33
+10,2022-10-29,Coastal Carolina,Marshall,11
+10,2022-10-29,Connecticut,Boston College,10
+10,2022-10-29,Florida Atlantic,Alabama-Birmingham,7
+10,2022-10-29,Florida State,Georgia Tech,25
+10,2022-10-29,Fresno State,San Diego State,4
+10,2022-10-29,Georgia,Florida,22
+10,2022-10-29,Georgia State,Old Dominion,14
+10,2022-10-29,Houston,South Florida,15
+10,2022-10-29,Illinois,Nebraska,17
+10,2022-10-29,Iowa,Northwestern,20
+10,2022-10-29,Kansas State,Oklahoma State,48
+10,2022-10-29,Louisville,Wake Forest,27
+10,2022-10-29,Miami,Virginia,2
+10,2022-10-29,Miami,Akron,18
+10,2022-10-29,Michigan,Michigan State,22
+10,2022-10-29,Middle Tennessee State,Texas-El Paso,11
+10,2022-10-29,Minnesota,Rutgers,31
+10,2022-10-29,Mississippi,Texas A&M,3
+10,2022-10-29,Missouri,South Carolina,13
+10,2022-10-29,Navy,Temple,7
+10,2022-10-29,New Mexico State,Massachusetts,10
+10,2022-10-29,North Carolina,Pittsburgh,18
+10,2022-10-29,North Texas,Western Kentucky,27
+10,2022-10-29,Notre Dame,Syracuse,17
+10,2022-10-29,Ohio State,Penn State,13
+10,2022-10-29,Oklahoma,Iowa State,14
+10,2022-10-29,Oregon,California,18
+10,2022-10-29,San Jose State,Nevada,7
+10,2022-10-29,South Alabama,Arkansas State,28
+10,2022-10-29,Southern California,Arizona,8
+10,2022-10-29,Southern Methodist,Tulsa,11
+10,2022-10-29,Tennessee,Kentucky,38
+10,2022-10-29,Texas Christian,West Virginia,10
+10,2022-10-29,Toledo,Eastern Michigan,3
+10,2022-10-29,UCLA,Stanford,25
+10,2022-10-30,Wyoming,Hawaii,7
+11,2022-11-01,Ball State,Kent State,7
+11,2022-11-01,Ohio,Buffalo,21
+11,2022-11-02,Bowling Green,Western Michigan,4
+11,2022-11-02,Central Michigan,Northern Illinois,13
+11,2022-11-03,Coastal Carolina,Appalachian State,7
+11,2022-11-03,Rice,Texas-El Paso,7
+11,2022-11-04,Connecticut,Massachusetts,17
+11,2022-11-04,Duke,Boston College,7
+11,2022-11-04,Washington,Oregon State,3
+11,2022-11-05,Air Force,Army,6
+11,2022-11-05,Baylor,Oklahoma,3
+11,2022-11-05,Brigham Young,Boise State,3
+11,2022-11-05,Central Florida,Memphis,7
+11,2022-11-05,Cincinnati,Navy,10
+11,2022-11-05,Florida,Texas A&M,17
+11,2022-11-05,Florida State,Miami,42
+11,2022-11-05,Fresno State,Hawaii,42
+11,2022-11-05,Georgia,Tennessee,14
+11,2022-11-05,Georgia State,Southern Mississippi,28
+11,2022-11-05,Georgia Tech,Virginia Tech,1
+11,2022-11-05,Iowa,Purdue,21
+11,2022-11-05,Iowa State,West Virginia,17
+11,2022-11-05,Kansas,Oklahoma State,21
+11,2022-11-05,Kentucky,Missouri,4
+11,2022-11-05,Liberty,Arkansas,2
+11,2022-11-05,Louisiana State,Alabama,1
+11,2022-11-05,Louisiana Tech,Middle Tennessee State,16
+11,2022-11-05,Louisiana-Monroe,Texas State,1
+11,2022-11-05,Louisville,James Madison,24
+11,2022-11-05,Marshall,Old Dominion,12
+11,2022-11-05,Michigan,Rutgers,35
+11,2022-11-05,Michigan State,Illinois,8
+11,2022-11-05,Minnesota,Nebraska,7
+11,2022-11-05,Mississippi State,Auburn,6
+11,2022-11-05,North Carolina,Virginia,3
+11,2022-11-05,North Carolina State,Wake Forest,9
+11,2022-11-05,North Texas,Florida International,38
+11,2022-11-05,Notre Dame,Clemson,21
+11,2022-11-05,Ohio State,Northwestern,14
+11,2022-11-05,Oregon,Colorado,39
+11,2022-11-05,Penn State,Indiana,31
+11,2022-11-05,Pittsburgh,Syracuse,10
+11,2022-11-05,San Diego State,Nevada-Las Vegas,4
+11,2022-11-05,San Jose State,Colorado State,12
+11,2022-11-05,South Alabama,Georgia Southern,7
+11,2022-11-05,South Carolina,Vanderbilt,11
+11,2022-11-05,Southern California,California,6
+11,2022-11-05,Southern Methodist,Houston,14
+11,2022-11-05,Temple,South Florida,26
+11,2022-11-05,Texas,Kansas State,7
+11,2022-11-05,Texas Christian,Texas Tech,10
+11,2022-11-05,Texas-San Antonio,Alabama-Birmingham,6
+11,2022-11-05,Troy,Louisiana,6
+11,2022-11-05,Tulane,Tulsa,14
+11,2022-11-05,UCLA,Arizona State,14
+11,2022-11-05,Utah,Arizona,25
+11,2022-11-05,Utah State,New Mexico,17
+11,2022-11-05,Washington State,Stanford,38
+11,2022-11-05,Western Kentucky,Charlotte,52
+11,2022-11-05,Wisconsin,Maryland,13
+12,2022-11-08,Eastern Michigan,Akron,6
+12,2022-11-08,Ohio,Miami,16
+12,2022-11-08,Toledo,Ball State,7
+12,2022-11-09,Central Michigan,Buffalo,4
+12,2022-11-09,Kent State,Bowling Green,34
+12,2022-11-09,Northern Illinois,Western Michigan,3
+12,2022-11-10,Louisiana,Georgia Southern,19
+12,2022-11-10,Memphis,Tulsa,16
+12,2022-11-11,Cincinnati,East Carolina,2
+12,2022-11-11,Fresno State,Nevada-Las Vegas,7
+12,2022-11-11,Southern California,Colorado,38
+12,2022-11-12,Air Force,New Mexico,32
+12,2022-11-12,Alabama,Mississippi,6
+12,2022-11-12,Alabama-Birmingham,North Texas,20
+12,2022-11-12,Arizona,UCLA,6
+12,2022-11-12,Arkansas State,Massachusetts,2
+12,2022-11-12,Auburn,Texas A&M,3
+12,2022-11-12,Boise State,Nevada,38
+12,2022-11-12,Boston College,North Carolina State,1
+12,2022-11-12,Central Florida,Tulane,7
+12,2022-11-12,Clemson,Louisville,15
+12,2022-11-12,Coastal Carolina,Southern Mississippi,3
+12,2022-11-12,Connecticut,Liberty,3
+12,2022-11-12,Duke,Virginia Tech,17
+12,2022-11-12,Florida,South Carolina,32
+12,2022-11-12,Florida Atlantic,Florida International,45
+12,2022-11-12,Florida State,Syracuse,35
+12,2022-11-12,Georgia,Mississippi State,26
+12,2022-11-12,Houston,Temple,7
+12,2022-11-12,Iowa,Wisconsin,14
+12,2022-11-12,James Madison,Old Dominion,34
+12,2022-11-12,Kansas State,Baylor,28
+12,2022-11-12,Louisiana State,Arkansas,3
+12,2022-11-12,Louisiana-Monroe,Georgia State,3
+12,2022-11-12,Marshall,Appalachian State,7
+12,2022-11-12,Miami,Georgia Tech,21
+12,2022-11-12,Michigan,Nebraska,31
+12,2022-11-12,Michigan State,Rutgers,6
+12,2022-11-12,Middle Tennessee State,Charlotte,10
+12,2022-11-12,Minnesota,Northwestern,28
+12,2022-11-12,New Mexico State,Lamar,37
+12,2022-11-12,North Carolina,Wake Forest,2
+12,2022-11-12,Notre Dame,Navy,3
+12,2022-11-12,Ohio State,Indiana,42
+12,2022-11-12,Oklahoma State,Iowa State,6
+12,2022-11-12,Oregon State,California,28
+12,2022-11-12,Penn State,Maryland,30
+12,2022-11-12,Pittsburgh,Virginia,30
+12,2022-11-12,Purdue,Illinois,7
+12,2022-11-12,San Diego State,San Jose State,16
+12,2022-11-12,South Alabama,Texas State,17
+12,2022-11-12,Southern Methodist,South Florida,18
+12,2022-11-12,Tennessee,Missouri,42
+12,2022-11-12,Texas Christian,Texas,7
+12,2022-11-12,Texas Tech,Kansas,15
+12,2022-11-12,Texas-San Antonio,Louisiana Tech,44
+12,2022-11-12,Troy,Army,1
+12,2022-11-12,Utah,Stanford,35
+12,2022-11-12,Utah State,Hawaii,7
+12,2022-11-12,Vanderbilt,Kentucky,3
+12,2022-11-12,Washington,Oregon,3
+12,2022-11-12,Washington State,Arizona State,10
+12,2022-11-12,West Virginia,Oklahoma,3
+12,2022-11-12,Western Kentucky,Rice,35
+12,2022-11-12,Wyoming,Colorado State,1
+13,2022-11-15,Bowling Green,Toledo,7
+13,2022-11-15,Ohio,Ball State,14
+13,2022-11-16,Eastern Michigan,Kent State,7
+13,2022-11-16,Miami,Northern Illinois,6
+13,2022-11-16,Western Michigan,Central Michigan,2
+13,2022-11-17,Tulane,Southern Methodist,35
+13,2022-11-18,San Diego State,New Mexico,24
+13,2022-11-18,Tulsa,South Florida,6
+13,2022-11-19,Air Force,Colorado State,12
+13,2022-11-19,Alabama,Austin Peay,34
+13,2022-11-19,Appalachian State,Old Dominion,13
+13,2022-11-19,Arkansas,Mississippi,15
+13,2022-11-19,Army,Connecticut,17
+13,2022-11-19,Auburn,Western Kentucky,24
+13,2022-11-19,Boise State,Wyoming,3
+13,2022-11-19,Brigham Young,Utah Tech,26
+13,2022-11-19,California,Stanford,7
+13,2022-11-19,Charlotte,Louisiana Tech,5
+13,2022-11-19,Cincinnati,Temple,20
+13,2022-11-19,Clemson,Miami,30
+13,2022-11-19,Florida State,Louisiana,32
+13,2022-11-19,Fresno State,Nevada,27
+13,2022-11-19,Georgia,Kentucky,10
+13,2022-11-19,Georgia Tech,North Carolina,4
+13,2022-11-19,Hawaii,Nevada-Las Vegas,6
+13,2022-11-19,Houston,East Carolina,39
+13,2022-11-19,Indiana,Michigan State,8
+13,2022-11-19,Iowa,Minnesota,3
+13,2022-11-19,James Madison,Georgia State,2
+13,2022-11-19,Kansas State,West Virginia,17
+13,2022-11-19,Louisiana State,Alabama-Birmingham,31
+13,2022-11-19,Louisville,North Carolina State,15
+13,2022-11-19,Marshall,Georgia Southern,13
+13,2022-11-19,Memphis,North Alabama,59
+13,2022-11-19,Michigan,Illinois,2
+13,2022-11-19,Middle Tennessee State,Florida Atlantic,28
+13,2022-11-19,Mississippi State,East Tennessee State,49
+13,2022-11-19,Missouri,New Mexico State,31
+13,2022-11-19,Navy,Central Florida,3
+13,2022-11-19,Notre Dame,Boston College,44
+13,2022-11-19,Ohio State,Maryland,13
+13,2022-11-19,Oklahoma,Oklahoma State,15
+13,2022-11-19,Oregon,Utah,3
+13,2022-11-19,Oregon State,Arizona State,24
+13,2022-11-19,Penn State,Rutgers,45
+13,2022-11-19,Pittsburgh,Duke,2
+13,2022-11-19,Purdue,Northwestern,8
+13,2022-11-19,South Alabama,Southern Mississippi,7
+13,2022-11-19,South Carolina,Tennessee,25
+13,2022-11-19,Southern California,UCLA,3
+13,2022-11-19,Texas,Kansas,41
+13,2022-11-19,Texas A&M,Massachusetts,17
+13,2022-11-19,Texas Christian,Baylor,1
+13,2022-11-19,Texas State,Arkansas State,3
+13,2022-11-19,Texas Tech,Iowa State,4
+13,2022-11-19,Texas-El Paso,Florida International,34
+13,2022-11-19,Texas-San Antonio,Rice,34
+13,2022-11-19,Troy,Louisiana-Monroe,18
+13,2022-11-19,Utah State,San Jose State,4
+13,2022-11-19,Vanderbilt,Florida,7
+13,2022-11-19,Virginia Tech,Liberty,1
+13,2022-11-19,Wake Forest,Syracuse,10
+13,2022-11-19,Washington,Colorado,47
+13,2022-11-19,Washington State,Arizona,11
+13,2022-11-19,Wisconsin,Nebraska,1
+14,2022-11-22,Miami,Ball State,1
+14,2022-11-22,Ohio,Bowling Green,24
+14,2022-11-24,Mississippi State,Mississippi,2
+14,2022-11-25,Arizona,Arizona State,3
+14,2022-11-25,Boise State,Utah State,19
+14,2022-11-25,Colorado State,New Mexico,17
+14,2022-11-25,Eastern Michigan,Central Michigan,19
+14,2022-11-25,Florida State,Florida,7
+14,2022-11-25,Fresno State,Wyoming,30
+14,2022-11-25,Missouri,Arkansas,2
+14,2022-11-25,Nebraska,Iowa,7
+14,2022-11-25,North Carolina State,North Carolina,3
+14,2022-11-25,Texas,Baylor,11
+14,2022-11-25,Tulane,Cincinnati,3
+14,2022-11-25,UCLA,California,7
+14,2022-11-25,Western Michigan,Toledo,6
+14,2022-11-26,Air Force,San Diego State,10
+14,2022-11-26,Akron,Northern Illinois,32
+14,2022-11-26,Alabama,Auburn,22
+14,2022-11-26,Alabama-Birmingham,Louisiana Tech,10
+14,2022-11-26,Army,Massachusetts,37
+14,2022-11-26,Brigham Young,Stanford,9
+14,2022-11-26,Central Florida,South Florida,7
+14,2022-11-26,Duke,Wake Forest,3
+14,2022-11-26,East Carolina,Temple,3
+14,2022-11-26,Georgia,Georgia Tech,23
+14,2022-11-26,Georgia Southern,Appalachian State,3
+14,2022-11-26,Illinois,Northwestern,38
+14,2022-11-26,James Madison,Coastal Carolina,40
+14,2022-11-26,Kansas State,Kansas,20
+14,2022-11-26,Kent State,Buffalo,3
+14,2022-11-26,Kentucky,Louisville,13
+14,2022-11-26,Louisiana,Texas State,28
+14,2022-11-26,Marshall,Georgia State,5
+14,2022-11-26,Maryland,Rutgers,37
+14,2022-11-26,Michigan,Ohio State,22
+14,2022-11-26,Middle Tennessee State,Florida International,5
+14,2022-11-26,Minnesota,Wisconsin,7
+14,2022-11-26,Nevada-Las Vegas,Nevada,5
+14,2022-11-26,New Mexico State,Liberty,35
+14,2022-11-26,North Texas,Rice,4
+14,2022-11-26,Oregon State,Oregon,4
+14,2022-11-26,Penn State,Michigan State,19
+14,2022-11-26,Pittsburgh,Miami,26
+14,2022-11-26,Purdue,Indiana,14
+14,2022-11-26,San Jose State,Hawaii,13
+14,2022-11-26,South Alabama,Old Dominion,7
+14,2022-11-26,South Carolina,Clemson,1
+14,2022-11-26,Southern California,Notre Dame,11
+14,2022-11-26,Southern Methodist,Memphis,3
+14,2022-11-26,Southern Mississippi,Louisiana-Monroe,10
+14,2022-11-26,Syracuse,Boston College,9
+14,2022-11-26,Tennessee,Vanderbilt,56
+14,2022-11-26,Texas A&M,Louisiana State,15
+14,2022-11-26,Texas Christian,Iowa State,48
+14,2022-11-26,Texas Tech,Oklahoma,3
+14,2022-11-26,Texas-San Antonio,Texas-El Paso,3
+14,2022-11-26,Troy,Arkansas State,29
+14,2022-11-26,Tulsa,Houston,7
+14,2022-11-26,Utah,Colorado,42
+14,2022-11-26,Washington,Washington State,18
+14,2022-11-26,West Virginia,Oklahoma State,5
+14,2022-11-26,Western Kentucky,Florida Atlantic,1
+15,2022-12-02,Buffalo,Akron,1
+15,2022-12-02,Texas-San Antonio,North Texas,21
+15,2022-12-02,Utah,Southern California,23
+15,2022-12-03,Clemson,North Carolina,29
+15,2022-12-03,Fresno State,Boise State,12
+15,2022-12-03,Georgia,Louisiana State,20
+15,2022-12-03,Kansas State,Texas Christian,3
+15,2022-12-03,Michigan,Purdue,21
+15,2022-12-03,New Mexico State,Valparaiso,62
+15,2022-12-03,Toledo,Ohio,10
+15,2022-12-03,Troy,Coastal Carolina,19
+15,2022-12-03,Tulane,Central Florida,17
+16,2022-12-10,Army,Navy,3
+17,2022-12-16,Alabama-Birmingham,Miami,4
+17,2022-12-16,Troy,Texas-San Antonio,6
+17,2022-12-17,Boise State,North Texas,3
+17,2022-12-17,Brigham Young,Southern Methodist,1
+17,2022-12-17,Fresno State,Washington State,23
+17,2022-12-17,Louisville,Cincinnati,17
+17,2022-12-17,Oregon State,Florida,27
+17,2022-12-17,Southern Mississippi,Rice,14
+17,2022-12-19,Marshall,Connecticut,14
+18,2022-12-20,Eastern Michigan,San Jose State,14
+18,2022-12-20,Toledo,Liberty,2
+18,2022-12-21,Western Kentucky,South Alabama,21
+18,2022-12-22,Air Force,Baylor,15
+18,2022-12-23,Houston,Louisiana,7
+18,2022-12-23,Wake Forest,Missouri,10
+18,2022-12-24,Middle Tennessee State,San Diego State,2
+18,2022-12-26,New Mexico State,Bowling Green,5
+19,2022-12-27,Buffalo,Georgia Southern,2
+19,2022-12-27,East Carolina,Coastal Carolina,24
+19,2022-12-27,Memphis,Utah State,28
+19,2022-12-27,Wisconsin,Oklahoma State,7
+19,2022-12-28,Arkansas,Kansas,2
+19,2022-12-28,Duke,Central Florida,17
+19,2022-12-28,Oregon,North Carolina,1
+19,2022-12-28,Texas Tech,Mississippi,17
+19,2022-12-29,Florida State,Oklahoma,3
+19,2022-12-29,Minnesota,Syracuse,8
+19,2022-12-29,Washington,Texas,7
+19,2022-12-30,Maryland,North Carolina State,4
+19,2022-12-30,Notre Dame,South Carolina,7
+19,2022-12-30,Ohio,Wyoming,3
+19,2022-12-30,Pittsburgh,UCLA,2
+19,2022-12-30,Tennessee,Clemson,17
+19,2022-12-31,Alabama,Kansas State,25
+19,2022-12-31,Georgia,Ohio State,1
+19,2022-12-31,Iowa,Kentucky,21
+19,2022-12-31,Texas Christian,Michigan,6
+20,2023-01-02,Louisiana State,Purdue,56
+20,2023-01-02,Mississippi State,Illinois,9
+20,2023-01-02,Penn State,Utah,14
+20,2023-01-02,Tulane,Southern California,1
+21,2023-01-09,Georgia,Texas Christian,58
 1,2021-08-28,Fresno State,Connecticut,45
 1,2021-08-28,Illinois,Nebraska,8
 1,2021-08-28,San Jose State,Southern Utah,31
@@ -1797,6 +2693,576 @@ week,date,winner,loser,point_diff
 20,2024-01-01,Tennessee,Iowa,35
 20,2024-01-01,Washington,Texas,6
 21,2024-01-08,Michigan,Washington,21
+1,2020-09-03,Alabama-Birmingham,Central Arkansas,10
+1,2020-09-03,South Alabama,Southern Mississippi,11
+1,2020-09-05,Army,Middle Tennessee State,42
+1,2020-09-05,Marshall,Eastern Kentucky,59
+1,2020-09-05,Memphis,Arkansas State,13
+1,2020-09-05,North Texas,Houston Baptist,26
+1,2020-09-05,Southern Methodist,Texas State,7
+1,2020-09-05,Texas-El Paso,Stephen F. Austin,10
+1,2020-09-07,Brigham Young,Navy,52
+2,2020-09-10,Miami,Alabama-Birmingham,17
+2,2020-09-12,Appalachian State,Charlotte,15
+2,2020-09-12,Arkansas State,Kansas State,4
+2,2020-09-12,Army,Louisiana-Monroe,30
+2,2020-09-12,Clemson,Wake Forest,24
+2,2020-09-12,Coastal Carolina,Kansas,15
+2,2020-09-12,Georgia Southern,Campbell,1
+2,2020-09-12,Georgia Tech,Florida State,3
+2,2020-09-12,Louisiana,Iowa State,17
+2,2020-09-12,Louisville,Western Kentucky,14
+2,2020-09-12,North Carolina,Syracuse,25
+2,2020-09-12,Notre Dame,Duke,14
+2,2020-09-12,Oklahoma,Missouri State,48
+2,2020-09-12,Pittsburgh,Austin Peay,55
+2,2020-09-12,South Florida,Citadel,21
+2,2020-09-12,Texas,Texas-El Paso,56
+2,2020-09-12,Texas Tech,Houston Baptist,2
+2,2020-09-12,Texas-San Antonio,Texas State,3
+2,2020-09-12,Tulane,South Alabama,3
+2,2020-09-12,West Virginia,Eastern Kentucky,46
+3,2020-09-18,Coastal Carolina,Campbell,22
+3,2020-09-19,Boston College,Duke,20
+3,2020-09-19,Central Florida,Georgia Tech,28
+3,2020-09-19,Cincinnati,Austin Peay,35
+3,2020-09-19,Clemson,Citadel,49
+3,2020-09-19,Liberty,Western Kentucky,6
+3,2020-09-19,Louisiana,Georgia State,3
+3,2020-09-19,Louisiana Tech,Southern Mississippi,1
+3,2020-09-19,Marshall,Appalachian State,10
+3,2020-09-19,Miami,Louisville,13
+3,2020-09-19,Navy,Tulane,3
+3,2020-09-19,North Carolina State,Wake Forest,3
+3,2020-09-19,Notre Dame,South Florida,52
+3,2020-09-19,Oklahoma State,Tulsa,9
+3,2020-09-19,Pittsburgh,Syracuse,11
+3,2020-09-19,Southern Methodist,North Texas,30
+3,2020-09-19,Texas State,Louisiana-Monroe,21
+3,2020-09-19,Texas-El Paso,Abilene Christian,4
+3,2020-09-19,Texas-San Antonio,Stephen F. Austin,14
+3,2020-09-19,Troy,Middle Tennessee State,33
+4,2020-09-24,Alabama-Birmingham,South Alabama,32
+4,2020-09-25,Texas-San Antonio,Middle Tennessee State,2
+4,2020-09-26,Alabama,Missouri,19
+4,2020-09-26,Appalachian State,Campbell,31
+4,2020-09-26,Auburn,Kentucky,16
+4,2020-09-26,Baylor,Kansas,33
+4,2020-09-26,Boston College,Texas State,3
+4,2020-09-26,Brigham Young,Troy,41
+4,2020-09-26,Central Florida,East Carolina,23
+4,2020-09-26,Cincinnati,Army,14
+4,2020-09-26,Florida,Mississippi,16
+4,2020-09-26,Georgia,Arkansas,27
+4,2020-09-26,Iowa State,Texas Christian,3
+4,2020-09-26,Kansas State,Oklahoma,3
+4,2020-09-26,Liberty,Florida International,2
+4,2020-09-26,Louisiana,Georgia Southern,2
+4,2020-09-26,Louisiana Tech,Houston Baptist,28
+4,2020-09-26,Miami,Florida State,42
+4,2020-09-26,Mississippi State,Louisiana State,10
+4,2020-09-26,Oklahoma State,West Virginia,14
+4,2020-09-26,Pittsburgh,Louisville,3
+4,2020-09-26,Southern Methodist,Stephen F. Austin,43
+4,2020-09-26,Syracuse,Georgia Tech,17
+4,2020-09-26,Tennessee,South Carolina,4
+4,2020-09-26,Texas,Texas Tech,7
+4,2020-09-26,Texas A&M,Vanderbilt,5
+4,2020-09-26,Texas-El Paso,Louisiana-Monroe,25
+4,2020-09-26,Tulane,Southern Mississippi,42
+4,2020-09-26,Virginia,Duke,18
+4,2020-09-26,Virginia Tech,North Carolina State,21
+5,2020-10-02,Brigham Young,Louisiana Tech,31
+5,2020-10-02,Wake Forest,Campbell,52
+5,2020-10-03,Air Force,Navy,33
+5,2020-10-03,Alabama,Texas A&M,28
+5,2020-10-03,Alabama-Birmingham,Texas-San Antonio,8
+5,2020-10-03,Arkansas,Mississippi State,7
+5,2020-10-03,Army,Abilene Christian,32
+5,2020-10-03,Cincinnati,South Florida,21
+5,2020-10-03,Clemson,Virginia,18
+5,2020-10-03,Coastal Carolina,Arkansas State,29
+5,2020-10-03,Florida,South Carolina,14
+5,2020-10-03,Florida Atlantic,Charlotte,4
+5,2020-10-03,Florida State,Jacksonville State,17
+5,2020-10-03,Georgia,Auburn,21
+5,2020-10-03,Georgia Southern,Louisiana-Monroe,5
+5,2020-10-03,Georgia State,East Carolina,20
+5,2020-10-03,Iowa State,Oklahoma,7
+5,2020-10-03,Kansas State,Texas Tech,10
+5,2020-10-03,Liberty,North Alabama,21
+5,2020-10-03,Louisiana State,Vanderbilt,34
+5,2020-10-03,Mississippi,Kentucky,1
+5,2020-10-03,North Carolina,Boston College,4
+5,2020-10-03,North Carolina State,Pittsburgh,1
+5,2020-10-03,Oklahoma State,Kansas,40
+5,2020-10-03,Southern Methodist,Memphis,3
+5,2020-10-03,Southern Mississippi,North Texas,10
+5,2020-10-03,Tennessee,Missouri,23
+5,2020-10-03,Texas Christian,Texas,2
+5,2020-10-03,Tulsa,Central Florida,8
+5,2020-10-03,Virginia Tech,Duke,7
+5,2020-10-03,West Virginia,Baylor,6
+5,2020-10-03,Western Kentucky,Middle Tennessee State,3
+6,2020-10-08,Houston,Tulane,18
+6,2020-10-09,Georgia Tech,Louisville,19
+6,2020-10-10,Alabama,Mississippi,15
+6,2020-10-10,Arkansas State,Central Arkansas,23
+6,2020-10-10,Army,Citadel,5
+6,2020-10-10,Auburn,Arkansas,2
+6,2020-10-10,Boston College,Pittsburgh,1
+6,2020-10-10,Brigham Young,Texas-San Antonio,7
+6,2020-10-10,Charlotte,North Texas,28
+6,2020-10-10,Clemson,Miami,25
+6,2020-10-10,Duke,Syracuse,14
+6,2020-10-10,East Carolina,South Florida,20
+6,2020-10-10,Georgia,Tennessee,23
+6,2020-10-10,Iowa State,Texas Tech,16
+6,2020-10-10,Kansas State,Texas Christian,7
+6,2020-10-10,Kentucky,Mississippi State,22
+6,2020-10-10,Liberty,Louisiana-Monroe,33
+6,2020-10-10,Louisiana Tech,Texas-El Paso,4
+6,2020-10-10,Marshall,Western Kentucky,24
+6,2020-10-10,Middle Tennessee State,Florida International,3
+6,2020-10-10,Missouri,Louisiana State,4
+6,2020-10-10,Navy,Temple,2
+6,2020-10-10,North Carolina,Virginia Tech,11
+6,2020-10-10,North Carolina State,Virginia,17
+6,2020-10-10,Notre Dame,Florida State,16
+6,2020-10-10,Oklahoma,Texas,8
+6,2020-10-10,South Carolina,Vanderbilt,34
+6,2020-10-10,Texas A&M,Florida,3
+6,2020-10-10,Troy,Texas State,20
+7,2020-10-14,Coastal Carolina,Louisiana,3
+7,2020-10-15,Arkansas State,Georgia State,7
+7,2020-10-16,Brigham Young,Houston,17
+7,2020-10-16,Southern Methodist,Tulane,3
+7,2020-10-17,Alabama,Georgia,17
+7,2020-10-17,Alabama-Birmingham,Western Kentucky,23
+7,2020-10-17,Arkansas,Mississippi,12
+7,2020-10-17,Army,Texas-San Antonio,12
+7,2020-10-17,Clemson,Georgia Tech,66
+7,2020-10-17,Florida State,North Carolina,3
+7,2020-10-17,Georgia Southern,Massachusetts,41
+7,2020-10-17,Kentucky,Tennessee,27
+7,2020-10-17,Liberty,Syracuse,17
+7,2020-10-17,Marshall,Louisiana Tech,18
+7,2020-10-17,Memphis,Central Florida,1
+7,2020-10-17,Miami,Pittsburgh,12
+7,2020-10-17,Navy,East Carolina,4
+7,2020-10-17,North Carolina State,Duke,11
+7,2020-10-17,North Texas,Middle Tennessee State,17
+7,2020-10-17,Notre Dame,Louisville,5
+7,2020-10-17,South Alabama,Texas State,10
+7,2020-10-17,South Carolina,Auburn,8
+7,2020-10-17,Temple,South Florida,2
+7,2020-10-17,Texas A&M,Mississippi State,14
+7,2020-10-17,Troy,Eastern Kentucky,2
+7,2020-10-17,Virginia Tech,Boston College,26
+7,2020-10-17,Wake Forest,Virginia,17
+7,2020-10-17,West Virginia,Kansas,21
+8,2020-10-22,Appalachian State,Arkansas State,28
+8,2020-10-23,Jacksonville State,Florida International,9
+8,2020-10-23,Louisiana,Alabama-Birmingham,4
+8,2020-10-23,Tulsa,South Florida,29
+8,2020-10-23,Wisconsin,Illinois,38
+8,2020-10-24,Alabama,Tennessee,31
+8,2020-10-24,Army,Mercer,46
+8,2020-10-24,Auburn,Mississippi,7
+8,2020-10-24,Boise State,Utah State,29
+8,2020-10-24,Boston College,Georgia Tech,21
+8,2020-10-24,Brigham Young,Texas State,38
+8,2020-10-24,Central Florida,Tulane,17
+8,2020-10-24,Charlotte,Texas-El Paso,10
+8,2020-10-24,Cincinnati,Southern Methodist,29
+8,2020-10-24,Clemson,Syracuse,26
+8,2020-10-24,Coastal Carolina,Georgia Southern,14
+8,2020-10-24,Georgia State,Troy,2
+8,2020-10-24,Hawaii,Fresno State,15
+8,2020-10-24,Houston,Navy,16
+8,2020-10-24,Indiana,Penn State,1
+8,2020-10-24,Kansas State,Kansas,41
+8,2020-10-24,Liberty,Southern Mississippi,21
+8,2020-10-24,Louisiana State,South Carolina,28
+8,2020-10-24,Louisville,Florida State,32
+8,2020-10-24,Marshall,Florida Atlantic,11
+8,2020-10-24,Memphis,Temple,12
+8,2020-10-24,Miami,Virginia,5
+8,2020-10-24,Michigan,Minnesota,25
+8,2020-10-24,Middle Tennessee State,Rice,6
+8,2020-10-24,Missouri,Kentucky,10
+8,2020-10-24,Nevada,Wyoming,3
+8,2020-10-24,North Carolina,North Carolina State,27
+8,2020-10-24,Northwestern,Maryland,40
+8,2020-10-24,Notre Dame,Pittsburgh,42
+8,2020-10-24,Ohio State,Nebraska,35
+8,2020-10-24,Oklahoma,Texas Christian,19
+8,2020-10-24,Oklahoma State,Iowa State,3
+8,2020-10-24,Purdue,Iowa,4
+8,2020-10-24,Rutgers,Michigan State,11
+8,2020-10-24,San Diego State,Nevada-Las Vegas,28
+8,2020-10-24,San Jose State,Air Force,11
+8,2020-10-24,South Alabama,Louisiana-Monroe,24
+8,2020-10-24,Texas,Baylor,11
+8,2020-10-24,Texas Tech,West Virginia,7
+8,2020-10-24,Texas-San Antonio,Louisiana Tech,1
+8,2020-10-24,Wake Forest,Virginia Tech,7
+8,2020-10-24,Western Kentucky,Chattanooga,3
+9,2020-10-29,Fresno State,Colorado State,21
+9,2020-10-29,Georgia Southern,South Alabama,7
+9,2020-10-30,Maryland,Minnesota,1
+9,2020-10-30,Tulsa,East Carolina,4
+9,2020-10-30,Wyoming,Hawaii,24
+9,2020-10-31,Alabama,Mississippi State,41
+9,2020-10-31,Appalachian State,Louisiana-Monroe,18
+9,2020-10-31,Auburn,Louisiana State,37
+9,2020-10-31,Boise State,Air Force,19
+9,2020-10-31,Brigham Young,Western Kentucky,31
+9,2020-10-31,Central Florida,Houston,23
+9,2020-10-31,Cincinnati,Memphis,39
+9,2020-10-31,Clemson,Boston College,6
+9,2020-10-31,Coastal Carolina,Georgia State,51
+9,2020-10-31,Duke,Charlotte,34
+9,2020-10-31,Florida,Missouri,24
+9,2020-10-31,Florida Atlantic,Texas-San Antonio,21
+9,2020-10-31,Georgia,Kentucky,11
+9,2020-10-31,Indiana,Rutgers,16
+9,2020-10-31,Iowa State,Kansas,30
+9,2020-10-31,Louisiana,Texas State,10
+9,2020-10-31,Louisiana Tech,Alabama-Birmingham,3
+9,2020-10-31,Michigan State,Michigan,3
+9,2020-10-31,Mississippi,Vanderbilt,33
+9,2020-10-31,Nevada,Nevada-Las Vegas,18
+9,2020-10-31,Northwestern,Iowa,1
+9,2020-10-31,Notre Dame,Georgia Tech,18
+9,2020-10-31,Ohio State,Penn State,13
+9,2020-10-31,Oklahoma,Texas Tech,34
+9,2020-10-31,Purdue,Illinois,7
+9,2020-10-31,Rice,Southern Mississippi,24
+9,2020-10-31,San Diego State,Utah State,31
+9,2020-10-31,San Jose State,New Mexico,17
+9,2020-10-31,Southern Methodist,Navy,14
+9,2020-10-31,Texas,Oklahoma State,7
+9,2020-10-31,Texas A&M,Arkansas,11
+9,2020-10-31,Texas Christian,Baylor,10
+9,2020-10-31,Troy,Arkansas State,28
+9,2020-10-31,Tulane,Temple,35
+9,2020-10-31,Virginia,North Carolina,3
+9,2020-10-31,Virginia Tech,Louisville,7
+9,2020-10-31,Wake Forest,Syracuse,24
+9,2020-10-31,West Virginia,Kansas State,27
+10,2020-11-04,Buffalo,Northern Illinois,19
+10,2020-11-04,Central Michigan,Ohio,3
+10,2020-11-04,Kent State,Eastern Michigan,4
+10,2020-11-04,Miami,Ball State,7
+10,2020-11-04,Toledo,Bowling Green,35
+10,2020-11-04,Western Michigan,Akron,45
+10,2020-11-05,Colorado State,Wyoming,10
+10,2020-11-05,Nevada,Utah State,25
+10,2020-11-06,Brigham Young,Boise State,34
+10,2020-11-06,Miami,North Carolina State,3
+10,2020-11-06,San Jose State,San Diego State,11
+10,2020-11-07,Appalachian State,Texas State,21
+10,2020-11-07,Arkansas,Tennessee,11
+10,2020-11-07,Boston College,Syracuse,3
+10,2020-11-07,Cincinnati,Houston,28
+10,2020-11-07,Coastal Carolina,South Alabama,17
+10,2020-11-07,Colorado,UCLA,6
+10,2020-11-07,Florida,Georgia,16
+10,2020-11-07,Florida Atlantic,Western Kentucky,4
+10,2020-11-07,Fresno State,Nevada-Las Vegas,13
+10,2020-11-07,Georgia Southern,Troy,7
+10,2020-11-07,Georgia State,Louisiana-Monroe,18
+10,2020-11-07,Hawaii,New Mexico,6
+10,2020-11-07,Indiana,Michigan,17
+10,2020-11-07,Iowa,Michigan State,42
+10,2020-11-07,Iowa State,Baylor,7
+10,2020-11-07,Liberty,Virginia Tech,3
+10,2020-11-07,Louisiana,Arkansas State,7
+10,2020-11-07,Marshall,Massachusetts,41
+10,2020-11-07,Maryland,Penn State,16
+10,2020-11-07,Memphis,South Florida,1
+10,2020-11-07,Minnesota,Illinois,27
+10,2020-11-07,Mississippi State,Vanderbilt,7
+10,2020-11-07,North Carolina,Duke,32
+10,2020-11-07,Northwestern,Nebraska,8
+10,2020-11-07,Notre Dame,Clemson,7
+10,2020-11-07,Ohio State,Rutgers,22
+10,2020-11-07,Oklahoma,Kansas,53
+10,2020-11-07,Oklahoma State,Kansas State,2
+10,2020-11-07,Oregon,Stanford,21
+10,2020-11-07,Pittsburgh,Florida State,24
+10,2020-11-07,Southern California,Arizona State,1
+10,2020-11-07,Southern Methodist,Temple,24
+10,2020-11-07,Southern Mississippi,North Alabama,11
+10,2020-11-07,Texas,West Virginia,4
+10,2020-11-07,Texas A&M,South Carolina,45
+10,2020-11-07,Texas Christian,Texas Tech,16
+10,2020-11-07,Tulane,East Carolina,17
+10,2020-11-07,Washington State,Oregon State,10
+11,2020-11-10,Buffalo,Miami,32
+11,2020-11-10,Kent State,Bowling Green,38
+11,2020-11-10,Ohio,Akron,14
+11,2020-11-11,Ball State,Eastern Michigan,7
+11,2020-11-11,Central Michigan,Northern Illinois,30
+11,2020-11-11,Western Michigan,Toledo,3
+11,2020-11-12,Boise State,Colorado State,31
+11,2020-11-13,Cincinnati,East Carolina,38
+11,2020-11-13,Florida Atlantic,Florida International,19
+11,2020-11-13,Iowa,Minnesota,28
+11,2020-11-14,Appalachian State,Georgia State,4
+11,2020-11-14,Central Florida,Temple,25
+11,2020-11-14,Colorado,Stanford,3
+11,2020-11-14,Florida,Arkansas,28
+11,2020-11-14,Fresno State,Utah State,19
+11,2020-11-14,Georgia Southern,Texas State,2
+11,2020-11-14,Houston,South Florida,35
+11,2020-11-14,Illinois,Rutgers,3
+11,2020-11-14,Indiana,Michigan State,24
+11,2020-11-14,Kentucky,Vanderbilt,3
+11,2020-11-14,Liberty,Western Carolina,44
+11,2020-11-14,Louisiana,South Alabama,28
+11,2020-11-14,Marshall,Middle Tennessee State,28
+11,2020-11-14,Miami,Virginia Tech,1
+11,2020-11-14,Mississippi,South Carolina,17
+11,2020-11-14,Nebraska,Penn State,7
+11,2020-11-14,Nevada,New Mexico,7
+11,2020-11-14,North Carolina,Wake Forest,6
+11,2020-11-14,North Carolina State,Florida State,16
+11,2020-11-14,Northwestern,Purdue,7
+11,2020-11-14,Notre Dame,Boston College,14
+11,2020-11-14,Oregon,Washington State,14
+11,2020-11-14,San Diego State,Hawaii,24
+11,2020-11-14,San Jose State,Nevada-Las Vegas,17
+11,2020-11-14,Southern California,Arizona,4
+11,2020-11-14,Texas Tech,Baylor,1
+11,2020-11-14,Texas-San Antonio,Texas-El Paso,31
+11,2020-11-14,Tulane,Army,26
+11,2020-11-14,Tulsa,Southern Methodist,4
+11,2020-11-14,Virginia,Louisville,14
+11,2020-11-14,Washington,Oregon State,6
+11,2020-11-14,West Virginia,Texas Christian,18
+11,2020-11-14,Western Kentucky,Southern Mississippi,3
+11,2020-11-14,Wisconsin,Michigan,38
+11,2020-11-15,UCLA,California,24
+12,2020-11-17,Buffalo,Bowling Green,25
+12,2020-11-17,Kent State,Akron,34
+12,2020-11-18,Ball State,Northern Illinois,6
+12,2020-11-18,Toledo,Eastern Michigan,17
+12,2020-11-18,Western Michigan,Central Michigan,8
+12,2020-11-19,Tulsa,Tulane,6
+12,2020-11-20,Air Force,New Mexico,28
+12,2020-11-20,Florida Atlantic,Massachusetts,22
+12,2020-11-20,Louisville,Syracuse,30
+12,2020-11-20,Minnesota,Purdue,3
+12,2020-11-21,Alabama,Kentucky,60
+12,2020-11-21,Army,Georgia Southern,1
+12,2020-11-21,Auburn,Tennessee,13
+12,2020-11-21,Boise State,Hawaii,8
+12,2020-11-21,Brigham Young,North Alabama,52
+12,2020-11-21,Cincinnati,Central Florida,3
+12,2020-11-21,Coastal Carolina,Appalachian State,11
+12,2020-11-21,East Carolina,Temple,25
+12,2020-11-21,Florida,Vanderbilt,21
+12,2020-11-21,Georgia,Mississippi State,7
+12,2020-11-21,Georgia State,South Alabama,17
+12,2020-11-21,Illinois,Nebraska,18
+12,2020-11-21,Iowa,Penn State,20
+12,2020-11-21,Iowa State,Kansas State,45
+12,2020-11-21,Louisiana State,Arkansas,3
+12,2020-11-21,Memphis,Stephen F. Austin,42
+12,2020-11-21,Michigan,Rutgers,6
+12,2020-11-21,Middle Tennessee State,Troy,3
+12,2020-11-21,Missouri,South Carolina,7
+12,2020-11-21,Nevada,San Diego State,5
+12,2020-11-21,North Carolina State,Liberty,1
+12,2020-11-21,North Texas,Rice,10
+12,2020-11-21,Northwestern,Wisconsin,10
+12,2020-11-21,Ohio State,Indiana,7
+12,2020-11-21,Oklahoma,Oklahoma State,28
+12,2020-11-21,Oregon,UCLA,3
+12,2020-11-21,Oregon State,California,4
+12,2020-11-21,Pittsburgh,Virginia Tech,33
+12,2020-11-21,Southern California,Utah,16
+12,2020-11-21,Texas State,Arkansas State,2
+12,2020-11-21,Texas-San Antonio,Southern Mississippi,3
+12,2020-11-21,Virginia,Abilene Christian,40
+12,2020-11-21,Washington,Arizona,17
+12,2020-11-21,Western Kentucky,Florida International,17
+13,2020-11-26,Utah State,New Mexico,14
+13,2020-11-27,Central Florida,South Florida,12
+13,2020-11-27,Central Michigan,Eastern Michigan,8
+13,2020-11-27,Iowa,Nebraska,6
+13,2020-11-27,Iowa State,Texas,3
+13,2020-11-27,Liberty,Massachusetts,45
+13,2020-11-27,Notre Dame,North Carolina,14
+13,2020-11-27,Oregon State,Oregon,3
+13,2020-11-27,Stanford,California,1
+13,2020-11-27,Wyoming,Nevada-Las Vegas,31
+13,2020-11-28,Alabama,Auburn,29
+13,2020-11-28,Appalachian State,Troy,37
+13,2020-11-28,Ball State,Toledo,3
+13,2020-11-28,Baylor,Kansas State,1
+13,2020-11-28,Boston College,Louisville,7
+13,2020-11-28,Buffalo,Kent State,29
+13,2020-11-28,Clemson,Pittsburgh,35
+13,2020-11-28,Coastal Carolina,Texas State,35
+13,2020-11-28,Colorado,San Diego State,10
+13,2020-11-28,East Carolina,Southern Methodist,14
+13,2020-11-28,Florida,Kentucky,24
+13,2020-11-28,Georgia,South Carolina,29
+13,2020-11-28,Georgia State,Georgia Southern,6
+13,2020-11-28,Georgia Tech,Duke,23
+13,2020-11-28,Hawaii,Nevada,3
+13,2020-11-28,Indiana,Maryland,16
+13,2020-11-28,Louisiana,Louisiana-Monroe,50
+13,2020-11-28,Memphis,Navy,3
+13,2020-11-28,Miami,Akron,31
+13,2020-11-28,Michigan State,Northwestern,9
+13,2020-11-28,Mississippi,Mississippi State,7
+13,2020-11-28,Missouri,Vanderbilt,41
+13,2020-11-28,North Carolina State,Syracuse,7
+13,2020-11-28,Ohio,Bowling Green,42
+13,2020-11-28,Oklahoma State,Texas Tech,6
+13,2020-11-28,Penn State,Michigan,10
+13,2020-11-28,Rutgers,Purdue,7
+13,2020-11-28,South Alabama,Arkansas State,7
+13,2020-11-28,Texas A&M,Louisiana State,13
+13,2020-11-28,Texas Christian,Kansas,36
+13,2020-11-28,Texas-San Antonio,North Texas,32
+13,2020-11-28,UCLA,Arizona,17
+13,2020-11-28,Washington,Utah,3
+13,2020-11-28,Western Michigan,Northern Illinois,3
+14,2020-12-03,Air Force,Utah State,28
+14,2020-12-03,Louisiana Tech,North Texas,11
+14,2020-12-04,Louisiana,Appalachian State,3
+14,2020-12-05,Akron,Bowling Green,28
+14,2020-12-05,Alabama,Louisiana State,38
+14,2020-12-05,Arkansas State,Louisiana-Monroe,33
+14,2020-12-05,Ball State,Central Michigan,25
+14,2020-12-05,California,Oregon,4
+14,2020-12-05,Clemson,Virginia Tech,35
+14,2020-12-05,Coastal Carolina,Brigham Young,5
+14,2020-12-05,Colorado,Arizona,11
+14,2020-12-05,Eastern Michigan,Western Michigan,11
+14,2020-12-05,Florida,Tennessee,12
+14,2020-12-05,Georgia Southern,Florida Atlantic,17
+14,2020-12-05,Indiana,Wisconsin,8
+14,2020-12-05,Iowa,Illinois,14
+14,2020-12-05,Iowa State,West Virginia,36
+14,2020-12-05,Kentucky,South Carolina,23
+14,2020-12-05,Miami,Duke,48
+14,2020-12-05,Missouri,Arkansas,2
+14,2020-12-05,Nebraska,Purdue,10
+14,2020-12-05,Nevada,Fresno State,11
+14,2020-12-05,New Mexico,Wyoming,1
+14,2020-12-05,North Carolina,Western Carolina,40
+14,2020-12-05,North Carolina State,Georgia Tech,10
+14,2020-12-05,Notre Dame,Syracuse,24
+14,2020-12-05,Ohio State,Michigan State,40
+14,2020-12-05,Oklahoma,Baylor,13
+14,2020-12-05,Penn State,Rutgers,16
+14,2020-12-05,Rice,Marshall,20
+14,2020-12-05,San Diego State,Colorado State,12
+14,2020-12-05,San Jose State,Hawaii,11
+14,2020-12-05,Stanford,Washington,5
+14,2020-12-05,Texas,Kansas State,38
+14,2020-12-05,Texas A&M,Auburn,11
+14,2020-12-05,Texas Christian,Oklahoma State,7
+14,2020-12-05,Texas Tech,Kansas,3
+14,2020-12-05,Toledo,Northern Illinois,17
+14,2020-12-05,Troy,South Alabama,29
+14,2020-12-05,Tulane,Memphis,14
+14,2020-12-05,Tulsa,Navy,13
+14,2020-12-05,UCLA,Arizona State,7
+14,2020-12-05,Utah,Oregon State,6
+14,2020-12-05,Virginia,Boston College,11
+14,2020-12-06,Southern California,Washington State,25
+14,2020-12-06,Western Kentucky,Charlotte,18
+15,2020-12-10,Pittsburgh,Georgia Tech,14
+15,2020-12-10,Southern Mississippi,Florida Atlantic,14
+15,2020-12-11,Arizona State,Arizona,63
+15,2020-12-11,North Texas,Texas-El Paso,2
+15,2020-12-11,San Jose State,Nevada,10
+15,2020-12-12,Alabama,Arkansas,49
+15,2020-12-12,Alabama-Birmingham,Rice,5
+15,2020-12-12,Appalachian State,Georgia Southern,8
+15,2020-12-12,Army,Navy,15
+15,2020-12-12,Auburn,Mississippi State,14
+15,2020-12-12,Ball State,Western Michigan,3
+15,2020-12-12,Boise State,Wyoming,8
+15,2020-12-12,Brigham Young,San Diego State,14
+15,2020-12-12,Buffalo,Akron,49
+15,2020-12-12,Coastal Carolina,Troy,4
+15,2020-12-12,Eastern Michigan,Northern Illinois,8
+15,2020-12-12,Florida State,Duke,21
+15,2020-12-12,Georgia,Missouri,35
+15,2020-12-12,Hawaii,Nevada-Las Vegas,17
+15,2020-12-12,Iowa,Wisconsin,21
+15,2020-12-12,Louisiana State,Florida,3
+15,2020-12-12,Louisville,Wake Forest,24
+15,2020-12-12,Memphis,Houston,3
+15,2020-12-12,Minnesota,Nebraska,7
+15,2020-12-12,New Mexico,Fresno State,10
+15,2020-12-12,North Carolina,Miami,36
+15,2020-12-12,Northwestern,Illinois,18
+15,2020-12-12,Oklahoma State,Baylor,39
+15,2020-12-12,Penn State,Michigan State,15
+15,2020-12-12,Rutgers,Maryland,3
+15,2020-12-12,Southern California,UCLA,5
+15,2020-12-12,Stanford,Oregon State,3
+15,2020-12-12,Tennessee,Vanderbilt,25
+15,2020-12-12,Texas Christian,Louisiana Tech,42
+15,2020-12-12,Toledo,Central Michigan,1
+15,2020-12-12,Utah,Colorado,17
+15,2020-12-12,Virginia Tech,Virginia,18
+16,2020-12-18,Alabama-Birmingham,Marshall,9
+16,2020-12-18,Ball State,Buffalo,10
+16,2020-12-18,Nebraska,Rutgers,7
+16,2020-12-18,Oregon,Southern California,7
+16,2020-12-19,Alabama,Florida,6
+16,2020-12-19,Arizona State,Oregon State,13
+16,2020-12-19,Army,Air Force,3
+16,2020-12-19,Cincinnati,Tulsa,3
+16,2020-12-19,Clemson,Notre Dame,24
+16,2020-12-19,Louisiana State,Mississippi,5
+16,2020-12-19,Mississippi State,Missouri,19
+16,2020-12-19,Ohio State,Northwestern,12
+16,2020-12-19,Oklahoma,Iowa State,6
+16,2020-12-19,Penn State,Illinois,35
+16,2020-12-19,San Jose State,Boise State,14
+16,2020-12-19,Stanford,UCLA,1
+16,2020-12-19,Texas A&M,Tennessee,21
+16,2020-12-19,Utah,Washington State,17
+16,2020-12-19,Wisconsin,Minnesota,3
+16,2020-12-21,Appalachian State,North Texas,28
+17,2020-12-22,Brigham Young,Central Florida,26
+17,2020-12-22,Nevada,Tulane,11
+17,2020-12-23,Georgia Southern,Louisiana Tech,35
+17,2020-12-23,Memphis,Florida Atlantic,15
+17,2020-12-24,Hawaii,Houston,14
+17,2020-12-25,Buffalo,Marshall,7
+17,2020-12-26,Georgia State,Western Kentucky,18
+17,2020-12-26,Liberty,Coastal Carolina,3
+17,2020-12-26,Louisiana,Texas-San Antonio,7
+18,2020-12-29,Oklahoma State,Miami,3
+18,2020-12-29,Texas,Colorado,32
+18,2020-12-30,Oklahoma,Florida,35
+18,2020-12-30,Wisconsin,Wake Forest,14
+18,2020-12-31,Ball State,San Jose State,21
+18,2020-12-31,Mississippi State,Tulsa,2
+18,2020-12-31,West Virginia,Army,3
+18,2021-01-01,Alabama,Notre Dame,17
+18,2021-01-01,Georgia,Cincinnati,3
+18,2021-01-01,Northwestern,Auburn,16
+18,2021-01-01,Ohio State,Clemson,21
+18,2021-01-02,Iowa State,Oregon,17
+18,2021-01-02,Kentucky,North Carolina State,2
+18,2021-01-02,Mississippi,Indiana,6
+18,2021-01-02,Texas A&M,North Carolina,14
+19,2021-01-11,Alabama,Ohio State,28
+20,2021-02-21,Tarleton State,New Mexico State,26
+21,2021-03-07,New Mexico State,Dixie State,7
 1,2024-08-24,Georgia Tech,Florida State,3
 1,2024-08-24,Montana State,New Mexico,4
 1,2024-08-24,Southern Methodist,Nevada,5
@@ -2716,1469 +4182,3 @@ week,date,winner,loser,point_diff
 22,2025-01-09,Notre Dame,Penn State,3
 22,2025-01-10,Ohio State,Texas,14
 23,2025-01-20,Ohio State,Notre Dame,11
-1,2020-09-03,Alabama-Birmingham,Central Arkansas,10
-1,2020-09-03,South Alabama,Southern Mississippi,11
-1,2020-09-05,Army,Middle Tennessee State,42
-1,2020-09-05,Marshall,Eastern Kentucky,59
-1,2020-09-05,Memphis,Arkansas State,13
-1,2020-09-05,North Texas,Houston Baptist,26
-1,2020-09-05,Southern Methodist,Texas State,7
-1,2020-09-05,Texas-El Paso,Stephen F. Austin,10
-1,2020-09-07,Brigham Young,Navy,52
-2,2020-09-10,Miami,Alabama-Birmingham,17
-2,2020-09-12,Appalachian State,Charlotte,15
-2,2020-09-12,Arkansas State,Kansas State,4
-2,2020-09-12,Army,Louisiana-Monroe,30
-2,2020-09-12,Clemson,Wake Forest,24
-2,2020-09-12,Coastal Carolina,Kansas,15
-2,2020-09-12,Georgia Southern,Campbell,1
-2,2020-09-12,Georgia Tech,Florida State,3
-2,2020-09-12,Louisiana,Iowa State,17
-2,2020-09-12,Louisville,Western Kentucky,14
-2,2020-09-12,North Carolina,Syracuse,25
-2,2020-09-12,Notre Dame,Duke,14
-2,2020-09-12,Oklahoma,Missouri State,48
-2,2020-09-12,Pittsburgh,Austin Peay,55
-2,2020-09-12,South Florida,Citadel,21
-2,2020-09-12,Texas,Texas-El Paso,56
-2,2020-09-12,Texas Tech,Houston Baptist,2
-2,2020-09-12,Texas-San Antonio,Texas State,3
-2,2020-09-12,Tulane,South Alabama,3
-2,2020-09-12,West Virginia,Eastern Kentucky,46
-3,2020-09-18,Coastal Carolina,Campbell,22
-3,2020-09-19,Boston College,Duke,20
-3,2020-09-19,Central Florida,Georgia Tech,28
-3,2020-09-19,Cincinnati,Austin Peay,35
-3,2020-09-19,Clemson,Citadel,49
-3,2020-09-19,Liberty,Western Kentucky,6
-3,2020-09-19,Louisiana,Georgia State,3
-3,2020-09-19,Louisiana Tech,Southern Mississippi,1
-3,2020-09-19,Marshall,Appalachian State,10
-3,2020-09-19,Miami,Louisville,13
-3,2020-09-19,Navy,Tulane,3
-3,2020-09-19,North Carolina State,Wake Forest,3
-3,2020-09-19,Notre Dame,South Florida,52
-3,2020-09-19,Oklahoma State,Tulsa,9
-3,2020-09-19,Pittsburgh,Syracuse,11
-3,2020-09-19,Southern Methodist,North Texas,30
-3,2020-09-19,Texas State,Louisiana-Monroe,21
-3,2020-09-19,Texas-El Paso,Abilene Christian,4
-3,2020-09-19,Texas-San Antonio,Stephen F. Austin,14
-3,2020-09-19,Troy,Middle Tennessee State,33
-4,2020-09-24,Alabama-Birmingham,South Alabama,32
-4,2020-09-25,Texas-San Antonio,Middle Tennessee State,2
-4,2020-09-26,Alabama,Missouri,19
-4,2020-09-26,Appalachian State,Campbell,31
-4,2020-09-26,Auburn,Kentucky,16
-4,2020-09-26,Baylor,Kansas,33
-4,2020-09-26,Boston College,Texas State,3
-4,2020-09-26,Brigham Young,Troy,41
-4,2020-09-26,Central Florida,East Carolina,23
-4,2020-09-26,Cincinnati,Army,14
-4,2020-09-26,Florida,Mississippi,16
-4,2020-09-26,Georgia,Arkansas,27
-4,2020-09-26,Iowa State,Texas Christian,3
-4,2020-09-26,Kansas State,Oklahoma,3
-4,2020-09-26,Liberty,Florida International,2
-4,2020-09-26,Louisiana,Georgia Southern,2
-4,2020-09-26,Louisiana Tech,Houston Baptist,28
-4,2020-09-26,Miami,Florida State,42
-4,2020-09-26,Mississippi State,Louisiana State,10
-4,2020-09-26,Oklahoma State,West Virginia,14
-4,2020-09-26,Pittsburgh,Louisville,3
-4,2020-09-26,Southern Methodist,Stephen F. Austin,43
-4,2020-09-26,Syracuse,Georgia Tech,17
-4,2020-09-26,Tennessee,South Carolina,4
-4,2020-09-26,Texas,Texas Tech,7
-4,2020-09-26,Texas A&M,Vanderbilt,5
-4,2020-09-26,Texas-El Paso,Louisiana-Monroe,25
-4,2020-09-26,Tulane,Southern Mississippi,42
-4,2020-09-26,Virginia,Duke,18
-4,2020-09-26,Virginia Tech,North Carolina State,21
-5,2020-10-02,Brigham Young,Louisiana Tech,31
-5,2020-10-02,Wake Forest,Campbell,52
-5,2020-10-03,Air Force,Navy,33
-5,2020-10-03,Alabama,Texas A&M,28
-5,2020-10-03,Alabama-Birmingham,Texas-San Antonio,8
-5,2020-10-03,Arkansas,Mississippi State,7
-5,2020-10-03,Army,Abilene Christian,32
-5,2020-10-03,Cincinnati,South Florida,21
-5,2020-10-03,Clemson,Virginia,18
-5,2020-10-03,Coastal Carolina,Arkansas State,29
-5,2020-10-03,Florida,South Carolina,14
-5,2020-10-03,Florida Atlantic,Charlotte,4
-5,2020-10-03,Florida State,Jacksonville State,17
-5,2020-10-03,Georgia,Auburn,21
-5,2020-10-03,Georgia Southern,Louisiana-Monroe,5
-5,2020-10-03,Georgia State,East Carolina,20
-5,2020-10-03,Iowa State,Oklahoma,7
-5,2020-10-03,Kansas State,Texas Tech,10
-5,2020-10-03,Liberty,North Alabama,21
-5,2020-10-03,Louisiana State,Vanderbilt,34
-5,2020-10-03,Mississippi,Kentucky,1
-5,2020-10-03,North Carolina,Boston College,4
-5,2020-10-03,North Carolina State,Pittsburgh,1
-5,2020-10-03,Oklahoma State,Kansas,40
-5,2020-10-03,Southern Methodist,Memphis,3
-5,2020-10-03,Southern Mississippi,North Texas,10
-5,2020-10-03,Tennessee,Missouri,23
-5,2020-10-03,Texas Christian,Texas,2
-5,2020-10-03,Tulsa,Central Florida,8
-5,2020-10-03,Virginia Tech,Duke,7
-5,2020-10-03,West Virginia,Baylor,6
-5,2020-10-03,Western Kentucky,Middle Tennessee State,3
-6,2020-10-08,Houston,Tulane,18
-6,2020-10-09,Georgia Tech,Louisville,19
-6,2020-10-10,Alabama,Mississippi,15
-6,2020-10-10,Arkansas State,Central Arkansas,23
-6,2020-10-10,Army,Citadel,5
-6,2020-10-10,Auburn,Arkansas,2
-6,2020-10-10,Boston College,Pittsburgh,1
-6,2020-10-10,Brigham Young,Texas-San Antonio,7
-6,2020-10-10,Charlotte,North Texas,28
-6,2020-10-10,Clemson,Miami,25
-6,2020-10-10,Duke,Syracuse,14
-6,2020-10-10,East Carolina,South Florida,20
-6,2020-10-10,Georgia,Tennessee,23
-6,2020-10-10,Iowa State,Texas Tech,16
-6,2020-10-10,Kansas State,Texas Christian,7
-6,2020-10-10,Kentucky,Mississippi State,22
-6,2020-10-10,Liberty,Louisiana-Monroe,33
-6,2020-10-10,Louisiana Tech,Texas-El Paso,4
-6,2020-10-10,Marshall,Western Kentucky,24
-6,2020-10-10,Middle Tennessee State,Florida International,3
-6,2020-10-10,Missouri,Louisiana State,4
-6,2020-10-10,Navy,Temple,2
-6,2020-10-10,North Carolina,Virginia Tech,11
-6,2020-10-10,North Carolina State,Virginia,17
-6,2020-10-10,Notre Dame,Florida State,16
-6,2020-10-10,Oklahoma,Texas,8
-6,2020-10-10,South Carolina,Vanderbilt,34
-6,2020-10-10,Texas A&M,Florida,3
-6,2020-10-10,Troy,Texas State,20
-7,2020-10-14,Coastal Carolina,Louisiana,3
-7,2020-10-15,Arkansas State,Georgia State,7
-7,2020-10-16,Brigham Young,Houston,17
-7,2020-10-16,Southern Methodist,Tulane,3
-7,2020-10-17,Alabama,Georgia,17
-7,2020-10-17,Alabama-Birmingham,Western Kentucky,23
-7,2020-10-17,Arkansas,Mississippi,12
-7,2020-10-17,Army,Texas-San Antonio,12
-7,2020-10-17,Clemson,Georgia Tech,66
-7,2020-10-17,Florida State,North Carolina,3
-7,2020-10-17,Georgia Southern,Massachusetts,41
-7,2020-10-17,Kentucky,Tennessee,27
-7,2020-10-17,Liberty,Syracuse,17
-7,2020-10-17,Marshall,Louisiana Tech,18
-7,2020-10-17,Memphis,Central Florida,1
-7,2020-10-17,Miami,Pittsburgh,12
-7,2020-10-17,Navy,East Carolina,4
-7,2020-10-17,North Carolina State,Duke,11
-7,2020-10-17,North Texas,Middle Tennessee State,17
-7,2020-10-17,Notre Dame,Louisville,5
-7,2020-10-17,South Alabama,Texas State,10
-7,2020-10-17,South Carolina,Auburn,8
-7,2020-10-17,Temple,South Florida,2
-7,2020-10-17,Texas A&M,Mississippi State,14
-7,2020-10-17,Troy,Eastern Kentucky,2
-7,2020-10-17,Virginia Tech,Boston College,26
-7,2020-10-17,Wake Forest,Virginia,17
-7,2020-10-17,West Virginia,Kansas,21
-8,2020-10-22,Appalachian State,Arkansas State,28
-8,2020-10-23,Jacksonville State,Florida International,9
-8,2020-10-23,Louisiana,Alabama-Birmingham,4
-8,2020-10-23,Tulsa,South Florida,29
-8,2020-10-23,Wisconsin,Illinois,38
-8,2020-10-24,Alabama,Tennessee,31
-8,2020-10-24,Army,Mercer,46
-8,2020-10-24,Auburn,Mississippi,7
-8,2020-10-24,Boise State,Utah State,29
-8,2020-10-24,Boston College,Georgia Tech,21
-8,2020-10-24,Brigham Young,Texas State,38
-8,2020-10-24,Central Florida,Tulane,17
-8,2020-10-24,Charlotte,Texas-El Paso,10
-8,2020-10-24,Cincinnati,Southern Methodist,29
-8,2020-10-24,Clemson,Syracuse,26
-8,2020-10-24,Coastal Carolina,Georgia Southern,14
-8,2020-10-24,Georgia State,Troy,2
-8,2020-10-24,Hawaii,Fresno State,15
-8,2020-10-24,Houston,Navy,16
-8,2020-10-24,Indiana,Penn State,1
-8,2020-10-24,Kansas State,Kansas,41
-8,2020-10-24,Liberty,Southern Mississippi,21
-8,2020-10-24,Louisiana State,South Carolina,28
-8,2020-10-24,Louisville,Florida State,32
-8,2020-10-24,Marshall,Florida Atlantic,11
-8,2020-10-24,Memphis,Temple,12
-8,2020-10-24,Miami,Virginia,5
-8,2020-10-24,Michigan,Minnesota,25
-8,2020-10-24,Middle Tennessee State,Rice,6
-8,2020-10-24,Missouri,Kentucky,10
-8,2020-10-24,Nevada,Wyoming,3
-8,2020-10-24,North Carolina,North Carolina State,27
-8,2020-10-24,Northwestern,Maryland,40
-8,2020-10-24,Notre Dame,Pittsburgh,42
-8,2020-10-24,Ohio State,Nebraska,35
-8,2020-10-24,Oklahoma,Texas Christian,19
-8,2020-10-24,Oklahoma State,Iowa State,3
-8,2020-10-24,Purdue,Iowa,4
-8,2020-10-24,Rutgers,Michigan State,11
-8,2020-10-24,San Diego State,Nevada-Las Vegas,28
-8,2020-10-24,San Jose State,Air Force,11
-8,2020-10-24,South Alabama,Louisiana-Monroe,24
-8,2020-10-24,Texas,Baylor,11
-8,2020-10-24,Texas Tech,West Virginia,7
-8,2020-10-24,Texas-San Antonio,Louisiana Tech,1
-8,2020-10-24,Wake Forest,Virginia Tech,7
-8,2020-10-24,Western Kentucky,Chattanooga,3
-9,2020-10-29,Fresno State,Colorado State,21
-9,2020-10-29,Georgia Southern,South Alabama,7
-9,2020-10-30,Maryland,Minnesota,1
-9,2020-10-30,Tulsa,East Carolina,4
-9,2020-10-30,Wyoming,Hawaii,24
-9,2020-10-31,Alabama,Mississippi State,41
-9,2020-10-31,Appalachian State,Louisiana-Monroe,18
-9,2020-10-31,Auburn,Louisiana State,37
-9,2020-10-31,Boise State,Air Force,19
-9,2020-10-31,Brigham Young,Western Kentucky,31
-9,2020-10-31,Central Florida,Houston,23
-9,2020-10-31,Cincinnati,Memphis,39
-9,2020-10-31,Clemson,Boston College,6
-9,2020-10-31,Coastal Carolina,Georgia State,51
-9,2020-10-31,Duke,Charlotte,34
-9,2020-10-31,Florida,Missouri,24
-9,2020-10-31,Florida Atlantic,Texas-San Antonio,21
-9,2020-10-31,Georgia,Kentucky,11
-9,2020-10-31,Indiana,Rutgers,16
-9,2020-10-31,Iowa State,Kansas,30
-9,2020-10-31,Louisiana,Texas State,10
-9,2020-10-31,Louisiana Tech,Alabama-Birmingham,3
-9,2020-10-31,Michigan State,Michigan,3
-9,2020-10-31,Mississippi,Vanderbilt,33
-9,2020-10-31,Nevada,Nevada-Las Vegas,18
-9,2020-10-31,Northwestern,Iowa,1
-9,2020-10-31,Notre Dame,Georgia Tech,18
-9,2020-10-31,Ohio State,Penn State,13
-9,2020-10-31,Oklahoma,Texas Tech,34
-9,2020-10-31,Purdue,Illinois,7
-9,2020-10-31,Rice,Southern Mississippi,24
-9,2020-10-31,San Diego State,Utah State,31
-9,2020-10-31,San Jose State,New Mexico,17
-9,2020-10-31,Southern Methodist,Navy,14
-9,2020-10-31,Texas,Oklahoma State,7
-9,2020-10-31,Texas A&M,Arkansas,11
-9,2020-10-31,Texas Christian,Baylor,10
-9,2020-10-31,Troy,Arkansas State,28
-9,2020-10-31,Tulane,Temple,35
-9,2020-10-31,Virginia,North Carolina,3
-9,2020-10-31,Virginia Tech,Louisville,7
-9,2020-10-31,Wake Forest,Syracuse,24
-9,2020-10-31,West Virginia,Kansas State,27
-10,2020-11-04,Buffalo,Northern Illinois,19
-10,2020-11-04,Central Michigan,Ohio,3
-10,2020-11-04,Kent State,Eastern Michigan,4
-10,2020-11-04,Miami,Ball State,7
-10,2020-11-04,Toledo,Bowling Green,35
-10,2020-11-04,Western Michigan,Akron,45
-10,2020-11-05,Colorado State,Wyoming,10
-10,2020-11-05,Nevada,Utah State,25
-10,2020-11-06,Brigham Young,Boise State,34
-10,2020-11-06,Miami,North Carolina State,3
-10,2020-11-06,San Jose State,San Diego State,11
-10,2020-11-07,Appalachian State,Texas State,21
-10,2020-11-07,Arkansas,Tennessee,11
-10,2020-11-07,Boston College,Syracuse,3
-10,2020-11-07,Cincinnati,Houston,28
-10,2020-11-07,Coastal Carolina,South Alabama,17
-10,2020-11-07,Colorado,UCLA,6
-10,2020-11-07,Florida,Georgia,16
-10,2020-11-07,Florida Atlantic,Western Kentucky,4
-10,2020-11-07,Fresno State,Nevada-Las Vegas,13
-10,2020-11-07,Georgia Southern,Troy,7
-10,2020-11-07,Georgia State,Louisiana-Monroe,18
-10,2020-11-07,Hawaii,New Mexico,6
-10,2020-11-07,Indiana,Michigan,17
-10,2020-11-07,Iowa,Michigan State,42
-10,2020-11-07,Iowa State,Baylor,7
-10,2020-11-07,Liberty,Virginia Tech,3
-10,2020-11-07,Louisiana,Arkansas State,7
-10,2020-11-07,Marshall,Massachusetts,41
-10,2020-11-07,Maryland,Penn State,16
-10,2020-11-07,Memphis,South Florida,1
-10,2020-11-07,Minnesota,Illinois,27
-10,2020-11-07,Mississippi State,Vanderbilt,7
-10,2020-11-07,North Carolina,Duke,32
-10,2020-11-07,Northwestern,Nebraska,8
-10,2020-11-07,Notre Dame,Clemson,7
-10,2020-11-07,Ohio State,Rutgers,22
-10,2020-11-07,Oklahoma,Kansas,53
-10,2020-11-07,Oklahoma State,Kansas State,2
-10,2020-11-07,Oregon,Stanford,21
-10,2020-11-07,Pittsburgh,Florida State,24
-10,2020-11-07,Southern California,Arizona State,1
-10,2020-11-07,Southern Methodist,Temple,24
-10,2020-11-07,Southern Mississippi,North Alabama,11
-10,2020-11-07,Texas,West Virginia,4
-10,2020-11-07,Texas A&M,South Carolina,45
-10,2020-11-07,Texas Christian,Texas Tech,16
-10,2020-11-07,Tulane,East Carolina,17
-10,2020-11-07,Washington State,Oregon State,10
-11,2020-11-10,Buffalo,Miami,32
-11,2020-11-10,Kent State,Bowling Green,38
-11,2020-11-10,Ohio,Akron,14
-11,2020-11-11,Ball State,Eastern Michigan,7
-11,2020-11-11,Central Michigan,Northern Illinois,30
-11,2020-11-11,Western Michigan,Toledo,3
-11,2020-11-12,Boise State,Colorado State,31
-11,2020-11-13,Cincinnati,East Carolina,38
-11,2020-11-13,Florida Atlantic,Florida International,19
-11,2020-11-13,Iowa,Minnesota,28
-11,2020-11-14,Appalachian State,Georgia State,4
-11,2020-11-14,Central Florida,Temple,25
-11,2020-11-14,Colorado,Stanford,3
-11,2020-11-14,Florida,Arkansas,28
-11,2020-11-14,Fresno State,Utah State,19
-11,2020-11-14,Georgia Southern,Texas State,2
-11,2020-11-14,Houston,South Florida,35
-11,2020-11-14,Illinois,Rutgers,3
-11,2020-11-14,Indiana,Michigan State,24
-11,2020-11-14,Kentucky,Vanderbilt,3
-11,2020-11-14,Liberty,Western Carolina,44
-11,2020-11-14,Louisiana,South Alabama,28
-11,2020-11-14,Marshall,Middle Tennessee State,28
-11,2020-11-14,Miami,Virginia Tech,1
-11,2020-11-14,Mississippi,South Carolina,17
-11,2020-11-14,Nebraska,Penn State,7
-11,2020-11-14,Nevada,New Mexico,7
-11,2020-11-14,North Carolina,Wake Forest,6
-11,2020-11-14,North Carolina State,Florida State,16
-11,2020-11-14,Northwestern,Purdue,7
-11,2020-11-14,Notre Dame,Boston College,14
-11,2020-11-14,Oregon,Washington State,14
-11,2020-11-14,San Diego State,Hawaii,24
-11,2020-11-14,San Jose State,Nevada-Las Vegas,17
-11,2020-11-14,Southern California,Arizona,4
-11,2020-11-14,Texas Tech,Baylor,1
-11,2020-11-14,Texas-San Antonio,Texas-El Paso,31
-11,2020-11-14,Tulane,Army,26
-11,2020-11-14,Tulsa,Southern Methodist,4
-11,2020-11-14,Virginia,Louisville,14
-11,2020-11-14,Washington,Oregon State,6
-11,2020-11-14,West Virginia,Texas Christian,18
-11,2020-11-14,Western Kentucky,Southern Mississippi,3
-11,2020-11-14,Wisconsin,Michigan,38
-11,2020-11-15,UCLA,California,24
-12,2020-11-17,Buffalo,Bowling Green,25
-12,2020-11-17,Kent State,Akron,34
-12,2020-11-18,Ball State,Northern Illinois,6
-12,2020-11-18,Toledo,Eastern Michigan,17
-12,2020-11-18,Western Michigan,Central Michigan,8
-12,2020-11-19,Tulsa,Tulane,6
-12,2020-11-20,Air Force,New Mexico,28
-12,2020-11-20,Florida Atlantic,Massachusetts,22
-12,2020-11-20,Louisville,Syracuse,30
-12,2020-11-20,Minnesota,Purdue,3
-12,2020-11-21,Alabama,Kentucky,60
-12,2020-11-21,Army,Georgia Southern,1
-12,2020-11-21,Auburn,Tennessee,13
-12,2020-11-21,Boise State,Hawaii,8
-12,2020-11-21,Brigham Young,North Alabama,52
-12,2020-11-21,Cincinnati,Central Florida,3
-12,2020-11-21,Coastal Carolina,Appalachian State,11
-12,2020-11-21,East Carolina,Temple,25
-12,2020-11-21,Florida,Vanderbilt,21
-12,2020-11-21,Georgia,Mississippi State,7
-12,2020-11-21,Georgia State,South Alabama,17
-12,2020-11-21,Illinois,Nebraska,18
-12,2020-11-21,Iowa,Penn State,20
-12,2020-11-21,Iowa State,Kansas State,45
-12,2020-11-21,Louisiana State,Arkansas,3
-12,2020-11-21,Memphis,Stephen F. Austin,42
-12,2020-11-21,Michigan,Rutgers,6
-12,2020-11-21,Middle Tennessee State,Troy,3
-12,2020-11-21,Missouri,South Carolina,7
-12,2020-11-21,Nevada,San Diego State,5
-12,2020-11-21,North Carolina State,Liberty,1
-12,2020-11-21,North Texas,Rice,10
-12,2020-11-21,Northwestern,Wisconsin,10
-12,2020-11-21,Ohio State,Indiana,7
-12,2020-11-21,Oklahoma,Oklahoma State,28
-12,2020-11-21,Oregon,UCLA,3
-12,2020-11-21,Oregon State,California,4
-12,2020-11-21,Pittsburgh,Virginia Tech,33
-12,2020-11-21,Southern California,Utah,16
-12,2020-11-21,Texas State,Arkansas State,2
-12,2020-11-21,Texas-San Antonio,Southern Mississippi,3
-12,2020-11-21,Virginia,Abilene Christian,40
-12,2020-11-21,Washington,Arizona,17
-12,2020-11-21,Western Kentucky,Florida International,17
-13,2020-11-26,Utah State,New Mexico,14
-13,2020-11-27,Central Florida,South Florida,12
-13,2020-11-27,Central Michigan,Eastern Michigan,8
-13,2020-11-27,Iowa,Nebraska,6
-13,2020-11-27,Iowa State,Texas,3
-13,2020-11-27,Liberty,Massachusetts,45
-13,2020-11-27,Notre Dame,North Carolina,14
-13,2020-11-27,Oregon State,Oregon,3
-13,2020-11-27,Stanford,California,1
-13,2020-11-27,Wyoming,Nevada-Las Vegas,31
-13,2020-11-28,Alabama,Auburn,29
-13,2020-11-28,Appalachian State,Troy,37
-13,2020-11-28,Ball State,Toledo,3
-13,2020-11-28,Baylor,Kansas State,1
-13,2020-11-28,Boston College,Louisville,7
-13,2020-11-28,Buffalo,Kent State,29
-13,2020-11-28,Clemson,Pittsburgh,35
-13,2020-11-28,Coastal Carolina,Texas State,35
-13,2020-11-28,Colorado,San Diego State,10
-13,2020-11-28,East Carolina,Southern Methodist,14
-13,2020-11-28,Florida,Kentucky,24
-13,2020-11-28,Georgia,South Carolina,29
-13,2020-11-28,Georgia State,Georgia Southern,6
-13,2020-11-28,Georgia Tech,Duke,23
-13,2020-11-28,Hawaii,Nevada,3
-13,2020-11-28,Indiana,Maryland,16
-13,2020-11-28,Louisiana,Louisiana-Monroe,50
-13,2020-11-28,Memphis,Navy,3
-13,2020-11-28,Miami,Akron,31
-13,2020-11-28,Michigan State,Northwestern,9
-13,2020-11-28,Mississippi,Mississippi State,7
-13,2020-11-28,Missouri,Vanderbilt,41
-13,2020-11-28,North Carolina State,Syracuse,7
-13,2020-11-28,Ohio,Bowling Green,42
-13,2020-11-28,Oklahoma State,Texas Tech,6
-13,2020-11-28,Penn State,Michigan,10
-13,2020-11-28,Rutgers,Purdue,7
-13,2020-11-28,South Alabama,Arkansas State,7
-13,2020-11-28,Texas A&M,Louisiana State,13
-13,2020-11-28,Texas Christian,Kansas,36
-13,2020-11-28,Texas-San Antonio,North Texas,32
-13,2020-11-28,UCLA,Arizona,17
-13,2020-11-28,Washington,Utah,3
-13,2020-11-28,Western Michigan,Northern Illinois,3
-14,2020-12-03,Air Force,Utah State,28
-14,2020-12-03,Louisiana Tech,North Texas,11
-14,2020-12-04,Louisiana,Appalachian State,3
-14,2020-12-05,Akron,Bowling Green,28
-14,2020-12-05,Alabama,Louisiana State,38
-14,2020-12-05,Arkansas State,Louisiana-Monroe,33
-14,2020-12-05,Ball State,Central Michigan,25
-14,2020-12-05,California,Oregon,4
-14,2020-12-05,Clemson,Virginia Tech,35
-14,2020-12-05,Coastal Carolina,Brigham Young,5
-14,2020-12-05,Colorado,Arizona,11
-14,2020-12-05,Eastern Michigan,Western Michigan,11
-14,2020-12-05,Florida,Tennessee,12
-14,2020-12-05,Georgia Southern,Florida Atlantic,17
-14,2020-12-05,Indiana,Wisconsin,8
-14,2020-12-05,Iowa,Illinois,14
-14,2020-12-05,Iowa State,West Virginia,36
-14,2020-12-05,Kentucky,South Carolina,23
-14,2020-12-05,Miami,Duke,48
-14,2020-12-05,Missouri,Arkansas,2
-14,2020-12-05,Nebraska,Purdue,10
-14,2020-12-05,Nevada,Fresno State,11
-14,2020-12-05,New Mexico,Wyoming,1
-14,2020-12-05,North Carolina,Western Carolina,40
-14,2020-12-05,North Carolina State,Georgia Tech,10
-14,2020-12-05,Notre Dame,Syracuse,24
-14,2020-12-05,Ohio State,Michigan State,40
-14,2020-12-05,Oklahoma,Baylor,13
-14,2020-12-05,Penn State,Rutgers,16
-14,2020-12-05,Rice,Marshall,20
-14,2020-12-05,San Diego State,Colorado State,12
-14,2020-12-05,San Jose State,Hawaii,11
-14,2020-12-05,Stanford,Washington,5
-14,2020-12-05,Texas,Kansas State,38
-14,2020-12-05,Texas A&M,Auburn,11
-14,2020-12-05,Texas Christian,Oklahoma State,7
-14,2020-12-05,Texas Tech,Kansas,3
-14,2020-12-05,Toledo,Northern Illinois,17
-14,2020-12-05,Troy,South Alabama,29
-14,2020-12-05,Tulane,Memphis,14
-14,2020-12-05,Tulsa,Navy,13
-14,2020-12-05,UCLA,Arizona State,7
-14,2020-12-05,Utah,Oregon State,6
-14,2020-12-05,Virginia,Boston College,11
-14,2020-12-06,Southern California,Washington State,25
-14,2020-12-06,Western Kentucky,Charlotte,18
-15,2020-12-10,Pittsburgh,Georgia Tech,14
-15,2020-12-10,Southern Mississippi,Florida Atlantic,14
-15,2020-12-11,Arizona State,Arizona,63
-15,2020-12-11,North Texas,Texas-El Paso,2
-15,2020-12-11,San Jose State,Nevada,10
-15,2020-12-12,Alabama,Arkansas,49
-15,2020-12-12,Alabama-Birmingham,Rice,5
-15,2020-12-12,Appalachian State,Georgia Southern,8
-15,2020-12-12,Army,Navy,15
-15,2020-12-12,Auburn,Mississippi State,14
-15,2020-12-12,Ball State,Western Michigan,3
-15,2020-12-12,Boise State,Wyoming,8
-15,2020-12-12,Brigham Young,San Diego State,14
-15,2020-12-12,Buffalo,Akron,49
-15,2020-12-12,Coastal Carolina,Troy,4
-15,2020-12-12,Eastern Michigan,Northern Illinois,8
-15,2020-12-12,Florida State,Duke,21
-15,2020-12-12,Georgia,Missouri,35
-15,2020-12-12,Hawaii,Nevada-Las Vegas,17
-15,2020-12-12,Iowa,Wisconsin,21
-15,2020-12-12,Louisiana State,Florida,3
-15,2020-12-12,Louisville,Wake Forest,24
-15,2020-12-12,Memphis,Houston,3
-15,2020-12-12,Minnesota,Nebraska,7
-15,2020-12-12,New Mexico,Fresno State,10
-15,2020-12-12,North Carolina,Miami,36
-15,2020-12-12,Northwestern,Illinois,18
-15,2020-12-12,Oklahoma State,Baylor,39
-15,2020-12-12,Penn State,Michigan State,15
-15,2020-12-12,Rutgers,Maryland,3
-15,2020-12-12,Southern California,UCLA,5
-15,2020-12-12,Stanford,Oregon State,3
-15,2020-12-12,Tennessee,Vanderbilt,25
-15,2020-12-12,Texas Christian,Louisiana Tech,42
-15,2020-12-12,Toledo,Central Michigan,1
-15,2020-12-12,Utah,Colorado,17
-15,2020-12-12,Virginia Tech,Virginia,18
-16,2020-12-18,Alabama-Birmingham,Marshall,9
-16,2020-12-18,Ball State,Buffalo,10
-16,2020-12-18,Nebraska,Rutgers,7
-16,2020-12-18,Oregon,Southern California,7
-16,2020-12-19,Alabama,Florida,6
-16,2020-12-19,Arizona State,Oregon State,13
-16,2020-12-19,Army,Air Force,3
-16,2020-12-19,Cincinnati,Tulsa,3
-16,2020-12-19,Clemson,Notre Dame,24
-16,2020-12-19,Louisiana State,Mississippi,5
-16,2020-12-19,Mississippi State,Missouri,19
-16,2020-12-19,Ohio State,Northwestern,12
-16,2020-12-19,Oklahoma,Iowa State,6
-16,2020-12-19,Penn State,Illinois,35
-16,2020-12-19,San Jose State,Boise State,14
-16,2020-12-19,Stanford,UCLA,1
-16,2020-12-19,Texas A&M,Tennessee,21
-16,2020-12-19,Utah,Washington State,17
-16,2020-12-19,Wisconsin,Minnesota,3
-16,2020-12-21,Appalachian State,North Texas,28
-17,2020-12-22,Brigham Young,Central Florida,26
-17,2020-12-22,Nevada,Tulane,11
-17,2020-12-23,Georgia Southern,Louisiana Tech,35
-17,2020-12-23,Memphis,Florida Atlantic,15
-17,2020-12-24,Hawaii,Houston,14
-17,2020-12-25,Buffalo,Marshall,7
-17,2020-12-26,Georgia State,Western Kentucky,18
-17,2020-12-26,Liberty,Coastal Carolina,3
-17,2020-12-26,Louisiana,Texas-San Antonio,7
-18,2020-12-29,Oklahoma State,Miami,3
-18,2020-12-29,Texas,Colorado,32
-18,2020-12-30,Oklahoma,Florida,35
-18,2020-12-30,Wisconsin,Wake Forest,14
-18,2020-12-31,Ball State,San Jose State,21
-18,2020-12-31,Mississippi State,Tulsa,2
-18,2020-12-31,West Virginia,Army,3
-18,2021-01-01,Alabama,Notre Dame,17
-18,2021-01-01,Georgia,Cincinnati,3
-18,2021-01-01,Northwestern,Auburn,16
-18,2021-01-01,Ohio State,Clemson,21
-18,2021-01-02,Iowa State,Oregon,17
-18,2021-01-02,Kentucky,North Carolina State,2
-18,2021-01-02,Mississippi,Indiana,6
-18,2021-01-02,Texas A&M,North Carolina,14
-19,2021-01-11,Alabama,Ohio State,28
-20,2021-02-21,Tarleton State,New Mexico State,26
-21,2021-03-07,New Mexico State,Dixie State,7
-1,2022-08-27,Florida Atlantic,Charlotte,30
-1,2022-08-27,Florida State,Duquesne,40
-1,2022-08-27,Illinois,Wyoming,32
-1,2022-08-27,Nevada,New Mexico State,11
-1,2022-08-27,Nevada-Las Vegas,Idaho State,31
-1,2022-08-27,North Carolina,Florida A&M,32
-1,2022-08-27,North Texas,Texas-El Paso,18
-1,2022-08-27,Northwestern,Nebraska,3
-1,2022-08-27,Utah State,Connecticut,11
-1,2022-08-27,Vanderbilt,Hawaii,53
-1,2022-08-27,Western Kentucky,Austin Peay,11
-2,2022-09-01,Akron,St. Francis,7
-2,2022-09-01,Alabama-Birmingham,Alabama A&M,59
-2,2022-09-01,Arizona State,Northern Arizona,37
-2,2022-09-01,Central Florida,South Carolina State,46
-2,2022-09-01,Florida International,Bryant,1
-2,2022-09-01,Fresno State,Cal Poly,28
-2,2022-09-01,Minnesota,New Mexico State,38
-2,2022-09-01,Missouri,Louisiana Tech,28
-2,2022-09-01,Northern Illinois,Eastern Illinois,7
-2,2022-09-01,Oklahoma State,Central Michigan,14
-2,2022-09-01,Penn State,Purdue,4
-2,2022-09-01,Pittsburgh,West Virginia,7
-2,2022-09-01,San Jose State,Portland State,4
-2,2022-09-01,Tennessee,Ball State,49
-2,2022-09-01,Toledo,Long Island,37
-2,2022-09-01,Wake Forest,Virginia Military Institute,34
-2,2022-09-02,Duke,Temple,30
-2,2022-09-02,Eastern Michigan,Eastern Kentucky,8
-2,2022-09-02,Indiana,Illinois,3
-2,2022-09-02,Kansas,Tennessee Tech,46
-2,2022-09-02,Michigan State,Western Michigan,22
-2,2022-09-02,Old Dominion,Virginia Tech,3
-2,2022-09-02,Texas Christian,Colorado,25
-2,2022-09-02,William & Mary,Charlotte,17
-2,2022-09-03,Air Force,Northern Iowa,31
-2,2022-09-03,Alabama,Utah State,55
-2,2022-09-03,Arizona,San Diego State,18
-2,2022-09-03,Arkansas,Cincinnati,7
-2,2022-09-03,Arkansas State,Grambling State,55
-2,2022-09-03,Auburn,Mercer,26
-2,2022-09-03,Baylor,Albany,59
-2,2022-09-03,Brigham Young,South Florida,29
-2,2022-09-03,California,California-Davis,21
-2,2022-09-03,Coastal Carolina,Army,10
-2,2022-09-03,Connecticut,Central Connecticut State,25
-2,2022-09-03,Delaware,Navy,7
-2,2022-09-03,Florida,Utah,3
-2,2022-09-03,Georgia,Oregon,46
-2,2022-09-03,Georgia Southern,Morgan State,52
-2,2022-09-03,Houston,Texas-San Antonio,2
-2,2022-09-03,Iowa,South Dakota State,4
-2,2022-09-03,Iowa State,Southeast Missouri State,32
-2,2022-09-03,James Madison,Middle Tennessee State,37
-2,2022-09-03,Kansas State,South Dakota,34
-2,2022-09-03,Kentucky,Miami,24
-2,2022-09-03,Liberty,Southern Mississippi,2
-2,2022-09-03,Louisiana,Southeastern Louisiana,17
-2,2022-09-03,Marshall,Norfolk State,52
-2,2022-09-03,Maryland,Buffalo,21
-2,2022-09-03,Miami,Bethune-Cookman,57
-2,2022-09-03,Michigan,Colorado State,44
-2,2022-09-03,Mississippi,Troy,18
-2,2022-09-03,Mississippi State,Memphis,26
-2,2022-09-03,Nebraska,North Dakota,21
-2,2022-09-03,Nevada,Texas State,24
-2,2022-09-03,New Mexico,Maine,41
-2,2022-09-03,North Carolina,Appalachian State,2
-2,2022-09-03,North Carolina State,East Carolina,1
-2,2022-09-03,Ohio,Florida Atlantic,3
-2,2022-09-03,Ohio State,Notre Dame,11
-2,2022-09-03,Oklahoma,Texas-El Paso,32
-2,2022-09-03,Oregon State,Boise State,17
-2,2022-09-03,Rutgers,Boston College,1
-2,2022-09-03,South Alabama,Nicholls State,41
-2,2022-09-03,South Carolina,Georgia State,21
-2,2022-09-03,Southern California,Rice,52
-2,2022-09-03,Southern Methodist,North Texas,38
-2,2022-09-03,Stanford,Colgate,31
-2,2022-09-03,Syracuse,Louisville,24
-2,2022-09-03,Texas,Louisiana-Monroe,42
-2,2022-09-03,Texas A&M,Sam Houston,31
-2,2022-09-03,Texas Tech,Murray State,53
-2,2022-09-03,Tulane,Massachusetts,32
-2,2022-09-03,UCLA,Bowling Green,28
-2,2022-09-03,Vanderbilt,Elon,11
-2,2022-09-03,Virginia,Richmond,17
-2,2022-09-03,Washington,Kent State,25
-2,2022-09-03,Washington State,Idaho,7
-2,2022-09-03,Wisconsin,Illinois State,38
-2,2022-09-03,Wyoming,Tulsa,3
-2,2022-09-04,Florida State,Louisiana State,1
-2,2022-09-04,Western Kentucky,Hawaii,32
-2,2022-09-05,Clemson,Georgia Tech,31
-3,2022-09-09,Boise State,New Mexico,17
-3,2022-09-09,Louisville,Central Florida,6
-3,2022-09-10,Air Force,Colorado,31
-3,2022-09-10,Alabama,Texas,1
-3,2022-09-10,Appalachian State,Texas A&M,3
-3,2022-09-10,Arkansas,South Carolina,14
-3,2022-09-10,Auburn,San Jose State,8
-3,2022-09-10,Brigham Young,Baylor,6
-3,2022-09-10,California,Nevada-Las Vegas,6
-3,2022-09-10,Cincinnati,Kennesaw State,53
-3,2022-09-10,Clemson,Furman,23
-3,2022-09-10,Coastal Carolina,Gardner-Webb,4
-3,2022-09-10,Duke,Northwestern,8
-3,2022-09-10,East Carolina,Old Dominion,18
-3,2022-09-10,Eastern Kentucky,Bowling Green,2
-3,2022-09-10,Florida Atlantic,Southeastern Louisiana,33
-3,2022-09-10,Georgia,Samford,33
-3,2022-09-10,Georgia Southern,Nebraska,3
-3,2022-09-10,Georgia Tech,Western Carolina,18
-3,2022-09-10,Holy Cross,Buffalo,6
-3,2022-09-10,Illinois,Virginia,21
-3,2022-09-10,Incarnate Word,Nevada,14
-3,2022-09-10,Indiana,Idaho,13
-3,2022-09-10,Iowa State,Iowa,3
-3,2022-09-10,James Madison,Norfolk State,56
-3,2022-09-10,Kansas,West Virginia,13
-3,2022-09-10,Kansas State,Missouri,28
-3,2022-09-10,Kentucky,Florida,10
-3,2022-09-10,Liberty,Alabama-Birmingham,7
-3,2022-09-10,Louisiana,Eastern Michigan,28
-3,2022-09-10,Louisiana State,Southern,48
-3,2022-09-10,Louisiana Tech,Stephen F. Austin,35
-3,2022-09-10,Louisiana-Monroe,Nicholls State,28
-3,2022-09-10,Marshall,Notre Dame,5
-3,2022-09-10,Maryland,Charlotte,35
-3,2022-09-10,Memphis,Navy,24
-3,2022-09-10,Miami,Southern Mississippi,23
-3,2022-09-10,Miami,Robert Morris,17
-3,2022-09-10,Michigan,Hawaii,46
-3,2022-09-10,Michigan State,Akron,52
-3,2022-09-10,Middle Tennessee State,Colorado State,15
-3,2022-09-10,Minnesota,Western Illinois,52
-3,2022-09-10,Mississippi,Central Arkansas,56
-3,2022-09-10,Mississippi State,Arizona,22
-3,2022-09-10,North Carolina,Georgia State,7
-3,2022-09-10,North Carolina State,Charleston Southern,52
-3,2022-09-10,North Texas,Texas Southern,32
-3,2022-09-10,Ohio State,Arkansas State,33
-3,2022-09-10,Oklahoma,Kent State,30
-3,2022-09-10,Oklahoma State,Arizona State,17
-3,2022-09-10,Oregon,Eastern Washington,56
-3,2022-09-10,Oregon State,Fresno State,3
-3,2022-09-10,Penn State,Ohio,36
-3,2022-09-10,Purdue,Indiana State,56
-3,2022-09-10,Rice,McNeese State,42
-3,2022-09-10,Rutgers,Wagner,59
-3,2022-09-10,San Diego State,Idaho State,31
-3,2022-09-10,South Alabama,Central Michigan,14
-3,2022-09-10,South Florida,Howard,22
-3,2022-09-10,Southern California,Stanford,13
-3,2022-09-10,Southern Methodist,Lamar,29
-3,2022-09-10,Syracuse,Connecticut,34
-3,2022-09-10,Temple,Lafayette,16
-3,2022-09-10,Tennessee,Pittsburgh,7
-3,2022-09-10,Texas Christian,Tarleton State,42
-3,2022-09-10,Texas State,Florida International,29
-3,2022-09-10,Texas Tech,Houston,3
-3,2022-09-10,Texas-El Paso,New Mexico State,7
-3,2022-09-10,Texas-San Antonio,Army,3
-3,2022-09-10,Toledo,Massachusetts,45
-3,2022-09-10,Troy,Alabama A&M,21
-3,2022-09-10,Tulane,Alcorn State,52
-3,2022-09-10,Tulsa,Northern Illinois,3
-3,2022-09-10,UCLA,Alabama State,38
-3,2022-09-10,Utah,Southern Utah,66
-3,2022-09-10,Virginia Tech,Boston College,17
-3,2022-09-10,Wake Forest,Vanderbilt,20
-3,2022-09-10,Washington,Portland State,46
-3,2022-09-10,Washington State,Wisconsin,3
-3,2022-09-10,Weber State,Utah State,28
-3,2022-09-10,Western Michigan,Ball State,7
-3,2022-09-10,Wyoming,Northern Colorado,23
-4,2022-09-16,Florida State,Louisville,4
-4,2022-09-16,Wyoming,Air Force,3
-4,2022-09-17,Alabama,Louisiana-Monroe,56
-4,2022-09-17,Alabama-Birmingham,Georgia Southern,14
-4,2022-09-17,Appalachian State,Troy,4
-4,2022-09-17,Arizona,North Dakota State,3
-4,2022-09-17,Arkansas,Missouri State,11
-4,2022-09-17,Army,Villanova,39
-4,2022-09-17,Ball State,Murray State,31
-4,2022-09-17,Baylor,Texas State,35
-4,2022-09-17,Boise State,Tennessee-Martin,23
-4,2022-09-17,Boston College,Maine,21
-4,2022-09-17,Bowling Green,Marshall,3
-4,2022-09-17,Central Florida,Florida Atlantic,26
-4,2022-09-17,Central Michigan,Bucknell,41
-4,2022-09-17,Charlotte,Georgia State,1
-4,2022-09-17,Cincinnati,Miami,21
-4,2022-09-17,Clemson,Louisiana Tech,28
-4,2022-09-17,Coastal Carolina,Buffalo,12
-4,2022-09-17,Duke,North Carolina A&T,29
-4,2022-09-17,East Carolina,Campbell,39
-4,2022-09-17,Eastern Michigan,Arizona State,9
-4,2022-09-17,Florida,South Florida,3
-4,2022-09-17,Georgia,South Carolina,41
-4,2022-09-17,Indiana,Western Kentucky,3
-4,2022-09-17,Iowa,Nevada,27
-4,2022-09-17,Iowa State,Ohio,33
-4,2022-09-17,Kansas,Houston,18
-4,2022-09-17,Kent State,Long Island,53
-4,2022-09-17,Kentucky,Youngstown State,31
-4,2022-09-17,Louisiana State,Mississippi State,15
-4,2022-09-17,Maryland,Southern Methodist,7
-4,2022-09-17,Massachusetts,Stony Brook,17
-4,2022-09-17,Memphis,Arkansas State,12
-4,2022-09-17,Michigan,Connecticut,59
-4,2022-09-17,Middle Tennessee State,Tennessee State,43
-4,2022-09-17,Minnesota,Colorado,42
-4,2022-09-17,Mississippi,Georgia Tech,42
-4,2022-09-17,Missouri,Abilene Christian,17
-4,2022-09-17,Nevada-Las Vegas,North Texas,31
-4,2022-09-17,New Mexico,Texas-El Paso,17
-4,2022-09-17,North Carolina State,Texas Tech,13
-4,2022-09-17,Notre Dame,California,7
-4,2022-09-17,Ohio State,Toledo,56
-4,2022-09-17,Oklahoma,Nebraska,35
-4,2022-09-17,Oklahoma State,Arkansas-Pine Bluff,56
-4,2022-09-17,Oregon,Brigham Young,21
-4,2022-09-17,Oregon State,Montana State,40
-4,2022-09-17,Penn State,Auburn,29
-4,2022-09-17,Pittsburgh,Western Michigan,21
-4,2022-09-17,Rice,Louisiana,12
-4,2022-09-17,Rutgers,Temple,2
-4,2022-09-17,Southern California,Fresno State,28
-4,2022-09-17,Southern Illinois,Northwestern,7
-4,2022-09-17,Southern Mississippi,Northwestern State,54
-4,2022-09-17,Syracuse,Purdue,3
-4,2022-09-17,Tennessee,Akron,57
-4,2022-09-17,Texas,Texas-San Antonio,21
-4,2022-09-17,Texas A&M,Miami,8
-4,2022-09-17,Tulane,Kansas State,7
-4,2022-09-17,Tulsa,Jacksonville State,37
-4,2022-09-17,UCLA,South Alabama,1
-4,2022-09-17,Utah,San Diego State,28
-4,2022-09-17,Vanderbilt,Northern Illinois,10
-4,2022-09-17,Virginia,Old Dominion,2
-4,2022-09-17,Virginia Tech,Wofford,20
-4,2022-09-17,Wake Forest,Liberty,1
-4,2022-09-17,Washington,Michigan State,11
-4,2022-09-17,Washington State,Colorado State,31
-4,2022-09-17,West Virginia,Towson,58
-4,2022-09-17,Wisconsin,New Mexico State,59
-4,2022-09-18,Hawaii,Duquesne,10
-5,2022-09-22,Coastal Carolina,Georgia State,17
-5,2022-09-22,Illinois,Chattanooga,31
-5,2022-09-22,West Virginia,Virginia Tech,23
-5,2022-09-23,Air Force,Nevada,28
-5,2022-09-23,Syracuse,Virginia,2
-5,2022-09-23,Texas-El Paso,Boise State,17
-5,2022-09-24,Alabama,Vanderbilt,52
-5,2022-09-24,Auburn,Missouri,3
-5,2022-09-24,Baylor,Iowa State,7
-5,2022-09-24,Brigham Young,Wyoming,14
-5,2022-09-24,Buffalo,Eastern Michigan,19
-5,2022-09-24,California,Arizona,18
-5,2022-09-24,Central Florida,Georgia Tech,17
-5,2022-09-24,Cincinnati,Indiana,21
-5,2022-09-24,Clemson,Wake Forest,6
-5,2022-09-24,Florida State,Boston College,30
-5,2022-09-24,Georgia,Kent State,17
-5,2022-09-24,Georgia Southern,Ball State,11
-5,2022-09-24,Houston,Rice,7
-5,2022-09-24,Iowa,Rutgers,17
-5,2022-09-24,James Madison,Appalachian State,4
-5,2022-09-24,Kansas,Duke,8
-5,2022-09-24,Kansas State,Oklahoma,7
-5,2022-09-24,Kentucky,Northern Illinois,8
-5,2022-09-24,Liberty,Akron,9
-5,2022-09-24,Louisiana State,New Mexico,38
-5,2022-09-24,Louisiana-Monroe,Louisiana,4
-5,2022-09-24,Louisville,South Florida,38
-5,2022-09-24,Memphis,North Texas,10
-5,2022-09-24,Miami,Northwestern,3
-5,2022-09-24,Michigan,Maryland,7
-5,2022-09-24,Middle Tennessee State,Miami,14
-5,2022-09-24,Minnesota,Michigan State,27
-5,2022-09-24,Mississippi,Tulsa,8
-5,2022-09-24,Mississippi State,Bowling Green,31
-5,2022-09-24,Navy,East Carolina,3
-5,2022-09-24,Nevada-Las Vegas,Utah State,10
-5,2022-09-24,New Mexico State,Hawaii,19
-5,2022-09-24,North Carolina State,Connecticut,31
-5,2022-09-24,Notre Dame,North Carolina,13
-5,2022-09-24,Ohio,Fordham,7
-5,2022-09-24,Ohio State,Wisconsin,31
-5,2022-09-24,Old Dominion,Arkansas State,3
-5,2022-09-24,Oregon,Washington State,3
-5,2022-09-24,Penn State,Central Michigan,19
-5,2022-09-24,Pittsburgh,Rhode Island,21
-5,2022-09-24,Purdue,Florida Atlantic,2
-5,2022-09-24,Sacramento State,Colorado State,31
-5,2022-09-24,San Diego State,Toledo,3
-5,2022-09-24,San Jose State,Western Michigan,28
-5,2022-09-24,South Alabama,Louisiana Tech,24
-5,2022-09-24,South Carolina,Charlotte,36
-5,2022-09-24,Southern California,Oregon State,3
-5,2022-09-24,Southern Mississippi,Tulane,3
-5,2022-09-24,Temple,Massachusetts,28
-5,2022-09-24,Tennessee,Florida,5
-5,2022-09-24,Texas A&M,Arkansas,2
-5,2022-09-24,Texas Christian,Southern Methodist,8
-5,2022-09-24,Texas State,Houston Baptist,34
-5,2022-09-24,Texas Tech,Texas,3
-5,2022-09-24,Texas-San Antonio,Texas Southern,28
-5,2022-09-24,Troy,Marshall,9
-5,2022-09-24,UCLA,Colorado,28
-5,2022-09-24,Utah,Arizona State,21
-5,2022-09-24,Washington,Stanford,18
-5,2022-09-24,Western Kentucky,Florida International,73
-6,2022-09-29,Brigham Young,Utah State,12
-6,2022-09-29,South Carolina,South Carolina State,40
-6,2022-09-30,Boise State,San Diego State,22
-6,2022-09-30,Nevada-Las Vegas,New Mexico,11
-6,2022-09-30,Texas-San Antonio,Middle Tennessee State,15
-6,2022-09-30,Tulane,Houston,3
-6,2022-09-30,UCLA,Washington,8
-6,2022-10-01,Air Force,Navy,3
-6,2022-10-01,Alabama,Arkansas,23
-6,2022-10-01,Appalachian State,Citadel,49
-6,2022-10-01,Arizona,Colorado,23
-6,2022-10-01,Arkansas State,Louisiana-Monroe,17
-6,2022-10-01,Ball State,Northern Illinois,6
-6,2022-10-01,Boston College,Louisville,1
-6,2022-10-01,Bowling Green,Akron,3
-6,2022-10-01,Buffalo,Miami,4
-6,2022-10-01,Cincinnati,Tulsa,10
-6,2022-10-01,Clemson,North Carolina State,10
-6,2022-10-01,Coastal Carolina,Georgia Southern,4
-6,2022-10-01,Connecticut,Fresno State,5
-6,2022-10-01,Duke,Virginia,21
-6,2022-10-01,East Carolina,South Florida,20
-6,2022-10-01,Eastern Michigan,Massachusetts,7
-6,2022-10-01,Florida International,New Mexico State,14
-6,2022-10-01,Georgia,Missouri,4
-6,2022-10-01,Georgia State,Army,17
-6,2022-10-01,Georgia Tech,Pittsburgh,5
-6,2022-10-01,Illinois,Wisconsin,24
-6,2022-10-01,James Madison,Texas State,27
-6,2022-10-01,Kansas,Iowa State,3
-6,2022-10-01,Kansas State,Texas Tech,9
-6,2022-10-01,Kent State,Ohio,7
-6,2022-10-01,Liberty,Old Dominion,14
-6,2022-10-01,Louisiana State,Auburn,4
-6,2022-10-01,Marshall,Gardner-Webb,21
-6,2022-10-01,Maryland,Michigan State,14
-6,2022-10-01,Memphis,Temple,21
-6,2022-10-01,Michigan,Iowa,13
-6,2022-10-01,Mississippi,Kentucky,3
-6,2022-10-01,Mississippi State,Texas A&M,18
-6,2022-10-01,Nebraska,Indiana,14
-6,2022-10-01,North Carolina,Virginia Tech,31
-6,2022-10-01,North Texas,Florida Atlantic,17
-6,2022-10-01,Ohio State,Rutgers,39
-6,2022-10-01,Oklahoma State,Baylor,11
-6,2022-10-01,Oregon,Stanford,18
-6,2022-10-01,Penn State,Northwestern,10
-6,2022-10-01,Purdue,Minnesota,10
-6,2022-10-01,Rice,Alabama-Birmingham,4
-6,2022-10-01,San Jose State,Wyoming,17
-6,2022-10-01,South Alabama,Louisiana,3
-6,2022-10-01,Southern California,Arizona State,17
-6,2022-10-01,Syracuse,Wagner,59
-6,2022-10-01,Texas,West Virginia,18
-6,2022-10-01,Texas Christian,Oklahoma,31
-6,2022-10-01,Texas-El Paso,Charlotte,6
-6,2022-10-01,Toledo,Central Michigan,21
-6,2022-10-01,Troy,Western Kentucky,7
-6,2022-10-01,Utah,Oregon State,26
-6,2022-10-01,Wake Forest,Florida State,10
-6,2022-10-01,Washington State,California,19
-6,2022-10-01,Western Michigan,New Hampshire,37
-6,2022-10-02,Florida,Eastern Washington,35
-7,2022-10-05,Central Florida,Southern Methodist,22
-7,2022-10-07,Colorado State,Nevada,3
-7,2022-10-07,Houston,Memphis,1
-7,2022-10-07,Nebraska,Rutgers,1
-7,2022-10-07,San Jose State,Nevada-Las Vegas,33
-7,2022-10-08,Alabama,Texas A&M,4
-7,2022-10-08,Alabama-Birmingham,Middle Tennessee State,27
-7,2022-10-08,Arizona State,Washington,7
-7,2022-10-08,Ball State,Central Michigan,1
-7,2022-10-08,Boise State,Fresno State,20
-7,2022-10-08,Buffalo,Bowling Green,31
-7,2022-10-08,Cincinnati,South Florida,4
-7,2022-10-08,Clemson,Boston College,28
-7,2022-10-08,Coastal Carolina,Louisiana-Monroe,7
-7,2022-10-08,Connecticut,Florida International,21
-7,2022-10-08,Eastern Michigan,Western Michigan,22
-7,2022-10-08,Florida,Missouri,7
-7,2022-10-08,Georgia,Auburn,32
-7,2022-10-08,Georgia State,Georgia Southern,8
-7,2022-10-08,Georgia Tech,Duke,3
-7,2022-10-08,Illinois,Iowa,3
-7,2022-10-08,James Madison,Arkansas State,22
-7,2022-10-08,Kansas State,Iowa State,1
-7,2022-10-08,Liberty,Massachusetts,18
-7,2022-10-08,Louisiana Tech,Texas-El Paso,10
-7,2022-10-08,Louisville,Virginia,17
-7,2022-10-08,Miami,Kent State,3
-7,2022-10-08,Michigan,Indiana,21
-7,2022-10-08,Mississippi,Vanderbilt,24
-7,2022-10-08,Mississippi State,Arkansas,23
-7,2022-10-08,Navy,Tulsa,32
-7,2022-10-08,North Carolina,Miami,3
-7,2022-10-08,North Carolina State,Florida State,2
-7,2022-10-08,Notre Dame,Brigham Young,8
-7,2022-10-08,Ohio,Akron,21
-7,2022-10-08,Ohio State,Michigan State,29
-7,2022-10-08,Oklahoma State,Texas Tech,10
-7,2022-10-08,Oregon,Arizona,27
-7,2022-10-08,Oregon State,Stanford,1
-7,2022-10-08,Pittsburgh,Virginia Tech,16
-7,2022-10-08,Purdue,Maryland,2
-7,2022-10-08,San Diego State,Hawaii,2
-7,2022-10-08,South Carolina,Kentucky,10
-7,2022-10-08,Southern California,Washington State,16
-7,2022-10-08,Tennessee,Louisiana State,27
-7,2022-10-08,Texas,Oklahoma,49
-7,2022-10-08,Texas Christian,Kansas,7
-7,2022-10-08,Texas State,Appalachian State,12
-7,2022-10-08,Texas-San Antonio,Western Kentucky,3
-7,2022-10-08,Toledo,Northern Illinois,20
-7,2022-10-08,Troy,Southern Mississippi,17
-7,2022-10-08,Tulane,East Carolina,15
-7,2022-10-08,UCLA,Utah,10
-7,2022-10-08,Utah State,Air Force,7
-7,2022-10-08,Wake Forest,Army,35
-7,2022-10-08,Wisconsin,Northwestern,35
-7,2022-10-08,Wyoming,New Mexico,13
-8,2022-10-12,Louisiana,Marshall,10
-8,2022-10-13,Central Florida,Temple,57
-8,2022-10-13,West Virginia,Baylor,3
-8,2022-10-14,Southern Methodist,Navy,6
-8,2022-10-14,Texas-San Antonio,Florida International,20
-8,2022-10-15,Air Force,Nevada-Las Vegas,35
-8,2022-10-15,Alabama-Birmingham,Charlotte,14
-8,2022-10-15,Arkansas,Brigham Young,17
-8,2022-10-15,Army,Colgate,25
-8,2022-10-15,Ball State,Connecticut,4
-8,2022-10-15,Bowling Green,Miami,4
-8,2022-10-15,Buffalo,Massachusetts,27
-8,2022-10-15,Central Michigan,Akron,7
-8,2022-10-15,Clemson,Florida State,6
-8,2022-10-15,Colorado,California,7
-8,2022-10-15,East Carolina,Memphis,2
-8,2022-10-15,Florida Atlantic,Rice,3
-8,2022-10-15,Fresno State,San Jose State,7
-8,2022-10-15,Georgia,Vanderbilt,55
-8,2022-10-15,Georgia Southern,James Madison,7
-8,2022-10-15,Hawaii,Nevada,15
-8,2022-10-15,Illinois,Minnesota,12
-8,2022-10-15,Kentucky,Mississippi State,10
-8,2022-10-15,Liberty,Gardner-Webb,1
-8,2022-10-15,Louisiana State,Florida,10
-8,2022-10-15,Maryland,Indiana,5
-8,2022-10-15,Miami,Virginia Tech,6
-8,2022-10-15,Michigan,Penn State,24
-8,2022-10-15,Michigan State,Wisconsin,6
-8,2022-10-15,Mississippi,Auburn,14
-8,2022-10-15,New Mexico State,New Mexico,12
-8,2022-10-15,North Carolina,Duke,3
-8,2022-10-15,North Texas,Louisiana Tech,20
-8,2022-10-15,Northern Illinois,Eastern Michigan,29
-8,2022-10-15,Ohio,Western Michigan,19
-8,2022-10-15,Oklahoma,Kansas,10
-8,2022-10-15,Old Dominion,Coastal Carolina,28
-8,2022-10-15,Oregon State,Washington State,14
-8,2022-10-15,Purdue,Nebraska,6
-8,2022-10-15,South Alabama,Louisiana-Monroe,7
-8,2022-10-15,Southern Mississippi,Arkansas State,1
-8,2022-10-15,Stanford,Notre Dame,2
-8,2022-10-15,Syracuse,North Carolina State,15
-8,2022-10-15,Tennessee,Alabama,3
-8,2022-10-15,Texas,Iowa State,3
-8,2022-10-15,Texas Christian,Oklahoma State,3
-8,2022-10-15,Toledo,Kent State,21
-8,2022-10-15,Troy,Texas State,3
-8,2022-10-15,Tulane,South Florida,14
-8,2022-10-15,Utah,Southern California,1
-8,2022-10-15,Utah State,Colorado State,4
-8,2022-10-15,Washington,Arizona,10
-8,2022-10-15,Western Kentucky,Middle Tennessee State,18
-9,2022-10-19,Appalachian State,Georgia State,25
-9,2022-10-20,Troy,South Alabama,4
-9,2022-10-20,Virginia,Georgia Tech,7
-9,2022-10-21,Tulsa,Temple,11
-9,2022-10-21,Western Kentucky,Alabama-Birmingham,3
-9,2022-10-22,Alabama,Mississippi State,24
-9,2022-10-22,Army,Louisiana-Monroe,24
-9,2022-10-22,Baylor,Kansas,12
-9,2022-10-22,Boise State,Air Force,5
-9,2022-10-22,Bowling Green,Central Michigan,16
-9,2022-10-22,Buffalo,Toledo,7
-9,2022-10-22,Cincinnati,Southern Methodist,2
-9,2022-10-22,Clemson,Syracuse,6
-9,2022-10-22,Colorado State,Hawaii,4
-9,2022-10-22,Duke,Miami,24
-9,2022-10-22,East Carolina,Central Florida,21
-9,2022-10-22,Eastern Michigan,Ball State,4
-9,2022-10-22,Florida International,Charlotte,19
-9,2022-10-22,Fresno State,New Mexico,32
-9,2022-10-22,Georgia Southern,Old Dominion,5
-9,2022-10-22,Houston,Navy,18
-9,2022-10-22,Kent State,Akron,6
-9,2022-10-22,Liberty,Brigham Young,27
-9,2022-10-22,Louisiana,Arkansas State,20
-9,2022-10-22,Louisiana State,Mississippi,25
-9,2022-10-22,Louisville,Pittsburgh,14
-9,2022-10-22,Marshall,James Madison,14
-9,2022-10-22,Maryland,Northwestern,7
-9,2022-10-22,Missouri,Vanderbilt,3
-9,2022-10-22,Notre Dame,Nevada-Las Vegas,23
-9,2022-10-22,Ohio,Northern Illinois,7
-9,2022-10-22,Ohio State,Iowa,44
-9,2022-10-22,Oklahoma State,Texas,7
-9,2022-10-22,Oregon,UCLA,15
-9,2022-10-22,Oregon State,Colorado,33
-9,2022-10-22,Penn State,Minnesota,28
-9,2022-10-22,Rice,Louisiana Tech,1
-9,2022-10-22,Rutgers,Indiana,7
-9,2022-10-22,San Diego State,Nevada,16
-9,2022-10-22,South Carolina,Texas A&M,6
-9,2022-10-22,Southern Mississippi,Texas State,6
-9,2022-10-22,Stanford,Arizona State,1
-9,2022-10-22,Tennessee,Tennessee-Martin,41
-9,2022-10-22,Texas Christian,Kansas State,10
-9,2022-10-22,Texas Tech,West Virginia,38
-9,2022-10-22,Texas-El Paso,Florida Atlantic,3
-9,2022-10-22,Texas-San Antonio,North Texas,4
-9,2022-10-22,Tulane,Memphis,10
-9,2022-10-22,Wake Forest,Boston College,28
-9,2022-10-22,Washington,California,7
-9,2022-10-22,Western Michigan,Miami,6
-9,2022-10-22,Wisconsin,Purdue,11
-9,2022-10-22,Wyoming,Utah State,14
-10,2022-10-27,North Carolina State,Virginia Tech,1
-10,2022-10-27,Southern Mississippi,Louisiana,15
-10,2022-10-27,Utah,Washington State,4
-10,2022-10-28,East Carolina,Brigham Young,3
-10,2022-10-28,Florida International,Louisiana Tech,8
-10,2022-10-29,Appalachian State,Robert Morris,39
-10,2022-10-29,Arizona State,Colorado,8
-10,2022-10-29,Arkansas,Auburn,14
-10,2022-10-29,Baylor,Texas Tech,28
-10,2022-10-29,Boise State,Colorado State,39
-10,2022-10-29,Central Florida,Cincinnati,4
-10,2022-10-29,Charlotte,Rice,33
-10,2022-10-29,Coastal Carolina,Marshall,11
-10,2022-10-29,Connecticut,Boston College,10
-10,2022-10-29,Florida Atlantic,Alabama-Birmingham,7
-10,2022-10-29,Florida State,Georgia Tech,25
-10,2022-10-29,Fresno State,San Diego State,4
-10,2022-10-29,Georgia,Florida,22
-10,2022-10-29,Georgia State,Old Dominion,14
-10,2022-10-29,Houston,South Florida,15
-10,2022-10-29,Illinois,Nebraska,17
-10,2022-10-29,Iowa,Northwestern,20
-10,2022-10-29,Kansas State,Oklahoma State,48
-10,2022-10-29,Louisville,Wake Forest,27
-10,2022-10-29,Miami,Virginia,2
-10,2022-10-29,Miami,Akron,18
-10,2022-10-29,Michigan,Michigan State,22
-10,2022-10-29,Middle Tennessee State,Texas-El Paso,11
-10,2022-10-29,Minnesota,Rutgers,31
-10,2022-10-29,Mississippi,Texas A&M,3
-10,2022-10-29,Missouri,South Carolina,13
-10,2022-10-29,Navy,Temple,7
-10,2022-10-29,New Mexico State,Massachusetts,10
-10,2022-10-29,North Carolina,Pittsburgh,18
-10,2022-10-29,North Texas,Western Kentucky,27
-10,2022-10-29,Notre Dame,Syracuse,17
-10,2022-10-29,Ohio State,Penn State,13
-10,2022-10-29,Oklahoma,Iowa State,14
-10,2022-10-29,Oregon,California,18
-10,2022-10-29,San Jose State,Nevada,7
-10,2022-10-29,South Alabama,Arkansas State,28
-10,2022-10-29,Southern California,Arizona,8
-10,2022-10-29,Southern Methodist,Tulsa,11
-10,2022-10-29,Tennessee,Kentucky,38
-10,2022-10-29,Texas Christian,West Virginia,10
-10,2022-10-29,Toledo,Eastern Michigan,3
-10,2022-10-29,UCLA,Stanford,25
-10,2022-10-30,Wyoming,Hawaii,7
-11,2022-11-01,Ball State,Kent State,7
-11,2022-11-01,Ohio,Buffalo,21
-11,2022-11-02,Bowling Green,Western Michigan,4
-11,2022-11-02,Central Michigan,Northern Illinois,13
-11,2022-11-03,Coastal Carolina,Appalachian State,7
-11,2022-11-03,Rice,Texas-El Paso,7
-11,2022-11-04,Connecticut,Massachusetts,17
-11,2022-11-04,Duke,Boston College,7
-11,2022-11-04,Washington,Oregon State,3
-11,2022-11-05,Air Force,Army,6
-11,2022-11-05,Baylor,Oklahoma,3
-11,2022-11-05,Brigham Young,Boise State,3
-11,2022-11-05,Central Florida,Memphis,7
-11,2022-11-05,Cincinnati,Navy,10
-11,2022-11-05,Florida,Texas A&M,17
-11,2022-11-05,Florida State,Miami,42
-11,2022-11-05,Fresno State,Hawaii,42
-11,2022-11-05,Georgia,Tennessee,14
-11,2022-11-05,Georgia State,Southern Mississippi,28
-11,2022-11-05,Georgia Tech,Virginia Tech,1
-11,2022-11-05,Iowa,Purdue,21
-11,2022-11-05,Iowa State,West Virginia,17
-11,2022-11-05,Kansas,Oklahoma State,21
-11,2022-11-05,Kentucky,Missouri,4
-11,2022-11-05,Liberty,Arkansas,2
-11,2022-11-05,Louisiana State,Alabama,1
-11,2022-11-05,Louisiana Tech,Middle Tennessee State,16
-11,2022-11-05,Louisiana-Monroe,Texas State,1
-11,2022-11-05,Louisville,James Madison,24
-11,2022-11-05,Marshall,Old Dominion,12
-11,2022-11-05,Michigan,Rutgers,35
-11,2022-11-05,Michigan State,Illinois,8
-11,2022-11-05,Minnesota,Nebraska,7
-11,2022-11-05,Mississippi State,Auburn,6
-11,2022-11-05,North Carolina,Virginia,3
-11,2022-11-05,North Carolina State,Wake Forest,9
-11,2022-11-05,North Texas,Florida International,38
-11,2022-11-05,Notre Dame,Clemson,21
-11,2022-11-05,Ohio State,Northwestern,14
-11,2022-11-05,Oregon,Colorado,39
-11,2022-11-05,Penn State,Indiana,31
-11,2022-11-05,Pittsburgh,Syracuse,10
-11,2022-11-05,San Diego State,Nevada-Las Vegas,4
-11,2022-11-05,San Jose State,Colorado State,12
-11,2022-11-05,South Alabama,Georgia Southern,7
-11,2022-11-05,South Carolina,Vanderbilt,11
-11,2022-11-05,Southern California,California,6
-11,2022-11-05,Southern Methodist,Houston,14
-11,2022-11-05,Temple,South Florida,26
-11,2022-11-05,Texas,Kansas State,7
-11,2022-11-05,Texas Christian,Texas Tech,10
-11,2022-11-05,Texas-San Antonio,Alabama-Birmingham,6
-11,2022-11-05,Troy,Louisiana,6
-11,2022-11-05,Tulane,Tulsa,14
-11,2022-11-05,UCLA,Arizona State,14
-11,2022-11-05,Utah,Arizona,25
-11,2022-11-05,Utah State,New Mexico,17
-11,2022-11-05,Washington State,Stanford,38
-11,2022-11-05,Western Kentucky,Charlotte,52
-11,2022-11-05,Wisconsin,Maryland,13
-12,2022-11-08,Eastern Michigan,Akron,6
-12,2022-11-08,Ohio,Miami,16
-12,2022-11-08,Toledo,Ball State,7
-12,2022-11-09,Central Michigan,Buffalo,4
-12,2022-11-09,Kent State,Bowling Green,34
-12,2022-11-09,Northern Illinois,Western Michigan,3
-12,2022-11-10,Louisiana,Georgia Southern,19
-12,2022-11-10,Memphis,Tulsa,16
-12,2022-11-11,Cincinnati,East Carolina,2
-12,2022-11-11,Fresno State,Nevada-Las Vegas,7
-12,2022-11-11,Southern California,Colorado,38
-12,2022-11-12,Air Force,New Mexico,32
-12,2022-11-12,Alabama,Mississippi,6
-12,2022-11-12,Alabama-Birmingham,North Texas,20
-12,2022-11-12,Arizona,UCLA,6
-12,2022-11-12,Arkansas State,Massachusetts,2
-12,2022-11-12,Auburn,Texas A&M,3
-12,2022-11-12,Boise State,Nevada,38
-12,2022-11-12,Boston College,North Carolina State,1
-12,2022-11-12,Central Florida,Tulane,7
-12,2022-11-12,Clemson,Louisville,15
-12,2022-11-12,Coastal Carolina,Southern Mississippi,3
-12,2022-11-12,Connecticut,Liberty,3
-12,2022-11-12,Duke,Virginia Tech,17
-12,2022-11-12,Florida,South Carolina,32
-12,2022-11-12,Florida Atlantic,Florida International,45
-12,2022-11-12,Florida State,Syracuse,35
-12,2022-11-12,Georgia,Mississippi State,26
-12,2022-11-12,Houston,Temple,7
-12,2022-11-12,Iowa,Wisconsin,14
-12,2022-11-12,James Madison,Old Dominion,34
-12,2022-11-12,Kansas State,Baylor,28
-12,2022-11-12,Louisiana State,Arkansas,3
-12,2022-11-12,Louisiana-Monroe,Georgia State,3
-12,2022-11-12,Marshall,Appalachian State,7
-12,2022-11-12,Miami,Georgia Tech,21
-12,2022-11-12,Michigan,Nebraska,31
-12,2022-11-12,Michigan State,Rutgers,6
-12,2022-11-12,Middle Tennessee State,Charlotte,10
-12,2022-11-12,Minnesota,Northwestern,28
-12,2022-11-12,New Mexico State,Lamar,37
-12,2022-11-12,North Carolina,Wake Forest,2
-12,2022-11-12,Notre Dame,Navy,3
-12,2022-11-12,Ohio State,Indiana,42
-12,2022-11-12,Oklahoma State,Iowa State,6
-12,2022-11-12,Oregon State,California,28
-12,2022-11-12,Penn State,Maryland,30
-12,2022-11-12,Pittsburgh,Virginia,30
-12,2022-11-12,Purdue,Illinois,7
-12,2022-11-12,San Diego State,San Jose State,16
-12,2022-11-12,South Alabama,Texas State,17
-12,2022-11-12,Southern Methodist,South Florida,18
-12,2022-11-12,Tennessee,Missouri,42
-12,2022-11-12,Texas Christian,Texas,7
-12,2022-11-12,Texas Tech,Kansas,15
-12,2022-11-12,Texas-San Antonio,Louisiana Tech,44
-12,2022-11-12,Troy,Army,1
-12,2022-11-12,Utah,Stanford,35
-12,2022-11-12,Utah State,Hawaii,7
-12,2022-11-12,Vanderbilt,Kentucky,3
-12,2022-11-12,Washington,Oregon,3
-12,2022-11-12,Washington State,Arizona State,10
-12,2022-11-12,West Virginia,Oklahoma,3
-12,2022-11-12,Western Kentucky,Rice,35
-12,2022-11-12,Wyoming,Colorado State,1
-13,2022-11-15,Bowling Green,Toledo,7
-13,2022-11-15,Ohio,Ball State,14
-13,2022-11-16,Eastern Michigan,Kent State,7
-13,2022-11-16,Miami,Northern Illinois,6
-13,2022-11-16,Western Michigan,Central Michigan,2
-13,2022-11-17,Tulane,Southern Methodist,35
-13,2022-11-18,San Diego State,New Mexico,24
-13,2022-11-18,Tulsa,South Florida,6
-13,2022-11-19,Air Force,Colorado State,12
-13,2022-11-19,Alabama,Austin Peay,34
-13,2022-11-19,Appalachian State,Old Dominion,13
-13,2022-11-19,Arkansas,Mississippi,15
-13,2022-11-19,Army,Connecticut,17
-13,2022-11-19,Auburn,Western Kentucky,24
-13,2022-11-19,Boise State,Wyoming,3
-13,2022-11-19,Brigham Young,Utah Tech,26
-13,2022-11-19,California,Stanford,7
-13,2022-11-19,Charlotte,Louisiana Tech,5
-13,2022-11-19,Cincinnati,Temple,20
-13,2022-11-19,Clemson,Miami,30
-13,2022-11-19,Florida State,Louisiana,32
-13,2022-11-19,Fresno State,Nevada,27
-13,2022-11-19,Georgia,Kentucky,10
-13,2022-11-19,Georgia Tech,North Carolina,4
-13,2022-11-19,Hawaii,Nevada-Las Vegas,6
-13,2022-11-19,Houston,East Carolina,39
-13,2022-11-19,Indiana,Michigan State,8
-13,2022-11-19,Iowa,Minnesota,3
-13,2022-11-19,James Madison,Georgia State,2
-13,2022-11-19,Kansas State,West Virginia,17
-13,2022-11-19,Louisiana State,Alabama-Birmingham,31
-13,2022-11-19,Louisville,North Carolina State,15
-13,2022-11-19,Marshall,Georgia Southern,13
-13,2022-11-19,Memphis,North Alabama,59
-13,2022-11-19,Michigan,Illinois,2
-13,2022-11-19,Middle Tennessee State,Florida Atlantic,28
-13,2022-11-19,Mississippi State,East Tennessee State,49
-13,2022-11-19,Missouri,New Mexico State,31
-13,2022-11-19,Navy,Central Florida,3
-13,2022-11-19,Notre Dame,Boston College,44
-13,2022-11-19,Ohio State,Maryland,13
-13,2022-11-19,Oklahoma,Oklahoma State,15
-13,2022-11-19,Oregon,Utah,3
-13,2022-11-19,Oregon State,Arizona State,24
-13,2022-11-19,Penn State,Rutgers,45
-13,2022-11-19,Pittsburgh,Duke,2
-13,2022-11-19,Purdue,Northwestern,8
-13,2022-11-19,South Alabama,Southern Mississippi,7
-13,2022-11-19,South Carolina,Tennessee,25
-13,2022-11-19,Southern California,UCLA,3
-13,2022-11-19,Texas,Kansas,41
-13,2022-11-19,Texas A&M,Massachusetts,17
-13,2022-11-19,Texas Christian,Baylor,1
-13,2022-11-19,Texas State,Arkansas State,3
-13,2022-11-19,Texas Tech,Iowa State,4
-13,2022-11-19,Texas-El Paso,Florida International,34
-13,2022-11-19,Texas-San Antonio,Rice,34
-13,2022-11-19,Troy,Louisiana-Monroe,18
-13,2022-11-19,Utah State,San Jose State,4
-13,2022-11-19,Vanderbilt,Florida,7
-13,2022-11-19,Virginia Tech,Liberty,1
-13,2022-11-19,Wake Forest,Syracuse,10
-13,2022-11-19,Washington,Colorado,47
-13,2022-11-19,Washington State,Arizona,11
-13,2022-11-19,Wisconsin,Nebraska,1
-14,2022-11-22,Miami,Ball State,1
-14,2022-11-22,Ohio,Bowling Green,24
-14,2022-11-24,Mississippi State,Mississippi,2
-14,2022-11-25,Arizona,Arizona State,3
-14,2022-11-25,Boise State,Utah State,19
-14,2022-11-25,Colorado State,New Mexico,17
-14,2022-11-25,Eastern Michigan,Central Michigan,19
-14,2022-11-25,Florida State,Florida,7
-14,2022-11-25,Fresno State,Wyoming,30
-14,2022-11-25,Missouri,Arkansas,2
-14,2022-11-25,Nebraska,Iowa,7
-14,2022-11-25,North Carolina State,North Carolina,3
-14,2022-11-25,Texas,Baylor,11
-14,2022-11-25,Tulane,Cincinnati,3
-14,2022-11-25,UCLA,California,7
-14,2022-11-25,Western Michigan,Toledo,6
-14,2022-11-26,Air Force,San Diego State,10
-14,2022-11-26,Akron,Northern Illinois,32
-14,2022-11-26,Alabama,Auburn,22
-14,2022-11-26,Alabama-Birmingham,Louisiana Tech,10
-14,2022-11-26,Army,Massachusetts,37
-14,2022-11-26,Brigham Young,Stanford,9
-14,2022-11-26,Central Florida,South Florida,7
-14,2022-11-26,Duke,Wake Forest,3
-14,2022-11-26,East Carolina,Temple,3
-14,2022-11-26,Georgia,Georgia Tech,23
-14,2022-11-26,Georgia Southern,Appalachian State,3
-14,2022-11-26,Illinois,Northwestern,38
-14,2022-11-26,James Madison,Coastal Carolina,40
-14,2022-11-26,Kansas State,Kansas,20
-14,2022-11-26,Kent State,Buffalo,3
-14,2022-11-26,Kentucky,Louisville,13
-14,2022-11-26,Louisiana,Texas State,28
-14,2022-11-26,Marshall,Georgia State,5
-14,2022-11-26,Maryland,Rutgers,37
-14,2022-11-26,Michigan,Ohio State,22
-14,2022-11-26,Middle Tennessee State,Florida International,5
-14,2022-11-26,Minnesota,Wisconsin,7
-14,2022-11-26,Nevada-Las Vegas,Nevada,5
-14,2022-11-26,New Mexico State,Liberty,35
-14,2022-11-26,North Texas,Rice,4
-14,2022-11-26,Oregon State,Oregon,4
-14,2022-11-26,Penn State,Michigan State,19
-14,2022-11-26,Pittsburgh,Miami,26
-14,2022-11-26,Purdue,Indiana,14
-14,2022-11-26,San Jose State,Hawaii,13
-14,2022-11-26,South Alabama,Old Dominion,7
-14,2022-11-26,South Carolina,Clemson,1
-14,2022-11-26,Southern California,Notre Dame,11
-14,2022-11-26,Southern Methodist,Memphis,3
-14,2022-11-26,Southern Mississippi,Louisiana-Monroe,10
-14,2022-11-26,Syracuse,Boston College,9
-14,2022-11-26,Tennessee,Vanderbilt,56
-14,2022-11-26,Texas A&M,Louisiana State,15
-14,2022-11-26,Texas Christian,Iowa State,48
-14,2022-11-26,Texas Tech,Oklahoma,3
-14,2022-11-26,Texas-San Antonio,Texas-El Paso,3
-14,2022-11-26,Troy,Arkansas State,29
-14,2022-11-26,Tulsa,Houston,7
-14,2022-11-26,Utah,Colorado,42
-14,2022-11-26,Washington,Washington State,18
-14,2022-11-26,West Virginia,Oklahoma State,5
-14,2022-11-26,Western Kentucky,Florida Atlantic,1
-15,2022-12-02,Buffalo,Akron,1
-15,2022-12-02,Texas-San Antonio,North Texas,21
-15,2022-12-02,Utah,Southern California,23
-15,2022-12-03,Clemson,North Carolina,29
-15,2022-12-03,Fresno State,Boise State,12
-15,2022-12-03,Georgia,Louisiana State,20
-15,2022-12-03,Kansas State,Texas Christian,3
-15,2022-12-03,Michigan,Purdue,21
-15,2022-12-03,New Mexico State,Valparaiso,62
-15,2022-12-03,Toledo,Ohio,10
-15,2022-12-03,Troy,Coastal Carolina,19
-15,2022-12-03,Tulane,Central Florida,17
-16,2022-12-10,Army,Navy,3
-17,2022-12-16,Alabama-Birmingham,Miami,4
-17,2022-12-16,Troy,Texas-San Antonio,6
-17,2022-12-17,Boise State,North Texas,3
-17,2022-12-17,Brigham Young,Southern Methodist,1
-17,2022-12-17,Fresno State,Washington State,23
-17,2022-12-17,Louisville,Cincinnati,17
-17,2022-12-17,Oregon State,Florida,27
-17,2022-12-17,Southern Mississippi,Rice,14
-17,2022-12-19,Marshall,Connecticut,14
-18,2022-12-20,Eastern Michigan,San Jose State,14
-18,2022-12-20,Toledo,Liberty,2
-18,2022-12-21,Western Kentucky,South Alabama,21
-18,2022-12-22,Air Force,Baylor,15
-18,2022-12-23,Houston,Louisiana,7
-18,2022-12-23,Wake Forest,Missouri,10
-18,2022-12-24,Middle Tennessee State,San Diego State,2
-18,2022-12-26,New Mexico State,Bowling Green,5
-19,2022-12-27,Buffalo,Georgia Southern,2
-19,2022-12-27,East Carolina,Coastal Carolina,24
-19,2022-12-27,Memphis,Utah State,28
-19,2022-12-27,Wisconsin,Oklahoma State,7
-19,2022-12-28,Arkansas,Kansas,2
-19,2022-12-28,Duke,Central Florida,17
-19,2022-12-28,Oregon,North Carolina,1
-19,2022-12-28,Texas Tech,Mississippi,17
-19,2022-12-29,Florida State,Oklahoma,3
-19,2022-12-29,Minnesota,Syracuse,8
-19,2022-12-29,Washington,Texas,7
-19,2022-12-30,Maryland,North Carolina State,4
-19,2022-12-30,Notre Dame,South Carolina,7
-19,2022-12-30,Ohio,Wyoming,3
-19,2022-12-30,Pittsburgh,UCLA,2
-19,2022-12-30,Tennessee,Clemson,17
-19,2022-12-31,Alabama,Kansas State,25
-19,2022-12-31,Georgia,Ohio State,1
-19,2022-12-31,Iowa,Kentucky,21
-19,2022-12-31,Texas Christian,Michigan,6
-20,2023-01-02,Louisiana State,Purdue,56
-20,2023-01-02,Mississippi State,Illinois,9
-20,2023-01-02,Penn State,Utah,14
-20,2023-01-02,Tulane,Southern California,1
-21,2023-01-09,Georgia,Texas Christian,58

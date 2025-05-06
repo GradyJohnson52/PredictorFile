@@ -384,11 +384,27 @@ def update_model(games_df, stats_dict, model, scaler):
         raise ValueError("No games had complete stat data. Cannot fit scaler on empty data.")
     X_scaled = scaler.fit_transform(X)
 
+    param_grid = {
+        'max_depth': [3, 5, 7, 9],
+        'learning_rate': [1, 0.5, 0.25, 0.1, 0.05, 0.01],
+        'n_estimators': [100, 300, 500],
+        'subsample': [0.7, 1.0],
+        'colsample_bytree': [0.7, 1.0],
+    }
 
-    # Fit the model with the new data
-    model.fit(X_scaled, Y)
-    print("model is running")
-    return model
+    grid_search = GridSearchCV(
+        estimator=model,
+        param_grid=param_grid,
+        scoring='accuracy',  
+        cv=5,
+        verbose=2,
+        n_jobs=-1
+    )
+
+    grid_search.fit(X, Y)
+    best_model = grid_search.best_estimator_
+    print("Best Parameters:", grid_search.best_params_)
+    return best_model
 
 
 
@@ -416,8 +432,8 @@ def main():
 
     model = update_model(games_df, stats_dict, model, scaler)
 
-    joblib.dump(model, 'trained_model2.pkl')
-    joblib.dump(scaler, 'scaler2.pkl')
+    joblib.dump(model, 'trained_modelGS.pkl')
+    joblib.dump(scaler, 'scalerGS.pkl')
 
     print("Model training complete!")
 

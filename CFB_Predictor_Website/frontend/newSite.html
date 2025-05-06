@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CFB Predictor</title>
+  <style>
+    .tab-buttons {
+      margin-bottom: 10px;
+    }
+
+    .tab-buttons button {
+      padding: 10px;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>College Football Game Predictor</h1>
+
+  <div class="tab-buttons">
+    <button data-tab="model1">Model 1</button>
+    <button data-tab="model2">Model 2</button>
+    <button data-tab="model3">Model 3</button>
+  </div>
+
+  <div class="tab-content active" id="model1">
+    <form class="predict-form" data-model="1">
+      <label for="team1">Team 1:</label>
+      <input type="text" name="team1" list="team-options" required>
+
+      <label for="team2">Team 2:</label>
+      <input type="text" name="team2" list="team-options" required>
+
+      <label for="week">Week:</label>
+      <input type="number" name="week" min="1" max="22" required>
+      
+      <button type="submit">Predict</button>
+    </form>
+    <div class="result"></div>
+  </div>
+
+  <div class="tab-content" id="model2">
+    <form class="predict-form" data-model="2">
+      <label for="team1">Team 1:</label>
+      <input type="text" name="team1" list="team-options" required>
+
+      <label for="team2">Team 2:</label>
+      <input type="text" name="team2" list="team-options" required>
+
+      <label for="week">Week:</label>
+      <input type="number" name="week" min="1" max="22" required>
+
+      <button type="submit">Predict</button>
+    </form>
+    <div class="result"></div>
+  </div>
+
+  <div class="tab-content" id="model3">
+    <form class="predict-form" data-model="3">
+      <label for="team1">Team 1:</label>
+      <input type="text" name="team1" list="team-options" required>
+
+      <label for="team2">Team 2:</label>
+      <input type="text" name="team2" list="team-options" required>
+
+      <label for="week">Week:</label>
+      <input type="number" name="week" min="1" max="22" required>
+
+      <button type="submit">Predict</button>
+    </form>
+    <div class="result"></div>
+  </div>
+
+  <datalist id="team-options"></datalist>
+
+  <script type="module" src="/static/script.js"></script>
+  <script>
+    // Tab switch logic
+    document.querySelectorAll('.tab-buttons button').forEach(button => {
+      button.addEventListener('click', () => {
+        const tab = button.getAttribute('data-tab');
+        
+        document.querySelectorAll('.tab-content').forEach(div => {
+          div.classList.remove('active');
+        });
+        document.getElementById(tab).classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>

@@ -11,22 +11,28 @@ CSV_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "CSVs"))
 app = Flask(__name__, static_folder=os.path.join(FRONTEND_DIR, "static"), template_folder=FRONTEND_DIR)
 CORS(app)
 
-MODEL_PATH = os.path.join(ROOT_DIR, "trained_model.pkl")
-MODEL2_PATH  = os.path.join(ROOT_DIR, "trained_model2.pkl")
-SCALER_PATH = os.path.join(ROOT_DIR, "scaler.pkl")
-SCALER2_PATH = os.path.join(ROOT_DIR, "scaler2.pkl")
+MODELRF_PATH = os.path.join(ROOT_DIR, "trained_model.pkl")
+MODELXG_PATH  = os.path.join(ROOT_DIR, "trained_modelXG.pkl")
+MODELGS_PATH = os.path.join(ROOT_DIR, "trained_modelGS.pkl")
+SCALERRF_PATH = os.path.join(ROOT_DIR, "scaler.pkl")
+SCALERXG_PATH = os.path.join(ROOT_DIR, "scalerXG.pkl")
+SCALERGS_PATH = os.path.join(ROOT_DIR, "scalerGS.pkl")
 CSV_PATH = os.path.join(CSV_DIR, "advanced_matchup_data.csv")
 
-# with open(MODEL_PATH, "rb") as f:
-#     model = joblib.load(f)
-with open(MODEL2_PATH, "rb") as f:
-    model = joblib.load(f)
+with open(MODELRF_PATH, "rb") as f:
+    model_rf = joblib.load(f)
+with open(SCALERRF_PATH, "rb") as f:
+    scaler_rf = joblib.load(f)
 
-# with open(SCALER_PATH, 'rb') as f:
-#     scaler = joblib.load(f)
-with open(SCALER2_PATH, 'rb') as f:
-    scaler = joblib.load(f)
+with open(MODELXG_PATH, "rb") as f:
+    model_xg = joblib.load(f)
+with open(SCALERXG_PATH, "rb") as f:
+    scaler_xg = joblib.load(f)
 
+with open(MODELGS_PATH, "rb") as f:
+    model_gs = joblib.load(f)
+with open(SCALERGS_PATH, "rb") as f:
+    scaler_gs = joblib.load(f)
 
 matchup_df = pd.read_csv(CSV_PATH)
 
@@ -176,8 +182,7 @@ matchup_df['team2_std'] = matchup_df['team2'].map(standardize_team_name)
 @app.route('/')
 def home():
     try:
-        # Your existing logic here, like rendering a template or loading data
-        return render_template("index.html")  # or however your route works
+        return render_template("newSite.html")  
     except Exception as e:
         import traceback
         print("ERROR:", e)
@@ -192,6 +197,17 @@ def predict():
         team1_std = standardize_team_name(data['team1'])
         team2_std = standardize_team_name(data['team2'])
         week = int(data['week'])
+        model_id = request.args.get('model', 'gs').lower()
+
+        if model_id == 'xg':
+            model = model_xg
+            scaler = scaler_xg
+        elif model_id == 'base':
+            model = model_base
+            scaler = scaler_base
+        else:
+            model = model_gs
+            scaler = scaler_gs
 
         team_a, team_b = sorted([team1_std, team2_std])
 
@@ -215,7 +231,8 @@ def predict():
         feature_cols = [
             'rush_adv_team1', 'rush_adv_team2', 'pass_adv_team1', 'pass_adv_team2',
             'score_adv_team1', 'score_adv_team2', 'turnover_adv_team1', 'turnover_adv_team2',
-            'pred_rank_team1', 'pred_rank_team2', 'sos_team1', 'sos_team2', 'WinPct_team1', 'WinPct_team2', 'week'
+            'pred_rank_team1', 'pred_rank_team2', 'sos_team1', 'sos_team2', 
+            'WinPct_team1', 'WinPct_team2', 'week'
         ]
         X = scaler.transform([row[feature_cols].values])
 
@@ -232,11 +249,6 @@ def predict():
 
         winner = team1_std if team1_win_prob >= team2_win_prob else team2_std
         confidence = round(max(team1_win_prob, team2_win_prob), 3)
-
-
-
-        # winner = team1 if prediction in [2, 3] else team2
-        # confidence = float(winner_confidence)
 
         return jsonify({'winner': winner, 'confidence': round(confidence, 3)})
     except Exception as e:
