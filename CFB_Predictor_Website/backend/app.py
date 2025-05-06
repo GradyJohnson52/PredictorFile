@@ -221,10 +221,10 @@ def predict():
 
         if team1_win_prob >= team2_win_prob:
             winner = team1
-            confidence = team1_win_prob
+            confidence = float(team1_win_prob)
         else:
             winner = team2
-            confidence = team2_win_prob
+            confidence = float(team2_win_prob)
 
         # winner = team1 if prediction in [2, 3] else team2
         # confidence = float(winner_confidence)
