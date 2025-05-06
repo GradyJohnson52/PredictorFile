@@ -226,12 +226,14 @@ def predict():
         team1_win_prob = float(proba[2] + proba[3])
         team2_win_prob = float(proba[1] + proba [0])
 
-        if team1_win_prob >= team2_win_prob:
-            winner = team1_std
-            confidence = float(team1_win_prob)
-        else:
-            winner = team2_std
-            confidence = float(team2_win_prob)
+        if team_a != team1_std:  # If team_a is not the original team1, flip the outcome
+            team1_win_prob, team2_win_prob = team2_win_prob, team1_win_prob
+            prediction = 3 - model.predict(X)[0]
+
+        winner = team1_std if team1_win_prob >= team2_win_prob else team2_std
+        confidence = round(max(team1_win_prob, team2_win_prob), 3)
+
+
 
         # winner = team1 if prediction in [2, 3] else team2
         # confidence = float(winner_confidence)
