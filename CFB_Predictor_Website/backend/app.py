@@ -197,17 +197,17 @@ def predict():
         team1_std = standardize_team_name(data['team1'])
         team2_std = standardize_team_name(data['team2'])
         week = int(data['week'])
-        model_id = request.args.get('model', 'gs').lower()
+        # model_id = request.args.get('model', 'gs').lower()
 
-        if model_id == 'xg':
-            model = model_xg
-            scaler = scaler_xg
-        elif model_id == 'base':
-            model = model_rf
-            scaler = scaler_rf
-        else:
-            model = model_gs
-            scaler = scaler_gs
+        # if model_id == 'xg':
+        #     model = model_xg
+        #     scaler = scaler_xg
+        # elif model_id == 'base':
+        #     model = model_rf
+        #     scaler = scaler_rf
+        # else:
+        #     model = model_gs
+        #     scaler = scaler_gs
 
         team_a, team_b = sorted([team1_std, team2_std])
 
@@ -234,10 +234,10 @@ def predict():
             'pred_rank_team1', 'pred_rank_team2', 'sos_team1', 'sos_team2', 
             'WinPct_team1', 'WinPct_team2', 'week'
         ]
-        X = scaler.transform([row[feature_cols].values])
+        X = scaler_gs.transform([row[feature_cols].values])
 
-        prediction = model.predict(X)[0]
-        proba = model.predict_proba(X)[0]
+        prediction = model_gs.predict(X)[0]
+        proba = model_gs.predict_proba(X)[0]
 
 
         team1_win_prob = float(proba[2] + proba[3])

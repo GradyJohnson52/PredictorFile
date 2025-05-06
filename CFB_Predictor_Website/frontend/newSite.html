@@ -25,10 +25,16 @@
 <body>
   <h1>College Football Game Predictor</h1>
 
-  <div class="tab-buttons">
-    <button data-tab="1.0 RF">Model 1</button>
-    <button data-tab="2.0 XG">Model 2</button>
-    <button data-tab="3.0 XG GS">Model 3</button>
+  <!-- <div class="tab-buttons">
+    <button data-tab="1.0 RF">Model 1 RF</button>
+    <button data-tab="2.0 XG">Model 2 XG</button>
+    <button data-tab="3.0 XG GS">Model 3 XG GS</button>
+  </div> -->
+
+  <div class="tabs">
+    <button onclick="setModel('gs')">Gradient Boosting</button>
+    <button onclick="setModel('xg')">XGBoost</button>
+    <button onclick="setModel('base')">Random Forest</button>
   </div>
 
   <div class="tab-content active" id="1.0 RF">
