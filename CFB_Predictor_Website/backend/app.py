@@ -182,7 +182,7 @@ matchup_df['team2_std'] = matchup_df['team2'].map(standardize_team_name)
 @app.route('/')
 def home():
     try:
-        return render_template("newSite.html")  
+        return render_template("index.html")  
     except Exception as e:
         import traceback
         print("ERROR:", e)
