@@ -193,6 +193,8 @@ def predict():
         team2 = standardize_team_name(data['team2'])
         week = int(data['week'])
 
+        team_a, team_b = sorted([team1_std, team2_std])
+
         matchup = matchup_df[
             ((matchup_df['team1_std'] == team1) & (matchup_df['team2_std'] == team2) & (matchup_df['week'] == week)) |
             ((matchup_df['team1_std'] == team2) & (matchup_df['team2_std'] == team1) & (matchup_df['week'] == week))
@@ -201,7 +203,15 @@ def predict():
         if matchup.empty:
             return jsonify({'error': 'Matchup not found'}), 404
 
+        if matchup.iloc[0]['team1_std'] == team1_std:
+            team_a = team1_std
+            team_b = team2_std
+        else:
+            team_a = team2_std
+            team_b = team1_std
+
         row = matchup.iloc[0]
+
         feature_cols = [
             'rush_adv_team1', 'rush_adv_team2', 'pass_adv_team1', 'pass_adv_team2',
             'score_adv_team1', 'score_adv_team2', 'turnover_adv_team1', 'turnover_adv_team2',
@@ -211,13 +221,10 @@ def predict():
 
         prediction = model.predict(X)[0]
         proba = model.predict_proba(X)[0]
-        classes = model.classes_
 
 
-        proba_dict = dict(zip(classes, proba))
-
-        team1_win_prob = proba_dict.get(2, 0) + proba_dict.get(3, 0)
-        team2_win_prob = proba_dict.get(0, 0) + proba_dict.get(1, 0)
+        team1_win_prob = float(proba[2] + proba[3])
+        team2_win_prob = float(proba[1] + proba [0])
 
         if team1_win_prob >= team2_win_prob:
             winner = team1
