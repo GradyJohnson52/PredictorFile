@@ -189,8 +189,8 @@ def predict():
     try:
 
         data = request.json
-        team1 = standardize_team_name(data['team1'])
-        team2 = standardize_team_name(data['team2'])
+        team1_std = standardize_team_name(data['team1'])
+        team2_std = standardize_team_name(data['team2'])
         week = int(data['week'])
 
         team_a, team_b = sorted([team1_std, team2_std])
