@@ -5,6 +5,7 @@ from xgboost import XGBClassifier
 from sklearn.ensemble import RandomForestClassifier  
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import GridSearchCV
+from sklearn.metrics import classification_report, accuracy_score
 import numpy as np
 from datetime import datetime
 import time
@@ -159,15 +160,20 @@ def standardize_team_name(team_name):
 # Scrape game results from the table
 def scrape_game_results():
     urls = {
-        "https://www.sports-reference.com/cfb/years/2020-schedule.html",
-        "https://www.sports-reference.com/cfb/years/2021-schedule.html",
-        "https://www.sports-reference.com/cfb/years/2022-schedule.html",
-        "https://www.sports-reference.com/cfb/years/2023-schedule.html",
-        "https://www.sports-reference.com/cfb/years/2024-schedule.html",
+        2015 : "https://www.sports-reference.com/cfb/years/2015-schedule.html",
+        2016 : "https://www.sports-reference.com/cfb/years/2016-schedule.html",
+        2017 : "https://www.sports-reference.com/cfb/years/2017-schedule.html",
+        2018 : "https://www.sports-reference.com/cfb/years/2018-schedule.html",
+        2019 : "https://www.sports-reference.com/cfb/years/2019-schedule.html",
+        2020 : "https://www.sports-reference.com/cfb/years/2020-schedule.html",
+        2021 : "https://www.sports-reference.com/cfb/years/2021-schedule.html",
+        2022 : "https://www.sports-reference.com/cfb/years/2022-schedule.html",
+        2023 : "https://www.sports-reference.com/cfb/years/2023-schedule.html",
+        2024 : "https://www.sports-reference.com/cfb/years/2024-schedule.html",
     }
 
     games_data = []
-    for url in urls:
+    for year, url in urls.items():
         print(f"Scraping {url}...")
         response = requests.get(url)
         soup = BeautifulSoup(response.content, 'html.parser')
@@ -181,21 +187,22 @@ def scrape_game_results():
             if len(cells) > 0:
                 try:
                     date = datetime.strptime(cells[1].text.strip(), "%b %d, %Y").strftime("%Y-%m-%d")
+                    week = int(cells[0].text.strip())
+                    winner = standardize_team_name(clean_team_name(cells[4].text.strip()))
+                    loser = standardize_team_name(clean_team_name(cells[7].text.strip()))
+                    winner_pts = int(cells[5].text.strip())
+                    loser_pts = int(cells[8].text.strip())
+                    point_diff = winner_pts - loser_pts
                 except ValueError:
                     continue
-                week = int(cells[0].text.strip())
-                winner = standardize_team_name(clean_team_name(cells[4].text.strip()))
-                loser = standardize_team_name(clean_team_name(cells[7].text.strip()))
-                winner_pts = int(cells[5].text.strip())
-                loser_pts = int(cells[8].text.strip())
-                point_diff = winner_pts - loser_pts
 
                 games_data.append({
                     'week' : week,
                     'date': date,
                     'winner': winner,
                     'loser': loser,
-                    'point_diff': point_diff
+                    'point_diff': point_diff,
+                    'year' : year
                 })
     df = pd.DataFrame(games_data)
     df.to_csv('CSVs/GamesData.csv', index=False)
@@ -215,8 +222,8 @@ def scrape_stats(date):
         "turn_def": "https://www.teamrankings.com/college-football/stat/takeaways-per-game?date={}",
         "turn_off": "https://www.teamrankings.com/college-football/stat/giveaways-per-game?date={}",
         "pred_rank": "https://www.teamrankings.com/college-football/ranking/predictive-by-other?date={}",
-        "home_rat": "https://www.teamrankings.com/college-football/ranking/home-by-other?date={}",
-        "away_rat": "https://www.teamrankings.com/college-football/ranking/away-by-other?date={}",
+        # "home_rat": "https://www.teamrankings.com/college-football/ranking/home-by-other?date={}",
+        # "away_rat": "https://www.teamrankings.com/college-football/ranking/away-by-other?date={}",
         "sos": "https://www.teamrankings.com/college-football/ranking/schedule-strength-by-other?date={}"
     }
 
@@ -244,7 +251,7 @@ def scrape_stats(date):
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
         }
         response = requests.get(url, headers=headers)
-        time.sleep(random.uniform(0.5, 0.75))
+        time.sleep(random.uniform(0.1, 4))
         if not response.ok:
             print(f"Failed to fetch {url} (status {response.status_code})")
             continue
@@ -375,7 +382,7 @@ def update_model(games_df, stats_dict, model, scaler):
     df_features = pd.DataFrame(X, columns=[
         'rush_adv_team1', 'rush_adv_team2', 'pass_adv_team1', 'pass_adv_team2',
         'score_adv_team1', 'score_adv_team2', 'turnover_adv_team1', 'turnover_adv_team2',
-        'pred_rank_team1', 'pred_rank_team2', 'sos_team2', 'sos_team2', 'WinPct_team1', 'WinPct_team2', 'week'
+        'pred_rank_team1', 'pred_rank_team2', 'sos_team1', 'sos_team2', 'WinPct_team1', 'WinPct_team2', 'week'
     ])
     df_features['label'] = Y
     df_features.to_csv('CSVs/training_features.csv', index=False)
@@ -395,7 +402,7 @@ def update_model(games_df, stats_dict, model, scaler):
     grid_search = GridSearchCV(
         estimator=model,
         param_grid=param_grid,
-        scoring='accuracy',  
+        scoring='f1_macro',  
         cv=5,
         verbose=2,
         n_jobs=-1
@@ -406,6 +413,118 @@ def update_model(games_df, stats_dict, model, scaler):
     print("Best Parameters:", grid_search.best_params_)
     return best_model
 
+
+def test_model(test_games, stats_dict, model, scaler):
+    X_test = []
+    Y_test = []
+
+    for _, game in test_games.iterrows():
+        date = game['date']
+        week = game['week']
+        winner = game['winner']
+        loser = game['loser']
+        point_diff = game['point_diff']
+
+        try:
+            game_stats = stats_dict[date]
+            stats_winner = {
+                'rush_off': game_stats['rush_off'].get(winner),
+                'rush_def': game_stats['rush_def'].get(winner),
+                'pass_off': game_stats['pass_off'].get(winner),
+                'pass_def': game_stats['pass_def'].get(winner),
+                'score_off': game_stats['score_off'].get(winner),
+                'score_def': game_stats['score_def'].get(winner),
+                'turn_off': game_stats['turn_off'].get(winner),
+                'turn_def': game_stats['turn_def'].get(winner),
+                'pred_rank': game_stats['pred_rank'].get(winner),
+                'sos': game_stats['sos'].get(winner),
+                'win_pct': game_stats['win_pct'].get(winner)
+            }
+            stats_loser = {
+                'rush_off': game_stats['rush_off'].get(loser),
+                'rush_def': game_stats['rush_def'].get(loser),
+                'pass_off': game_stats['pass_off'].get(loser),
+                'pass_def': game_stats['pass_def'].get(loser),
+                'score_off': game_stats['score_off'].get(loser),
+                'score_def': game_stats['score_def'].get(loser),
+                'turn_off': game_stats['turn_off'].get(loser),
+                'turn_def': game_stats['turn_def'].get(loser),
+                'pred_rank': game_stats['pred_rank'].get(loser),
+                'sos': game_stats['sos'].get(loser),
+                'win_pct': game_stats['win_pct'].get(loser)
+            }
+
+            if any(v is None for v in list(stats_winner.values()) + list(stats_loser.values())):
+                continue
+
+            features_win = [
+                stats_winner['rush_off'] - stats_loser['rush_def'],
+                stats_loser['rush_off'] - stats_winner['rush_def'],
+                stats_winner['pass_off'] - stats_loser['pass_def'],
+                stats_loser['pass_off'] - stats_winner['pass_def'],
+                stats_winner['score_off'] - stats_loser['score_def'],
+                stats_loser['score_off'] - stats_winner['score_def'],
+                stats_winner['turn_off'] - stats_loser['turn_def'],
+                stats_loser['turn_off'] - stats_winner['turn_def'],
+                stats_winner['pred_rank'],
+                stats_loser['pred_rank'],
+                stats_winner['sos'],
+                stats_loser['sos'],
+                stats_winner['win_pct'],
+                stats_loser['win_pct'],
+                week
+            ]
+            X_test.append(features_win)
+            Y_test.append(3 if point_diff > 10 else 2)
+
+            features_lose = [
+                stats_loser['rush_off'] - stats_winner['rush_def'],
+                stats_winner['rush_off'] - stats_loser['rush_def'],
+                stats_loser['pass_off'] - stats_winner['pass_def'],
+                stats_winner['pass_off'] - stats_loser['pass_def'],
+                stats_loser['score_off'] - stats_winner['score_def'],
+                stats_winner['score_off'] - stats_loser['score_def'],
+                stats_loser['turn_off'] - stats_winner['turn_def'],
+                stats_winner['turn_off'] - stats_loser['turn_def'],
+                stats_loser['pred_rank'],
+                stats_winner['pred_rank'],
+                stats_loser['sos'],
+                stats_winner['sos'],
+                stats_loser['win_pct'],
+                stats_winner['win_pct'],
+                week
+            ]
+            X_test.append(features_lose)
+            Y_test.append(1 if point_diff > 10 else 0)
+
+        except KeyError:
+            continue
+
+    if not X_test:
+        print("No test data available for evaluation.")
+        return
+
+    X_test_scaled = scaler.transform(X_test)
+    y_pred = model.predict(X_test_scaled)
+
+    # Exact classification report (3/2/1/0)
+    report_dict = classification_report(Y_test, y_pred, output_dict=True)
+    df_report = pd.DataFrame(report_dict).transpose()
+    df_report.to_csv("CSVs/mult_XG_GS_F1.csv")
+    print("Report CSV")
+
+    # Binary result accuracy (win vs loss)
+    y_true_result = [1 if y in (2, 3) else 0 for y in Y_test]
+    y_pred_result = [1 if y in (2, 3) else 0 for y in y_pred]
+
+    binary_acc = accuracy_score(y_true_result, y_pred_result)
+    binary_df = pd.DataFrame({
+        "Binary Accuracy": [binary_acc],
+        "Correct Predictions": [(np.array(y_true_result) == np.array(y_pred_result)).sum()],
+        "Total Predictions": [len(y_true_result)]
+    })
+    binary_df.to_csv("CSVs/res_XG_GS_F1.csv", index=False)
+    print(f"Binary win/loss accuracy: {binary_acc:.3f}")
 
 
 # Main function to scrape games, update model, and iterate
@@ -422,6 +541,9 @@ def main():
 
     # Scrape game results
     games_df = scrape_game_results()
+
+    train_games = games_df[games_df['year'] < 2024].copy()
+    test_games = games_df[games_df['year'] == 2024].copy()
     
     # Loop through each game and update the model
     stats_dict = {}
@@ -430,7 +552,9 @@ def main():
         print(date)
         stats_dict[date] = scrape_stats(date)
 
-    model = update_model(games_df, stats_dict, model, scaler)
+    model = update_model(train_games, stats_dict, model, scaler)
+
+    test_model(test_games, stats_dict, model, scaler)
 
     joblib.dump(model, 'trained_modelGS.pkl')
     joblib.dump(scaler, 'scalerGS.pkl')
