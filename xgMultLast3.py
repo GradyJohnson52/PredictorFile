@@ -157,6 +157,31 @@ def clean_team_name(raw_name):
 def standardize_team_name(team_name):
     return team_mapping.get(team_name, team_name)  
 
+MAC_USER_AGENTS = [
+    # Safari
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+
+    # Chrome
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.105 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_3_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.111 Safari/537.36",
+
+    # Firefox
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 13.3; rv:124.0) Gecko/20100101 Firefox/124.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 13.4; rv:123.0) Gecko/20100101 Firefox/123.0",
+
+    # Edge
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.105 Safari/537.36 Edg/123.0.2420.65"
+]
+
+def headers():
+    return {
+        "User-Agent": random.choice(MAC_USER_AGENTS),
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    }
+
 # Scrape game results from the table
 def scrape_game_results():
     urls = {
@@ -245,12 +270,12 @@ def scrape_stats(date):
     stats_for_date = {}
 
     for stat_name, url in urls.items():
-        url = url.format(date)
         headers = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
         }
-        response = requests.get(url, headers=headers)
-        time.sleep(random.uniform(0.5, 4))
+        url = url.format(date)
+        response = requests.get(url, headers= headers)
+        time.sleep(random.uniform(0.1, 0.5))
         if not response.ok:
             print(f"Failed to fetch {url} (status {response.status_code})")
             continue

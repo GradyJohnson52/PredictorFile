@@ -11,10 +11,10 @@ CSV_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "CSVs"))
 app = Flask(__name__, static_folder=os.path.join(FRONTEND_DIR, "static"), template_folder=FRONTEND_DIR)
 CORS(app)
 
-MODELRF_PATH = os.path.join(ROOT_DIR, "trained_model.pkl")
+MODELRF_PATH = os.path.join(ROOT_DIR, "RFB_Last3.pkl")
 MODELXG_PATH  = os.path.join(ROOT_DIR, "trained_modelXG.pkl")
 MODELGS_PATH = os.path.join(ROOT_DIR, "trained_modelGS.pkl")
-SCALERRF_PATH = os.path.join(ROOT_DIR, "scaler.pkl")
+SCALERRF_PATH = os.path.join(ROOT_DIR, "scalerRFB3.pkl")
 SCALERXG_PATH = os.path.join(ROOT_DIR, "scalerXG.pkl")
 SCALERGS_PATH = os.path.join(ROOT_DIR, "scalerGS.pkl")
 CSV_PATH = os.path.join(CSV_DIR, "advanced_matchup_data.csv")
@@ -197,17 +197,6 @@ def predict():
         team1_std = standardize_team_name(data['team1'])
         team2_std = standardize_team_name(data['team2'])
         week = int(data['week'])
-        # model_id = request.args.get('model', 'gs').lower()
-
-        # if model_id == 'xg':
-        #     model = model_xg
-        #     scaler = scaler_xg
-        # elif model_id == 'base':
-        #     model = model_rf
-        #     scaler = scaler_rf
-        # else:
-        #     model = model_gs
-        #     scaler = scaler_gs
 
         team_a, team_b = sorted([team1_std, team2_std])
 
@@ -234,23 +223,23 @@ def predict():
             'pred_rank_team1', 'pred_rank_team2', 'sos_team1', 'sos_team2', 
             'WinPct_team1', 'WinPct_team2', 'week'
         ]
-        X = scaler_gs.transform([row[feature_cols].values])
+        X = scaler_rf.transform([row[feature_cols].values])
 
-        prediction = model_gs.predict(X)[0]
-        proba = model_gs.predict_proba(X)[0]
+        prediction = model_rf.predict(X)[0]
+        proba = model_rf.predict_proba(X)[0]
 
 
-        team1_win_prob = float(proba[2] + proba[3])
-        team2_win_prob = float(proba[1] + proba [0])
+        team1_win_prob = float(proba[1])
+        team2_win_prob = float(proba[0])
 
         if team_a != team1_std:  # If team_a is not the original team1, flip the outcome
             team1_win_prob, team2_win_prob = team2_win_prob, team1_win_prob
-            prediction = 3 - model.predict(X)[0]
+            prediction = 1 - model.predict(X)[0]
 
         winner = team1_std if team1_win_prob >= team2_win_prob else team2_std
         confidence = round(max(team1_win_prob, team2_win_prob), 3)
 
-        return jsonify({'winner': winner, 'confidence': round(confidence, 3)})
+        return jsonify({'winner': winner, 'confidence': confidence})
     except Exception as e:
         import traceback
         print("ERROR in /predict:", e)
