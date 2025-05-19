@@ -234,7 +234,7 @@ def predict():
 
         if team_a != team1_std:  # If team_a is not the original team1, flip the outcome
             team1_win_prob, team2_win_prob = team2_win_prob, team1_win_prob
-            prediction = 1 - model.predict(X)[0]
+            prediction = 1 - model_rf.predict(X)[0]
 
         winner = team1_std if team1_win_prob >= team2_win_prob else team2_std
         confidence = round(max(team1_win_prob, team2_win_prob), 3)
