@@ -1,0 +1,65 @@
+,Team 1,Team 2,Winner,Confidence
+0,Coastal Car,South Carolina,South Carolina,1.013
+1,Ball St,Toledo,Toledo,1.011
+2,Charlotte,Georgia,Georgia,1.01
+3,Ohio,UMass,Ohio,1.009
+4,Rutgers,Ohio St,Ohio St,0.981
+5,UL Monroe,Texas St,Texas St,0.981
+6,San Jose St,San Diego St,San Diego St,0.955
+7,Kansas St,Utah,Utah,0.953
+8,Miami,Virginia Tech,Miami,0.95
+9,N Texas,Rice,N Texas,0.927
+10,S Florida,UAB,S Florida,0.92
+11,Washington St,J Madison,J Madison,0.917
+12,C Michigan,Kent St,C Michigan,0.916
+13,Syracuse,Notre Dame,Notre Dame,0.912
+14,Colorado St,Boise St,Boise St,0.91
+15,Missouri,Oklahoma,Oklahoma,0.906
+16,Kentucky,Vanderbilt,Vanderbilt,0.902
+17,Oklahoma St,UCF,UCF,0.888
+18,Tulsa,Army,Army,0.886
+19,Nevada,Wyoming,Wyoming,0.878
+20,Tennessee,Florida,Tennessee,0.869
+21,Washington,UCLA,Washington,0.866
+22,Florida St,NC State,Florida St,0.864
+23,Old Dominion,Georgia So,Old Dominion,0.834
+24,UConn,Florida Atlantic,UConn,0.831
+25,Arizona St,Colorado,Arizona St,0.827
+26,Illinois,Wisconsin,Illinois,0.817
+27,W Kentucky,LSU,LSU,0.808
+28,Michigan St,Iowa,Iowa,0.807
+29,Minnesota,Northwestern,Minnesota,0.77
+30,Michigan,Maryland,Michigan,0.761
+31,Delaware,Wake Forest,Wake Forest,0.75
+32,BYU,Cincinnati,BYU,0.737
+33,Louisiana,Arkansas St,Louisiana,0.723
+34,Arkansas,Texas,Texas,0.722
+35,New Mexico St,UTEP,UTEP,0.722
+36,New Mexico,Air Force,Air Force,0.716
+37,Nebraska,Penn St,Penn St,0.703
+38,Missouri St,Kennesaw St,Kennesaw St,0.697
+39,Georgia St,Troy,Troy,0.678
+40,E Carolina,UTSA,E Carolina,0.669
+41,Sam Houston,Middle Tenn,Middle Tenn,0.664
+42,Hawai'i,UNLV,UNLV,0.654
+43,Miami OH,Buffalo,Buffalo,0.65
+44,W Michigan,N Illinois,N Illinois,0.643
+45,Kansas,Iowa St,Iowa St,0.638
+46,TCU,Houston,Houston,0.62
+47,USC,Oregon,Oregon,0.612
+48,Utah St,Fresno St,Fresno St,0.6
+49,Jacksonville St,Florida Intl,Jacksonville St,0.591
+50,California,Stanford,California,0.586
+51,Liberty,Louisiana Tech,Liberty,0.582
+52,Baylor,Arizona,Arizona,0.57
+53,Tulane,Temple,Temple,0.553
+54,Marshall,App State,Marshall,0.549
+55,Duke,North Carolina,Duke,0.548
+56,Southern Miss,S Alabama,Southern Miss,0.546
+57,Pittsburgh,Georgia Tech,Pittsburgh,0.51
+58,Akron,Bowling Green,Akron,0.505
+59,Louisville,SMU,Louisville,0.5
+60,Eastern Illinois,Alabama,,
+61,Furman,Clemson,,
+62,Mercer,Auburn,,
+63,Samford,Texas A&M,,

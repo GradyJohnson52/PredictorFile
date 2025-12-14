@@ -398,8 +398,8 @@ def build_feature_row(game_row, stats_df, feature_cols, lookback="Year", randomi
         raise KeyError(f"Missing stat or team in stats_df for team={t2}, stat={e}")
 
 
-    diff = [a - b for a, b in zip(row1, row2)]
-    return [float(x) for x in diff] #, (t1 == game_row["team1"])
+    #diff = [a - b for a, b in zip(row1, row2)]
+    return row1 + row2   #[float(x) for x in diff] #, (t1 == game_row["team1"])
 
 def update_model(games_df, model, scaler, feature_cols, lookback="Year", stats_cache=None):
     """
@@ -887,6 +887,7 @@ def train_meta_lr(X_meta, Y_meta):
     class_weight='balanced', # Handle imbalanced classes
     C=0.9 # Regularization Strength
     )
+    
 
     model.fit(X_meta, Y_meta)
     return model

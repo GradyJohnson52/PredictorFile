@@ -1,137 +1,137 @@
 Team,Rating
-Indiana,37.9
-Ohio St,32.9
-Alabama,32.4
-Utah,29.2
-USC,27.7
-Florida St,27.4
-Texas Tech,27.2
-Notre Dame,26.9
-Oregon,24.8
-Miami,24.1
-BYU,22.1
-Georgia,21.5
-Illinois,20.5
-Texas A&M,20.1
-Michigan,20.1
-Mississippi,20.0
-S Florida,19.3
-Nebraska,18.6
-Vanderbilt,18.6
-Iowa,18.2
-Toledo,17.9
-Washington,17.6
-Florida,17.3
-Pittsburgh,16.9
-Texas,16.5
-Oklahoma,16.3
-Cincinnati,15.7
-Tennessee,15.3
-Penn St,15.3
-Missouri,15.0
-Georgia Tech,14.6
-N Texas,14.1
-Iowa St,14.0
-Arizona,13.9
-Kentucky,12.6
-San Diego St,12.3
-J Madison,12.1
-LSU,12.1
-Mississippi St,11.6
-Tulane,10.7
-UCF,10.6
-Virginia,10.6
-Old Dominion,10.3
-Minnesota,10.1
-SMU,9.8
-Baylor,9.1
-NC State,8.4
-TCU,8.1
-UTSA,8.1
-Arkansas,8.1
+Indiana,36.3
+Ohio St,33.5
+Notre Dame,30.6
+Texas Tech,29.3
+Alabama,29.1
+Oregon,27.7
+Miami,26.2
+Utah,25.9
+Florida St,25.8
+USC,25.4
+BYU,24.2
+S Florida,21.6
+Georgia,21.3
+Vanderbilt,20.4
+Mississippi,20.3
+Penn St,19.9
+Michigan,19.3
+Washington,18.8
+Texas A&M,18.5
+Illinois,18.4
+Texas,17.9
+Oklahoma,17.4
+Iowa St,17.1
+Iowa,16.8
+Arizona,16.4
+Missouri,15.8
+Toledo,15.8
+N Texas,15.8
+Nebraska,15.0
+Florida,14.8
+SMU,14.5
+J Madison,12.7
+Tennessee,12.1
+Pittsburgh,12.0
+Virginia,11.5
+Cincinnati,11.4
+Louisville,11.2
+NC State,11.0
+TCU,11.0
+Kentucky,10.9
+San Diego St,10.6
+Georgia Tech,10.5
+UTSA,10.3
+Minnesota,9.7
+Mississippi St,8.9
+Auburn,8.7
+LSU,8.1
+Tulane,8.1
+South Carolina,7.6
 Northwestern,7.5
-Memphis,7.5
-Arizona St,7.4
-Auburn,7.1
-South Carolina,6.9
-Kansas,6.4
-UConn,5.4
-Rutgers,4.8
-Louisville,4.7
-Boise St,4.7
-West Virginia,3.9
-Utah St,3.7
-E Carolina,3.6
-Clemson,3.0
-Louisiana Tech,2.9
-Colorado,2.2
-Kansas St,2.1
-W Michigan,1.8
-Houston,1.8
-Stanford,1.6
-Maryland,1.2
-Wake Forest,0.8
-Hawai'i,0.4
-Duke,0.4
-Purdue,0.3
-Washington St,0.2
-Marshall,-1.3
-Jacksonville St,-1.4
-Ohio,-1.5
-Southern Miss,-1.8
-California,-2.2
-Wisconsin,-2.5
-C Michigan,-2.5
-Navy,-3.3
-UCLA,-3.8
-Wyoming,-4.0
-Kennesaw St,-4.1
-Fresno St,-4.8
-Miami OH,-5.2
-Florida Atlantic,-5.2
-Virginia Tech,-5.9
-New Mexico,-5.9
-Michigan St,-6.0
-Georgia So,-6.7
-UNLV,-7.2
-Boston College,-7.2
-Arkansas St,-7.6
-Air Force,-8.0
-North Carolina,-8.0
-W Kentucky,-8.3
-Temple,-8.9
-Missouri St,-9.2
-Liberty,-9.7
-Syracuse,-9.7
-Texas St,-9.9
-San Jose St,-10.4
-Delaware,-10.9
-Army,-11.9
-New Mexico St,-12.4
-Coastal Car,-12.6
-Akron,-13.0
-Louisiana,-13.1
-Ball St,-13.1
-Tulsa,-13.3
-UAB,-13.5
-Troy,-13.6
-Kent St,-13.7
-Buffalo,-14.2
-Colorado St,-14.3
-Oregon St,-14.3
-Rice,-15.0
-N Illinois,-15.3
-E Michigan,-16.1
-Bowling Green,-16.4
-App State,-17.6
-UL Monroe,-17.9
-Florida Intl,-18.0
-S Alabama,-18.2
-Oklahoma St,-19.0
-Georgia St,-19.5
-UTEP,-20.8
-Sam Houston,-24.2
-Nevada,-26.6
-Middle Tenn,-27.4
-Charlotte,-30.3
-UMass,-36.8
+Boise St,7.3
+UCF,7.1
+Kansas,7.1
+Old Dominion,6.7
+Arkansas,6.4
+Rutgers,6.1
+Arizona St,5.2
+Washington St,5.1
+Wake Forest,4.9
+Memphis,4.8
+UConn,4.7
+E Carolina,4.6
+Baylor,4.6
+Houston,2.9
+Clemson,2.7
+Kansas St,2.7
+Utah St,2.6
+Wisconsin,2.6
+Stanford,2.3
+W Michigan,1.9
+Hawai'i,1.7
+Duke,0.8
+Louisiana Tech,0.4
+California,0.4
+Maryland,-0.6
+Colorado,-0.9
+Navy,-0.9
+West Virginia,-1.1
+UNLV,-1.9
+Marshall,-3.0
+Ohio,-3.1
+Purdue,-3.5
+Virginia Tech,-3.7
+Fresno St,-4.1
+Miami OH,-4.3
+New Mexico,-4.5
+Jacksonville St,-4.6
+Michigan St,-4.7
+Boston College,-4.9
+Texas St,-5.3
+Kennesaw St,-5.3
+C Michigan,-5.5
+North Carolina,-6.7
+UCLA,-6.8
+W Kentucky,-6.9
+Delaware,-7.4
+Wyoming,-8.4
+Arkansas St,-9.6
+Missouri St,-9.8
+Southern Miss,-10.0
+Liberty,-10.3
+Temple,-10.4
+Florida Atlantic,-10.9
+Air Force,-11.2
+Tulsa,-12.1
+Army,-12.8
+Troy,-13.2
+Georgia So,-13.3
+Syracuse,-13.4
+Akron,-13.7
+Oregon St,-13.7
+Florida Intl,-14.0
+Oklahoma St,-14.1
+San Jose St,-14.3
+Louisiana,-14.8
+New Mexico St,-15.2
+Buffalo,-15.5
+Colorado St,-15.5
+Kent St,-16.3
+UAB,-16.4
+S Alabama,-16.4
+Rice,-16.9
+E Michigan,-16.9
+Nevada,-16.9
+App State,-17.0
+Ball St,-17.3
+Coastal Car,-17.6
+Bowling Green,-18.3
+N Illinois,-18.9
+UL Monroe,-19.3
+Georgia St,-20.1
+UTEP,-21.8
+Middle Tenn,-24.7
+Sam Houston,-28.4
+Charlotte,-29.5
+UMass,-39.1

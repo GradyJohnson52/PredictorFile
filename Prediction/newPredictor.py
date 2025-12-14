@@ -140,7 +140,7 @@ HOME_ADV_DICT = {
     "Bowling Green": 1.3,
     "Michigan St": 1.1,
     "Akron": 1.1,
-    "Northern Illinois": 0.8,
+    "N Illinois": 0.8,
     "Purdue": 0.8,
     "Tulsa": 0.7,
     "Jacksonville St": 2.5,
@@ -464,7 +464,7 @@ def predict_weekly_slate(week):
     print(f"\nPredictions for Week {week}:")
     print(weekly_results[['Team 1', 'Team 2', 'Winner', 'Confidence']])
 
-    weekly_results.to_csv('Prediction/Weekly_Results_12_homeadj.csv')
+    weekly_results.to_csv('Prediction/Weekly_Results_14.csv')
     return weekly_results
 
 # Main Function

@@ -1,137 +1,137 @@
 Team,Rating
-Indiana,34.3
-Ohio St,33.7
-Oregon,32.0
-Texas A&M,31.9
-Texas Tech,31.7
-Oklahoma,30.5
-Notre Dame,29.4
-Georgia,27.5
-Utah,27.1
-Vanderbilt,23.9
-Iowa,22.8
-Mississippi,22.7
-Clemson,22.0
-Tennessee,21.9
-Louisville,20.7
-Auburn,19.2
-Alabama,18.4
-USC,18.1
-Missouri,18.0
-LSU,18.0
-Texas,17.4
-Kansas St,17.4
-BYU,16.8
-Miami,16.4
-Duke,14.5
-SMU,13.6
-Arkansas,13.4
-E Carolina,13.0
-Michigan,12.9
-TCU,12.3
-Washington,12.0
-Mississippi St,11.8
-Pittsburgh,11.5
-S Florida,11.0
-Cincinnati,10.0
-Houston,9.9
-Penn St,9.9
-Arizona,9.8
-Arizona St,9.0
-Wisconsin,9.0
-Illinois,8.7
-South Carolina,8.2
-Kansas,8.2
-Virginia,7.6
-Michigan St,7.2
-Georgia Tech,7.1
-J Madison,6.8
-Kentucky,6.7
-Wake Forest,6.4
-Baylor,6.2
-Memphis,5.3
-N Texas,5.1
-Maryland,4.8
-Northwestern,4.3
-Virginia Tech,4.3
-Iowa St,4.0
-Syracuse,3.7
-New Mexico,3.1
-UCLA,2.7
-Nebraska,2.2
-NC State,2.2
-Purdue,1.7
-Boise St,1.7
-UNLV,1.3
-Florida,1.2
-Rutgers,0.4
-Army,0.2
-Old Dominion,-1.5
-Temple,-1.8
-California,-2.0
-North Carolina,-2.0
-Florida St,-2.0
-Washington St,-3.2
-Navy,-3.5
-Kennesaw St,-3.6
-UCF,-4.0
-Fresno St,-4.0
-Southern Miss,-4.2
-Troy,-4.4
-Toledo,-4.8
-Tulane,-5.1
-Air Force,-5.7
-Texas St,-5.9
-San Diego St,-5.9
-Ohio,-6.0
-West Virginia,-6.2
-UConn,-6.3
-Oregon St,-6.7
-Hawai'i,-7.1
-UTEP,-7.2
-S Alabama,-7.2
-San Jose St,-7.7
-W Kentucky,-8.0
-Colorado,-8.2
-Miami OH,-8.9
-Louisiana Tech,-9.0
-Stanford,-9.0
-Boston College,-9.1
-Utah St,-9.1
-App State,-10.0
-Florida Intl,-10.4
-Minnesota,-11.2
-Wyoming,-11.3
-Buffalo,-11.8
-UTSA,-11.9
-Louisiana,-12.1
-Liberty,-12.7
-C Michigan,-13.1
-Jacksonville St,-13.2
-Missouri St,-13.5
-Bowling Green,-13.6
-Marshall,-13.6
-Coastal Car,-14.7
-Arkansas St,-14.7
-W Michigan,-15.0
-N Illinois,-15.4
-Delaware,-16.9
-Nevada,-17.2
-Georgia So,-17.2
-Charlotte,-17.3
-Florida Atlantic,-17.6
-Middle Tenn,-17.7
-Colorado St,-17.9
-E Michigan,-18.1
-Oklahoma St,-18.1
-Rice,-18.3
-UAB,-18.8
-Tulsa,-18.8
-New Mexico St,-23.1
-Kent St,-23.3
-Ball St,-25.9
-Sam Houston,-26.9
-UL Monroe,-26.9
-Akron,-27.4
-Georgia St,-27.5
-UMass,-35.2
+Indiana,38.5
+Texas Tech,35.1
+Ohio St,34.7
+Oregon,32.7
+Notre Dame,31.4
+Oklahoma,29.6
+Texas A&M,28.0
+Utah,26.4
+Vanderbilt,26.3
+Georgia,25.9
+Iowa,25.4
+Miami,23.7
+Mississippi,23.3
+Tennessee,22.8
+Clemson,21.7
+Alabama,19.3
+BYU,18.8
+Missouri,18.7
+Auburn,18.5
+LSU,18.2
+Washington,17.6
+USC,16.8
+Arizona,14.8
+Kansas St,14.7
+Michigan,14.4
+Pittsburgh,13.3
+Texas,12.9
+Penn St,12.9
+Duke,12.4
+Arkansas,12.2
+J Madison,12.1
+South Carolina,11.9
+Louisville,11.9
+SMU,11.5
+Virginia,11.5
+Arizona St,11.0
+S Florida,10.5
+Houston,10.2
+Michigan St,9.0
+TCU,7.9
+E Carolina,7.8
+N Texas,7.3
+Mississippi St,7.2
+Wisconsin,7.0
+Georgia Tech,6.2
+Cincinnati,5.5
+Kansas,5.4
+Illinois,5.3
+Northwestern,5.2
+Memphis,4.8
+New Mexico,3.8
+Old Dominion,3.6
+Baylor,3.4
+Maryland,3.4
+Wake Forest,3.2
+UCLA,3.0
+Florida,2.5
+Iowa St,1.9
+Navy,1.7
+Boise St,1.3
+Army,1.2
+UNLV,0.7
+NC State,0.6
+Rutgers,0.6
+Nebraska,-0.3
+Tulane,-0.6
+Washington St,-0.9
+Purdue,-1.3
+Virginia Tech,-1.3
+Fresno St,-1.4
+Texas St,-1.5
+Florida St,-1.7
+Toledo,-2.1
+Kentucky,-2.3
+Syracuse,-2.7
+Troy,-2.9
+Boston College,-3.0
+Air Force,-3.7
+West Virginia,-3.9
+Temple,-4.0
+Utah St,-4.4
+Kennesaw St,-4.4
+California,-4.7
+Florida Intl,-4.8
+UCF,-4.9
+San Diego St,-5.0
+W Kentucky,-5.0
+Minnesota,-5.0
+Ohio,-5.6
+Miami OH,-6.2
+North Carolina,-6.4
+Colorado,-6.5
+UConn,-7.2
+Southern Miss,-7.3
+Stanford,-8.3
+S Alabama,-9.5
+UTSA,-10.0
+Louisiana,-10.0
+Louisiana Tech,-10.4
+W Michigan,-10.4
+Hawai'i,-11.6
+Bowling Green,-11.7
+Buffalo,-12.0
+Marshall,-12.5
+Oklahoma St,-12.6
+C Michigan,-13.0
+Liberty,-13.1
+Missouri St,-13.3
+Nevada,-13.4
+Oregon St,-13.5
+Arkansas St,-14.0
+Georgia So,-14.4
+Florida Atlantic,-14.6
+Wyoming,-14.9
+Jacksonville St,-15.0
+Middle Tenn,-15.4
+Charlotte,-15.4
+App State,-15.4
+Colorado St,-15.5
+Tulsa,-15.6
+E Michigan,-16.0
+N Illinois,-16.1
+UTEP,-16.2
+UAB,-16.7
+Coastal Car,-17.3
+San Jose St,-18.4
+New Mexico St,-19.9
+Rice,-20.0
+Delaware,-21.0
+Kent St,-21.3
+Georgia St,-23.5
+Akron,-25.3
+UL Monroe,-25.3
+Ball St,-25.7
+Sam Houston,-28.0
+UMass,-34.0
